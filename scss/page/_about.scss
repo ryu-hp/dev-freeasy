@@ -1,0 +1,20 @@
+@use "../global" as *;
+
+.about {
+  padding-top: rem(80);
+  padding-bottom: rem(80);
+  background: $color-theme;
+}
+.about__inner {
+  width: 100%;
+  max-width: calc(980.3274px + ($padding-pc * 2));
+  padding-right: $padding-pc;
+  padding-left: $padding-pc;
+  margin-right: auto;
+  margin-left: auto;
+  box-sizing: border-box;
+  @include mq(md) {
+    padding-right: $padding-sp;
+    padding-left: $padding-sp;
+  }
+}

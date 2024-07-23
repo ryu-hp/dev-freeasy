@@ -284,6 +284,7 @@ select::-ms-expand {
 .fv {
   position: relative;
   padding-bottom: 1.4264375rem;
+  padding-top: 6.5rem;
 }
 
 .fv__bg-top {
@@ -331,8 +332,8 @@ select::-ms-expand {
 
 .fv__bg-right {
   position: absolute;
-  left: 0;
-  bottom: 0;
+  right: 0;
+  bottom: 9.00328125rem;
   max-width: 3.38314375rem;
   width: 100%;
 }
@@ -347,7 +348,7 @@ select::-ms-expand {
 }
 
 .fv__apeare-text {
-  color: #41b5d0;
+  color: #2983e2;
   font-size: 1.864375rem;
   font-weight: 600;
   line-height: 1.7499161918;
@@ -378,14 +379,14 @@ select::-ms-expand {
   left: 0;
   -webkit-clip-path: polygon(0 0, 0% 100%, 100% 100%);
           clip-path: polygon(0 0, 0% 100%, 100% 100%);
-  border-right: 2px solid #41b5d0;
+  border-right: 2px solid #2983e2;
 }
 
 .fv__apeare-text--line::after {
   right: 0;
   -webkit-clip-path: polygon(0% 100%, 100% 0%, 100% 100%);
           clip-path: polygon(0% 100%, 100% 0%, 100% 100%);
-  border-left: 2px solid #41b5d0;
+  border-left: 2px solid #2983e2;
 }
 
 .fv__title {
@@ -401,6 +402,7 @@ select::-ms-expand {
   line-height: 1.7499012248;
   font-weight: 600;
   margin-top: 1px;
+  text-align: center;
 }
 
 .fv__batchArea {
@@ -519,7 +521,7 @@ select::-ms-expand {
 .fv__operation-text {
   font-size: 0.9375rem;
   font-weight: 600;
-  color: #41b5d0;
+  color: #2983e2;
 }
 
 .fv__mainImage {
@@ -582,4 +584,18 @@ select::-ms-expand {
   color: transparent;
   -webkit-text-stroke-width: 2rem;
   -webkit-text-stroke-color: #fff;
+}
+
+.sec-title {
+  text-align: center;
+}
+
+.sec-title__en {
+  font-size: 1.3125rem;
+  font-weight: 600;
+}
+
+.about-title__main {
+  font-family: "FP-ヒラギノ角ゴ StdN W8", sans-serif;
+  font-size: 2.8125rem;
 }

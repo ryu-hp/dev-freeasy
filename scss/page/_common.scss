@@ -7,3 +7,14 @@
     -webkit-text-stroke-width: 2rem;
     -webkit-text-stroke-color: $color-white;
 }
+.sec-title {
+    text-align: center;
+}
+.sec-title__en {
+    font-size: rem(21);
+    font-weight: $bold;
+}
+.about-title__main {
+    font-family: $second-font-family;
+    font-size: rem(45);
+}
