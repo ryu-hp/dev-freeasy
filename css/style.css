@@ -283,6 +283,7 @@ select::-ms-expand {
 
 .fv {
   position: relative;
+  padding-bottom: 1.4264375rem;
 }
 
 .fv__bg-top {
@@ -295,7 +296,7 @@ select::-ms-expand {
 
 .fv__bg-bottom {
   position: absolute;
-  bottom: 0.1875rem;
+  bottom: -6.25rem;
   left: 50%;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
@@ -304,7 +305,7 @@ select::-ms-expand {
 
 .fv__inner {
   width: 100%;
-  max-width: calc(1000px + 3.125rem);
+  max-width: calc(1104.3921px + 3.125rem);
   padding-right: 1.5625rem;
   padding-left: 1.5625rem;
   margin-right: auto;
@@ -523,7 +524,7 @@ select::-ms-expand {
 
 .fv__mainImage {
   width: 100%;
-  margin-top: -2rem;
+  margin-top: -0.5rem;
 }
 
 .fv__achieve-content {
@@ -544,8 +545,8 @@ select::-ms-expand {
   display: -ms-flexbox;
   display: flex;
   gap: 1.485725rem;
-  -webkit-animation: scroll-left 20s infinite linear 0.5s both;
-          animation: scroll-left 20s infinite linear 0.5s both;
+  -webkit-animation: scroll-left 30s infinite linear 0.5s both;
+          animation: scroll-left 30s infinite linear 0.5s both;
 }
 
 .fv__achieve {

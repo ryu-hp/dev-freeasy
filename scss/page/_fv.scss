@@ -2,6 +2,7 @@
 
 .fv {
   position: relative;
+  padding-bottom: rem(22.823);
 }
 .fv__bg-top {
   position: absolute;
@@ -12,14 +13,14 @@
 }
 .fv__bg-bottom {
   position: absolute;
-  bottom: rem(3);
+  bottom: rem(-100);
   left: 50%;
   transform: translateX(-50%);
   width: calc(1475.2852 / 1367 * 100vw);
 }
 .fv__inner {
   width: 100%;
-  max-width: calc($inner + ($padding-pc * 2));
+  max-width: calc(1104.3921px + ($padding-pc * 2));
   padding-right: $padding-pc;
   padding-left: $padding-pc;
   margin-right: auto;
@@ -178,7 +179,7 @@
 }
 .fv__mainImage {
   width: 100%;
-  margin-top: rem(-32);
+  margin-top: rem(-8);
 }
 .fv__achieve-content {
   margin-top: rem(24);
@@ -193,7 +194,7 @@
 .fv__achieve-slide {
   display: flex;
   gap: rem(23.7716);
-  animation: scroll-left 20s infinite linear .5s both;
+  animation: scroll-left 30s infinite linear .5s both;
 }
 .fv__achieve {
   width: rem(166.3027);
