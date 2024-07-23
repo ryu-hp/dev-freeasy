@@ -383,6 +383,91 @@ select::-ms-expand {
   border-left: 2px solid #41b5d0;
 }
 
+.fv__title {
+  font-size: 2.958125rem;
+  line-height: 1.7498415381;
+  font-family: "FP-ヒラギノ角ゴ StdN W8", sans-serif;
+  text-align: center;
+  margin-top: 1px;
+}
+
+.fv__cost {
+  font-size: 1.581875rem;
+  line-height: 1.7499012248;
+  font-weight: 600;
+  margin-top: 1px;
+}
+
+.fv__batchArea {
+  margin-top: 1px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 10px;
+}
+
+.fv__batch {
+  max-width: 6.73198125rem;
+  width: 100%;
+}
+
+.fv__btnArea {
+  margin-top: 1px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 10px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.fvBtn {
+  border-radius: 1.6548125rem;
+  max-width: 14.26195rem;
+  width: 100%;
+}
+
+.fvBtn--download {
+  background: -webkit-gradient(linear, right top, left top, from(#39b54a), to(#4eddaa));
+  background: linear-gradient(-90deg, #39b54a 0%, #4eddaa 100%);
+}
+
+.fvBtn--account {
+  background: -webkit-gradient(linear, right top, left top, from(#2983e2), to(#3fb0ed));
+  background: linear-gradient(-90deg, #2983e2 0%, #3fb0ed 100%);
+}
+
+.fvBtn__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.fvBtn__icon {
+  max-width: 2.42608125rem;
+  width: 100%;
+}
+
+.fvBtn__text {
+  font-size: 1.28rem;
+  font-weight: 600;
+  line-height: 1.7495117187;
+  color: #fff;
+}
+
 .c-blue {
   color: #41b5d0;
 }
