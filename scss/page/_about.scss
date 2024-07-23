@@ -57,5 +57,24 @@
   margin-top: rem(21.7);
 }
 .aboutContent__item {
-  
+  border-radius: rem(13.912);
+  padding: rem(13.9458) rem(15.8117);
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.aboutContent__item-text {
+  text-align: center;
+  font-size: rem(23);
+  line-height: calc(44 / 23);
+  font-weight: $bold;
+  color: $color-white;
+}
+.aboutContent__item-image {
+  max-width:rem(186.7695);
+  width:100%;
+}
+.about__content {
+  max-width:rem(339.2122);
+  width:100%;
 }

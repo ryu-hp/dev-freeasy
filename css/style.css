@@ -659,6 +659,36 @@ select::-ms-expand {
   margin-top: 1.35625rem;
 }
 
+.aboutContent__item {
+  border-radius: 0.8695rem;
+  padding: 0.8716125rem 0.98823125rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+}
+
+.aboutContent__item-text {
+  text-align: center;
+  font-size: 1.4375rem;
+  line-height: 1.9130434783;
+  font-weight: 600;
+  color: #fff;
+}
+
+.aboutContent__item-image {
+  max-width: 11.67309375rem;
+  width: 100%;
+}
+
+.about__content {
+  max-width: 21.2007625rem;
+  width: 100%;
+}
+
 .c-blue {
   color: #41b5d0;
 }
