@@ -239,6 +239,9 @@ select::-ms-expand {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .header__icon {
@@ -254,6 +257,7 @@ select::-ms-expand {
 .headerBtn {
   background: #64c2db;
   border-radius: 1.55025rem;
+  display: inline-block;
 }
 
 .headerBtn__content {
@@ -466,6 +470,60 @@ select::-ms-expand {
   font-weight: 600;
   line-height: 1.7495117187;
   color: #fff;
+}
+
+.fv__imageArea {
+  max-width: 38.6294125rem;
+  width: 100%;
+}
+
+.fv__operation-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 1px;
+  padding: 0.25rem 0.25rem;
+  background: #fff;
+  -webkit-box-shadow: 0.118925rem 0.118925rem 0.23785rem #000;
+          box-shadow: 0.118925rem 0.118925rem 0.23785rem #000;
+  position: relative;
+  max-width: 31.5574375rem;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.fv__operation-content::after {
+  position: absolute;
+  display: inline-block;
+  background: #fff;
+  content: "";
+  width: 1rem;
+  height: 1.5rem;
+  -webkit-box-shadow: 0.118925rem 0.118925rem 0.23785rem #000;
+          box-shadow: 0.118925rem 0.118925rem 0.23785rem #000;
+  -webkit-clip-path: polygon(10% 0%, 0% 100%, 100% 0%);
+          clip-path: polygon(10% 0%, 0% 100%, 100% 0%);
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  top: calc(100% - 1px);
+  right: 25%;
+}
+
+.fv__operation-icon {
+  max-width: 1.85598125rem;
+  width: 100%;
+}
+
+.fv__operation-text {
+  font-size: 0.9375rem;
+  font-weight: 600;
+  color: #41b5d0;
+}
+
+.fv__mainImage {
+  width: 100%;
+  margin-top: -2rem;
 }
 
 .c-blue {

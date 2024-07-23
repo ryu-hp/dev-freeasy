@@ -20,6 +20,7 @@
 .header__contents {
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 .header__icon {
   max-width:rem(125.8986);
@@ -32,6 +33,7 @@
 .headerBtn {
   background: $color-contact;
   border-radius: rem(24.804);
+  display: inline-block;
 }
 .headerBtn__content {
   display: flex;
