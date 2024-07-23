@@ -18,3 +18,24 @@
     padding-left: $padding-sp;
   }
 }
+.about-title__en {
+  color: $color-white;
+}
+.about-title__main {
+  color: $color-white;
+}
+.about__body {
+  margin-top: rem(80);
+}
+.about__description {
+  color: $color-white;
+  font-size: rem(24);
+  line-height: calc(44 / 24);
+  text-align: justify;
+}
+.about__contents {
+  margin-top: rem(60);
+  border-radius: rem(22.616);
+  background: $color-white;
+  box-shadow: rem(2) rem(2) rem(5) rgba($color: $color-black, $alpha: 0.3);
+}

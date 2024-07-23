@@ -150,7 +150,7 @@
   gap: 1px;
   padding: rem(4) rem(4);
   background: $color-white;
-  box-shadow: rem(1.9028) rem(1.9028) rem(3.8056) $color-black;
+  box-shadow: rem(1.9028) rem(1.9028) rem(3.8056) rgba($color: $color-black, $alpha: 0.3);
   position: relative;
   max-width:rem(504.919);
   width:100%;
@@ -164,7 +164,7 @@
   content: "";
   width: rem(16);
   height: rem(24);
-  box-shadow: rem(1.9028) rem(1.9028) rem(3.8056) $color-black;
+  box-shadow: rem(1.9028) rem(1.9028) rem(3.8056) rgba($color: $color-black, $alpha: 0.3);
   clip-path: polygon(10% 0%, 0% 100%, 100% 0%);
   box-sizing: border-box;
   top: calc(100% - 1px);
@@ -192,6 +192,7 @@
   padding: rem(8) rem(0);
   overflow: hidden;
   display: flex; 
+  gap: rem(23.7716);
 }
 .fv__achieve-slide {
   display: flex;
@@ -200,6 +201,9 @@
 }
 .fv__achieve {
   width: rem(166.3027);
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 @keyframes scroll-left {
   from {
