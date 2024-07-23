@@ -3,6 +3,11 @@
 .header {
   background: rgba($color: $color-white, $alpha: 0.8);
   padding: rem(24) rem(24);
+  position: fixed;
+  z-index: 10;
+  top: 0;
+  left: 0;
+  width: 100%;
 }
 .header__inner {
   width: 100%;

@@ -4,6 +4,7 @@
   position: relative;
   padding-bottom: rem(22.823);
   padding-top: rem(104);
+  overflow: hidden;
 }
 .fv__bg-top {
   position: absolute;
@@ -97,7 +98,7 @@
   text-align: center;
 }
 .fv__batchArea {
-  margin-top: 1px;
+  margin-top: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
