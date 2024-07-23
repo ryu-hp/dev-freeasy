@@ -550,7 +550,6 @@ select::-ms-expand {
 
 .fv__achieve {
   width: 10.39391875rem;
-  width: 33.3333333333vw; /* 3はスライドの枚数 */
 }
 
 @-webkit-keyframes scroll-left {
