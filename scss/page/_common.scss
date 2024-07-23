@@ -1,0 +1,9 @@
+@use "../global" as *;
+.c-blue {
+    color: $color-theme;
+}
+.c-trans {
+    color: transparent;
+    -webkit-text-stroke-width: 2rem;
+    -webkit-text-stroke-color: $color-white;
+}

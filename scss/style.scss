@@ -1,4 +1,7 @@
 @charset "UTF-8";
 
 @use "./base";
-@use "./page/sample";
+@use "./page/header";
+
+//common
+@use "./page/common";

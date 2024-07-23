@@ -31,18 +31,21 @@ $mediaquerys: (
     @return math.div($font_size, $window_width) * 100vw;
 }
 
-$base-font-family:  "Noto Sans JP", sans-serif;
-$second-font-family: "Roboto Condensed", sans-serif ;
-$bold : 700;
-$normal : 400;
-$light : 300;
+$base-font-family:  "hiragino-kaku-gothic-pron", sans-serif;
+$second-font-family: "", sans-serif ;
+$bold : 600;
+$normal : 300;
 
 $color-black: #000;
 $color-white: #fff;
-$color-theme: #003566;
-$color-red: #6F4C4C;
-$color-bg_gray: #F5F7F7;
-$color-main_gray: #7E7C7C;
+$color-theme: #41b5d0;
+$color-blue: #2983e2;
+$color-gray: #999999;
+$color-yellow: #fcee21;
+$color-light-blue: #9bd2e3;
+$color-contact: #64c2db;
+$color-download:  linear-gradient(-90deg, #39b54a 0%, #4eddaa 100%);
+$color-account: linear-gradient(-90deg, #2983e2 0%, #3fb0ed 100%);
 
 $inner: 1000px;
 

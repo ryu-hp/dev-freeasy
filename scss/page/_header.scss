@@ -1,0 +1,6 @@
+@use "../global" as *;
+
+.header {
+  background: rgba($color: $color-white, $alpha: 0.8);
+  padding: rem(24) rem(24);
+}
