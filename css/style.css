@@ -251,6 +251,32 @@ select::-ms-expand {
   width: 100%;
 }
 
+.headerBtn {
+  background: #64c2db;
+  border-radius: 1.55025rem;
+}
+
+.headerBtn__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.headerBtn__icon {
+  max-width: 2.27285625rem;
+  width: 100%;
+}
+
+.headerBtn__text {
+  font-size: 1.19875rem;
+  font-weight: 600;
+  line-height: 1.7502606882;
+  color: #fff;
+}
+
 .c-blue {
   color: #41b5d0;
 }

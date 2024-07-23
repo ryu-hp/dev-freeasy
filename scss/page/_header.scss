@@ -29,3 +29,21 @@
   max-width:rem(213.7792);
   width: 100%;
 }
+.headerBtn {
+  background: $color-contact;
+  border-radius: rem(24.804);
+}
+.headerBtn__content {
+  display: flex;
+  justify-content: center;
+}
+.headerBtn__icon {
+  max-width: rem(36.3657);
+  width: 100%;
+}
+.headerBtn__text {
+  font-size: rem(19.18);
+  font-weight: $bold;
+  line-height: calc(33.57 / 19.18);
+  color: $color-white;
+}
