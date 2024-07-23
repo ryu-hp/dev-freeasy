@@ -4,3 +4,28 @@
   background: rgba($color: $color-white, $alpha: 0.8);
   padding: rem(24) rem(24);
 }
+.header__inner {
+  width: 100%;
+  max-width: calc(1295.8705px + ($padding-pc * 2));
+  padding-right: $padding-pc;
+  padding-left: $padding-pc;
+  margin-right: auto;
+  margin-left: auto;
+  box-sizing: border-box;
+  @include mq(md) {
+    padding-right: $padding-sp;
+    padding-left: $padding-sp;
+  }
+}
+.header__contents {
+  display: flex;
+  align-items: center;
+}
+.header__icon {
+  max-width:rem(125.8986);
+  width: 100%;
+}
+.header__btnArea {
+  max-width:rem(213.7792);
+  width: 100%;
+}
