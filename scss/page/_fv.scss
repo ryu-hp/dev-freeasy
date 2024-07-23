@@ -68,21 +68,19 @@
   position: absolute;
   display: inline-block;
   content: "";
-  width: rem(16.3229);
-  height: rem(326.7419);
+  width: 2px;
+  height: rem(24);
   top: 50%;
   box-sizing: border-box;
-  transform: translateY(-50%) ;
+  background: $color-black;
 }
 .fv__apeare-text--line::before {
   left: 0;
-  clip-path: polygon(0 0, 0% 100%, 100% 100%);
-  border-right: 2px solid $color-blue;
+  transform: translateY(-50%) rotate(-30);
 }
 .fv__apeare-text--line::after {
   right: 0;
-  clip-path: polygon(0% 100%, 100% 0%, 100% 100%);
-  border-left: 2px solid $color-blue;
+  transform: translateY(-50%) rotate(30);
 }
 .fv__title {
   font-size: rem(47.33);

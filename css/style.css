@@ -366,27 +366,24 @@ select::-ms-expand {
   position: absolute;
   display: inline-block;
   content: "";
-  width: 1.02018125rem;
-  height: 20.42136875rem;
+  width: 2px;
+  height: 1.5rem;
   top: 50%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
+  background: #000;
 }
 
 .fv__apeare-text--line::before {
   left: 0;
-  -webkit-clip-path: polygon(0 0, 0% 100%, 100% 100%);
-          clip-path: polygon(0 0, 0% 100%, 100% 100%);
-  border-right: 2px solid #2983e2;
+  -webkit-transform: translateY(-50%) rotate(-30);
+          transform: translateY(-50%) rotate(-30);
 }
 
 .fv__apeare-text--line::after {
   right: 0;
-  -webkit-clip-path: polygon(0% 100%, 100% 0%, 100% 100%);
-          clip-path: polygon(0% 100%, 100% 0%, 100% 100%);
-  border-left: 2px solid #2983e2;
+  -webkit-transform: translateY(-50%) rotate(30);
+          transform: translateY(-50%) rotate(30);
 }
 
 .fv__title {
