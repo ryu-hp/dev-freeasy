@@ -293,7 +293,7 @@ select::-ms-expand {
 
 .fv {
   position: relative;
-  padding-bottom: 1.4264375rem;
+  padding-bottom: 2.625rem;
   padding-top: 7.125rem;
   overflow: hidden;
   -webkit-font-feature-settings: "palt";
@@ -676,7 +676,7 @@ select::-ms-expand {
   background: #fff;
   -webkit-box-shadow: 0.125rem 0.125rem 0.3125rem rgba(0, 0, 0, 0.3);
           box-shadow: 0.125rem 0.125rem 0.3125rem rgba(0, 0, 0, 0.3);
-  padding: 3.54325rem 4.97949375rem;
+  padding: 3.54325rem 4.97949375rem 3.375rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -719,7 +719,7 @@ select::-ms-expand {
 }
 
 .aboutContet__description {
-  margin-top: 1.35625rem;
+  margin-top: 1.0625rem;
   font-size: 1.25rem;
   line-height: 1.5;
   -webkit-font-feature-settings: "palt";
@@ -727,12 +727,13 @@ select::-ms-expand {
 }
 
 .aboutContent__flow {
-  margin-top: 1.35625rem;
+  margin-top: 1.1875rem;
 }
 
 .aboutContent__item {
   border-radius: 0.8695rem;
   padding: 0.8716125rem 0.98823125rem;
+  padding-left: 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -753,6 +754,7 @@ select::-ms-expand {
   font-weight: 600;
   color: #fff;
   width: calc(100% - 11.67309375rem);
+  padding-top: 0.25rem;
 }
 
 .aboutContent__item-image {
@@ -762,8 +764,8 @@ select::-ms-expand {
 
 .aboutContent__item-arrows {
   width: 10.76229375rem;
-  bottom: -2.5rem;
-  right: 0.5rem;
+  bottom: -2.375rem;
+  right: 6.6%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -818,6 +820,7 @@ select::-ms-expand {
   line-height: 1.3043478261;
   font-weight: 600;
   text-align: center;
+  padding-bottom: 0.1875rem;
 }
 
 .aboutContent__item-turn_image {
@@ -833,7 +836,22 @@ select::-ms-expand {
   font-weight: 600;
   font-size: 1.985rem;
   border-radius: 0.2095rem;
-  margin-left: 1.20700625rem;
+  margin-left: 1.25rem;
+  margin-top: 1px;
+}
+
+.aboutContet--new .aboutContent__item {
+  padding-right: 1.125rem;
+}
+.aboutContet--new .aboutContent__item--turn {
+  margin-top: -0.25rem;
+}
+.aboutContet--new .aboutContent__item + .aboutContent__item {
+  margin-top: -0.34375rem;
+}
+.aboutContet--new .aboutContent__item-text {
+  padding-top: 0.5rem;
+  padding-right: 0.5rem;
 }
 
 .feature {
