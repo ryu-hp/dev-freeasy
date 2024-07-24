@@ -1,0 +1,48 @@
+@use "../global" as *;
+
+.concern {
+  background: $color-white;
+  padding: rem(80) rem(0);
+}
+.concern__inner {
+  width: 100%;
+  max-width: calc(722.5081px + ($padding-pc * 2));
+  padding-right: $padding-pc;
+  padding-left: $padding-pc;
+  margin-right: auto;
+  margin-left: auto;
+  box-sizing: border-box;
+  @include mq(md) {
+    padding-right: $padding-sp;
+    padding-left: $padding-sp;
+  }
+}
+.concern-title__en {
+  color: $color-white;
+}
+.concern-title__main {
+  color: $color-white;
+}
+.concern__body {
+  margin-top: rem(40);
+}
+.concern__content {
+  display: flex;
+  justify-content: center;
+  gap:rem(37.5597) rem(46.9086);
+  flex-wrap: wrap;
+}
+.concern__item {
+  width: calc((100% - (rem(46.9086) * 1)) / 2);
+}
+.concern__description {
+  margin-top: rem(20.9941);
+  font-size: rem(20);
+  line-height: calc(33 / 20);
+  font-weight: $bold;
+  color: $color-white;
+}
+.concern__image {
+  border-radius: rem(16.149);
+  box-shadow: rem(3) rem(3) rem(5) rgba($color: $color-black, $alpha: 0.3);
+}
