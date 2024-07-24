@@ -1,0 +1,40 @@
+@use "../global" as *;
+
+.feature {
+  background: $color-white;
+  padding: rem(80) rem(0);
+}
+.feature__inner {
+  width: 100%;
+  max-width: calc(713.8821px + ($padding-pc * 2));
+  padding-right: $padding-pc;
+  padding-left: $padding-pc;
+  margin-right: auto;
+  margin-left: auto;
+  box-sizing: border-box;
+  @include mq(md) {
+    padding-right: $padding-sp;
+    padding-left: $padding-sp;
+  }
+}
+.feature-title__en {
+  color: $color-theme;
+}
+.feature__body {
+  margin-top: rem(60);
+}
+.feature__content {
+  display: flex;
+  justify-content: center;
+  gap:rem(41.7252) rem(49.1546);
+  flex-wrap: wrap;
+}
+.feature__item {
+  width: calc((100% - (rem(49.1546) * 2)) / 3);
+}
+.feature__description {
+  margin-top: rem(14.318);
+  font-size: rem(20);
+  line-height: calc(30 / 20);
+  font-weight: $bold;
+}
