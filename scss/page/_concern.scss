@@ -1,7 +1,7 @@
 @use "../global" as *;
 
 .concern {
-  background: $color-blue;
+  background: $color-theme;
   padding: rem(80) rem(0);
 }
 .concern__inner {

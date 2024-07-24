@@ -675,6 +675,7 @@ select::-ms-expand {
   font-size: 1.625rem;
   font-weight: 600;
   line-height: 1;
+  text-align: center;
 }
 
 .aboutContet__description {
@@ -847,7 +848,7 @@ select::-ms-expand {
 }
 
 .concern {
-  background: #2983e2;
+  background: #41b5d0;
   padding: 5rem 0rem;
 }
 
