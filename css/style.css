@@ -630,7 +630,7 @@ select::-ms-expand {
 }
 .about {
   padding-top: 4.375rem;
-  padding-bottom: 5rem;
+  padding-bottom: 6.0625rem;
   background: #41b5d0;
   -webkit-font-feature-settings: "palt";
           font-feature-settings: "palt";
@@ -672,7 +672,7 @@ select::-ms-expand {
   text-align: justify;
   -webkit-font-feature-settings: "palt";
           font-feature-settings: "palt";
-  padding: 0rem 2.5px;
+  padding: 0rem 0.46875rem;
 }
 
 .about__contents {
@@ -681,7 +681,7 @@ select::-ms-expand {
   background: #fff;
   -webkit-box-shadow: 0.125rem 0.125rem 0.3125rem rgba(0, 0, 0, 0.3);
           box-shadow: 0.125rem 0.125rem 0.3125rem rgba(0, 0, 0, 0.3);
-  padding: 3.54325rem 4.97949375rem 3.375rem;
+  padding: 3.54325rem 4.97949375rem 3.5625rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -835,6 +835,7 @@ select::-ms-expand {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  padding: 0;
 }
 
 .aboutContent__item-turn_left_text {
@@ -843,12 +844,13 @@ select::-ms-expand {
   line-height: 1.3043478261;
   font-weight: 600;
   text-align: center;
-  padding-bottom: 0.1875rem;
+  margin-left: 0.0625rem;
 }
 
 .aboutContent__item-turn_image {
   max-width: 7.1753375rem;
   width: 100%;
+  padding-top: 0.125rem;
 }
 
 .aboutContent__item-turn_right_text {
@@ -861,6 +863,9 @@ select::-ms-expand {
   border-radius: 0.2095rem;
   margin-left: 1.25rem;
   margin-top: 1px;
+  line-height: 1;
+  margin-top: 0.1875rem;
+  padding: 0.40625rem 0.75rem 0.34375rem;
 }
 
 .aboutContet--new .aboutContent__item {
@@ -869,8 +874,11 @@ select::-ms-expand {
 .aboutContet--new .aboutContent__item--turn {
   margin-top: -0.25rem;
 }
-.aboutContet--new .aboutContent__item + .aboutContent__item {
-  margin-top: -0.34375rem;
+.aboutContet--new .aboutContent__item--turn {
+  margin-top: 0.5rem;
+}
+.aboutContet--new .aboutContent__item:last-child {
+  margin-top: 0.5625rem;
 }
 .aboutContet--new .aboutContent__item-text {
   padding-top: 0.5rem;
@@ -914,7 +922,7 @@ select::-ms-expand {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  gap: 2.607825rem 2.9375rem;
+  gap: 2.25rem 2.9375rem;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
 }
