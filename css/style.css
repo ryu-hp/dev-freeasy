@@ -445,6 +445,7 @@ select::-ms-expand {
   border-radius: 1.6548125rem;
   max-width: 14.26195rem;
   width: 100%;
+  display: inline-block;
 }
 
 .fvBtn--download {

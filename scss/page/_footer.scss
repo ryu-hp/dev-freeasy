@@ -1,0 +1,30 @@
+@use "../global" as *;
+
+.footer {
+  background: $color-white;
+  padding: rem(16) rem(0);
+}
+.footer__inner {
+  width: 100%;
+  max-width: calc(892.3998px + ($padding-pc * 2));
+  padding-right: $padding-pc;
+  padding-left: $padding-pc;
+  margin-right: auto;
+  margin-left: auto;
+  box-sizing: border-box;
+  @include mq(md) {
+    padding-right: $padding-sp;
+    padding-left: $padding-sp;
+  }
+}
+.footer__contents {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: rem(32);
+}
+.footer__description {
+  font-size: rem(28);
+  line-height: 1;
+  font-weight: $bold;
+}
