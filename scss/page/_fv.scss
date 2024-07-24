@@ -98,13 +98,14 @@
   width:100%;
   margin-left: auto;
   margin-right: auto;
-  margin-top: rem(-5);
+  margin-top: rem(13);
+  transform: translateX(-1px);
 }
 .fv__cost {
   font-size: rem(25.31);
   line-height: calc(44.29 / 25.31);
   font-weight: $bold;
-  margin-top: rem(-8);
+  margin-top: rem(11);
   text-align: center;
 }
 .fv__batchArea {

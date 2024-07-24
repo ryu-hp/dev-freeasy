@@ -20,15 +20,15 @@
 .concern-title__en {
   color: $color-white;
 }
-.concern-title__main {
-  margin-top: rem(11);
+.concern-title .concern-title__main {
+  margin-top: rem(23) ;
   max-width:rem(551);
   width:100%;
   margin-left: auto;
   margin-right: auto;
 }
 .concern__body {
-  margin-top: rem(51.5);
+  margin-top: rem(63);
 }
 .concern__content {
   display: flex;
