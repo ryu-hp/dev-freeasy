@@ -30,7 +30,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  gap:rem(46.9992);
+  gap:rem(42);
 }
 .resolve__item + .resolve__item  {
   margin-top: rem(78.3569);
@@ -47,6 +47,7 @@
   color: #0f9cbf;
   font-weight: $bold;
   font-size: rem(30);
+  font-feature-settings: "palt";
 }
 .resolve__description {
   margin-top: rem(38.2295);

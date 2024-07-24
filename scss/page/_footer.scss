@@ -31,9 +31,11 @@
   font-size: rem(28);
   line-height: 1;
   font-weight: $bold;
+  white-space: nowrap;
 }
 .footer__btns {
   display: flex;
   gap: rem(10);
   align-items: center;
+  width: 100%;
 }
