@@ -32,26 +32,42 @@
   justify-content: center;
   align-items: center;
   gap:rem(47);
+  @include mq(md) {
+    flex-wrap: wrap;
+  }
 }
 .resolve__item + .resolve__item  {
   margin-top: rem(77.5);
 }
 .resolve__item:nth-child(even) {
   flex-direction: row-reverse;
+  @include mq(md) {
+    flex-direction: row;
+  }
 }
 .resolve__image {
   border-radius: rem(21.447);
   width: calc(449.9992 / 1002 * 100% );
   flex-shrink: 0;
+  @include mq(md) {
+    width: 100%; 
+  }
 }
 .resolve__text {
   margin-top: rem(2.5);
+  @include mq(md) {
+    margin-top: rem(24);
+  }
 }
 .resolve__head {
   color: #0f9cbf;
   font-weight: $bold;
   font-size: rem(30);
   font-feature-settings: "palt";
+  white-space: nowrap;
+  @media screen and (max-width:1020px) {
+    white-space: wrap;
+  }
 }
 .resolve__description {
   margin-top: rem(21);

@@ -37,6 +37,9 @@
 }
 .concern__item {
   width: calc((100% - (rem(46) * 1)) / 2);
+  @include mq(md) {
+    width: 100%;
+  }
 }
 .concern__description {
   margin-top: rem(13);

@@ -684,6 +684,14 @@ select::-ms-expand {
       -ms-flex-pack: center;
           justify-content: center;
 }
+@media screen and (max-width: 767px) {
+  .about__contents {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
 
 .about__arrow {
   max-width: 2.20588125rem;
@@ -696,6 +704,16 @@ select::-ms-expand {
           box-sizing: border-box;
   margin-left: 2.25rem;
   margin-right: 1.1875rem;
+}
+@media screen and (max-width: 767px) {
+  .about__arrow {
+    margin-left: auto;
+    margin-right: auto;
+    -webkit-clip-path: polygon(0 0, 50% 100%, 100% 0%);
+            clip-path: polygon(0 0, 50% 100%, 100% 0%);
+    margin-top: 2.25rem;
+    margin-bottom: 1.25rem;
+  }
 }
 
 .aboutContet--new {
@@ -899,6 +917,11 @@ select::-ms-expand {
 .feature__item {
   width: calc((100% - 5.875rem) / 3);
 }
+@media screen and (max-width: 767px) {
+  .feature__item {
+    width: calc((100% - 2.9375rem) / 3);
+  }
+}
 
 .feature__description {
   margin-top: 0.59375rem;
@@ -962,6 +985,11 @@ select::-ms-expand {
 
 .concern__item {
   width: calc((100% - 2.875rem) / 2);
+}
+@media screen and (max-width: 767px) {
+  .concern__item {
+    width: 100%;
+  }
 }
 
 .concern__description {
@@ -1028,6 +1056,12 @@ select::-ms-expand {
           align-items: center;
   gap: 2.9375rem;
 }
+@media screen and (max-width: 767px) {
+  .resolve__item {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+}
 
 .resolve__item + .resolve__item {
   margin-top: 4.84375rem;
@@ -1039,6 +1073,14 @@ select::-ms-expand {
       -ms-flex-direction: row-reverse;
           flex-direction: row-reverse;
 }
+@media screen and (max-width: 767px) {
+  .resolve__item:nth-child(even) {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+}
 
 .resolve__image {
   border-radius: 1.3404375rem;
@@ -1046,9 +1088,19 @@ select::-ms-expand {
   -ms-flex-negative: 0;
       flex-shrink: 0;
 }
+@media screen and (max-width: 767px) {
+  .resolve__image {
+    width: 100%;
+  }
+}
 
 .resolve__text {
   margin-top: 0.15625rem;
+}
+@media screen and (max-width: 767px) {
+  .resolve__text {
+    margin-top: 1.5rem;
+  }
 }
 
 .resolve__head {
@@ -1057,6 +1109,12 @@ select::-ms-expand {
   font-size: 1.875rem;
   -webkit-font-feature-settings: "palt";
           font-feature-settings: "palt";
+  white-space: nowrap;
+}
+@media screen and (max-width: 1020px) {
+  .resolve__head {
+    white-space: wrap;
+  }
 }
 
 .resolve__description {

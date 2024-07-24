@@ -44,6 +44,9 @@
   padding: rem(56.692) rem(79.6719) rem(54);
   display: flex;
   justify-content: center;
+  @include mq(md) {
+    flex-direction: column;
+  }
 }
 .about__arrow {
   max-width:rem(35.2941);
@@ -54,6 +57,13 @@
   box-sizing: border-box;
   margin-left: rem(36);
   margin-right: rem(19);
+  @include mq(md) {
+    margin-left: auto;
+    margin-right: auto;
+    clip-path: polygon(0 0, 50% 100%, 100% 0%);
+    margin-top: rem(36);
+    margin-bottom: rem(20);
+  }
 }
 .aboutContet--new {
   max-width:rem(405);
