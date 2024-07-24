@@ -856,7 +856,7 @@ select::-ms-expand {
 
 .feature {
   background: #fff;
-  padding: 5rem 0rem;
+  padding: 5rem 0rem 4.21875rem;
 }
 
 .feature__inner {
@@ -881,7 +881,7 @@ select::-ms-expand {
 }
 
 .feature__body {
-  margin-top: 3.75rem;
+  margin-top: 3.5625rem;
 }
 
 .feature__content {
@@ -891,17 +891,17 @@ select::-ms-expand {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  gap: 2.607825rem 3.0721625rem;
+  gap: 2.607825rem 2.9375rem;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
 }
 
 .feature__item {
-  width: calc((100% - 6.144325rem) / 3);
+  width: calc((100% - 5.875rem) / 3);
 }
 
 .feature__description {
-  margin-top: 0.894875rem;
+  margin-top: 0.59375rem;
   font-size: 1.25rem;
   line-height: 1.5;
   font-weight: 600;
@@ -912,7 +912,7 @@ select::-ms-expand {
 
 .concern {
   background: #41b5d0;
-  padding: 5rem 0rem;
+  padding: 3.4375rem 0rem 3.4375rem;
 }
 
 .concern__inner {
