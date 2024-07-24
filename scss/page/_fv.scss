@@ -20,7 +20,7 @@
   left: 47.4%;
   transform: translateX(-50%);
   width: calc(1475.2852 / 1367 * 100vw);
-  @include mq(md) {
+  @include mq(lg) {
     bottom: -13%;
   }
 }
@@ -57,7 +57,7 @@
   display: flex;
   justify-content: center;
   gap: rem(0);
-  @include mq(md) {
+  @include mq(lg) {
     flex-wrap: wrap;
   }
 }
@@ -167,7 +167,7 @@
   width: 100%;
   padding-top: rem(6);
   flex-shrink: 0;
-  @include mq(md) {
+  @include mq(lg) {
     max-width: 100%;
   }
 }

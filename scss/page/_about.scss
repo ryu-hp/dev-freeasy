@@ -44,7 +44,7 @@
   padding: rem(56.692) rem(79.6719) rem(57);
   display: flex;
   justify-content: center;
-  @include mq(md) {
+  @include mq(lg) {
     flex-direction: column;
   }
 }
@@ -57,7 +57,7 @@
   box-sizing: border-box;
   margin-left: rem(36);
   margin-right: rem(19);
-  @include mq(md) {
+  @include mq(lg) {
     margin-left: auto;
     margin-right: auto;
     clip-path: polygon(0 0, 50% 100%, 100% 0%);
@@ -69,14 +69,14 @@
 .aboutContet--new {
   max-width:rem(405);
   width:100%;
-  @include mq(md) {
+  @include mq(lg) {
     max-width: 100%;
   }
 }
 .aboutContet--old {
   max-width:rem(340);
   width:100%;
-  @include mq(md) {
+  @include mq(lg) {
     max-width: 100%;
   }
 }
@@ -129,7 +129,7 @@
   display: flex;
   justify-content: space-between;
   position: absolute;
-  @include mq(md) {
+  @include mq(lg) {
     right: rem(24);
   }
 }
