@@ -294,13 +294,15 @@ select::-ms-expand {
 .fv {
   position: relative;
   padding-bottom: 1.4264375rem;
-  padding-top: 6.5rem;
+  padding-top: 7.125rem;
   overflow: hidden;
+  -webkit-font-feature-settings: "palt";
+          font-feature-settings: "palt";
 }
 
 .fv__bg-top {
   position: absolute;
-  top: 0;
+  top: -1.3125rem;
   right: 0;
   max-width: 37.994125rem;
   width: 100%;
@@ -317,7 +319,7 @@ select::-ms-expand {
 
 .fv__inner {
   width: 100%;
-  max-width: calc(1105.7671px + 3.125rem);
+  max-width: calc(1148.7671px + 3.125rem);
   padding-right: 1.5625rem;
   padding-left: 1.5625rem;
   margin-right: auto;
@@ -325,6 +327,7 @@ select::-ms-expand {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   position: relative;
+  padding-top: 1.8125rem;
 }
 @media screen and (max-width: 767px) {
   .fv__inner {
@@ -337,7 +340,7 @@ select::-ms-expand {
   position: absolute;
   left: 0;
   top: 0;
-  max-width: 2.74408125rem;
+  max-width: 2.78125rem;
   width: 100%;
 }
 
@@ -356,6 +359,8 @@ select::-ms-expand {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  gap: 0.5rem;
+  padding-left: 0.4375rem;
 }
 
 .fv__apeare-text {
@@ -364,11 +369,13 @@ select::-ms-expand {
   font-weight: 600;
   line-height: 1.7499161918;
   text-align: center;
+  -webkit-font-feature-settings: "palt";
+          font-feature-settings: "palt";
 }
 
 .fv__apeare-text--line {
   display: inline-block;
-  padding: 0rem 2rem;
+  padding: 0rem 1.5rem;
   position: relative;
 }
 
@@ -377,8 +384,8 @@ select::-ms-expand {
   position: absolute;
   display: inline-block;
   content: "";
-  width: 2px;
-  height: 1.5rem;
+  width: 2.5px;
+  height: 2.5rem;
   top: 50%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -387,14 +394,14 @@ select::-ms-expand {
 
 .fv__apeare-text--line::before {
   left: 0;
-  -webkit-transform: translateY(-50%) rotate(-30deg);
-          transform: translateY(-50%) rotate(-30deg);
+  -webkit-transform: translateY(-50%) rotate(-24deg);
+          transform: translateY(-50%) rotate(-24deg);
 }
 
 .fv__apeare-text--line::after {
   right: 0;
-  -webkit-transform: translateY(-50%) rotate(30deg);
-          transform: translateY(-50%) rotate(30deg);
+  -webkit-transform: translateY(-50%) rotate(24deg);
+          transform: translateY(-50%) rotate(24deg);
 }
 
 .fv__title {
@@ -402,19 +409,20 @@ select::-ms-expand {
   line-height: 1.7498415381;
   font-family: "FP-ヒラギノ角ゴ StdN W8", sans-serif;
   text-align: center;
-  margin-top: 1px;
+  margin-top: -0.3125rem;
+  letter-spacing: 0.024em;
 }
 
 .fv__cost {
   font-size: 1.581875rem;
   line-height: 1.7499012248;
   font-weight: 600;
-  margin-top: 1px;
+  margin-top: -0.5rem;
   text-align: center;
 }
 
 .fv__batchArea {
-  margin-top: 20px;
+  margin-top: 1.0625rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -424,7 +432,7 @@ select::-ms-expand {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  gap: 10px;
+  gap: 0.5625rem;
 }
 
 .fv__batch {
@@ -433,14 +441,14 @@ select::-ms-expand {
 }
 
 .fv__btnArea {
-  margin-top: 1.44616875rem;
+  margin-top: 1.40625rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  gap: 10px;
+  gap: 0.5rem;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -451,7 +459,7 @@ select::-ms-expand {
   max-width: 14.26195rem;
   width: 100%;
   display: inline-block;
-  padding: 0.375rem 0.6074625rem;
+  padding: 0.46875rem 0.5625rem;
   white-space: nowrap;
 }
 
@@ -475,8 +483,12 @@ select::-ms-expand {
   gap: 0.54035625rem;
 }
 
+.fvBtn--account .fvBtn__content {
+  gap: 1.0625rem;
+}
+
 .fvBtn__icon {
-  max-width: 2.42608125rem;
+  max-width: 2.46875rem;
   width: 100%;
   -ms-flex-negative: 0;
       flex-shrink: 0;
@@ -492,6 +504,7 @@ select::-ms-expand {
 .fv__imageArea {
   max-width: 38.6294125rem;
   width: 100%;
+  padding-top: 0.375rem;
 }
 
 .fv__operation-content {
@@ -499,7 +512,7 @@ select::-ms-expand {
   display: -ms-flexbox;
   display: flex;
   gap: 1px;
-  padding: 0.25rem 0.25rem;
+  padding: 0.375rem 0.5rem;
   background: #fff;
   -webkit-box-shadow: 0.118925rem 0.118925rem 0.23785rem rgba(0, 0, 0, 0.3);
           box-shadow: 0.118925rem 0.118925rem 0.23785rem rgba(0, 0, 0, 0.3);
@@ -508,6 +521,10 @@ select::-ms-expand {
   width: 100%;
   margin-left: auto;
   margin-right: auto;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 0.25rem;
 }
 
 .fv__operation-content::after {
@@ -515,20 +532,20 @@ select::-ms-expand {
   display: inline-block;
   background: #fff;
   content: "";
-  width: 1rem;
-  height: 1.5rem;
+  width: 1.625rem;
+  height: 1rem;
   -webkit-box-shadow: 0.118925rem 0.118925rem 0.23785rem rgba(0, 0, 0, 0.3);
           box-shadow: 0.118925rem 0.118925rem 0.23785rem rgba(0, 0, 0, 0.3);
-  -webkit-clip-path: polygon(10% 0%, 0% 100%, 100% 0%);
-          clip-path: polygon(10% 0%, 0% 100%, 100% 0%);
+  -webkit-clip-path: polygon(15% 0%, 0% 100%, 100% 0%);
+          clip-path: polygon(15% 0%, 0% 100%, 100% 0%);
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   top: calc(100% - 1px);
-  right: 25%;
+  right: 24%;
 }
 
 .fv__operation-icon {
-  max-width: 1.85598125rem;
+  max-width: 1.875rem;
   width: 100%;
 }
 
@@ -536,11 +553,13 @@ select::-ms-expand {
   font-size: 0.9375rem;
   font-weight: 600;
   color: #2983e2;
+  padding-top: 0.0625rem;
 }
 
 .fv__mainImage {
   width: 100%;
-  margin-top: -0.5rem;
+  margin-top: 0.53125rem;
+  margin-left: 0.0625rem;
 }
 
 .fv__achieve-content {
@@ -577,6 +596,10 @@ select::-ms-expand {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+
+.fv__achieve--small {
+  width: 7.668075rem;
 }
 
 @-webkit-keyframes scroll-left {
