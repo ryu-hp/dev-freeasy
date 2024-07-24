@@ -624,14 +624,16 @@ select::-ms-expand {
   }
 }
 .about {
-  padding-top: 5rem;
+  padding-top: 4.375rem;
   padding-bottom: 5rem;
   background: #41b5d0;
+  -webkit-font-feature-settings: "palt";
+          font-feature-settings: "palt";
 }
 
 .about__inner {
   width: 100%;
-  max-width: calc(980.3274px + 3.125rem);
+  max-width: calc(995.3274px + 3.125rem);
   padding-right: 1.5625rem;
   padding-left: 1.5625rem;
   margin-right: auto;
@@ -655,7 +657,7 @@ select::-ms-expand {
 }
 
 .about__body {
-  margin-top: 5rem;
+  margin-top: 3.8125rem;
 }
 
 .about__description {
@@ -665,10 +667,11 @@ select::-ms-expand {
   text-align: justify;
   -webkit-font-feature-settings: "palt";
           font-feature-settings: "palt";
+  padding: 0rem 2.5px;
 }
 
 .about__contents {
-  margin-top: 3.75rem;
+  margin-top: 3.9375rem;
   border-radius: 1.4135rem;
   background: #fff;
   -webkit-box-shadow: 0.125rem 0.125rem 0.3125rem rgba(0, 0, 0, 0.3);
@@ -680,7 +683,6 @@ select::-ms-expand {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  gap: 1.18484375rem;
 }
 
 .about__arrow {
@@ -692,21 +694,23 @@ select::-ms-expand {
           clip-path: polygon(0 0, 0% 100%, 100% 50%);
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  margin-left: 2.25rem;
+  margin-right: 1.1875rem;
 }
 
 .aboutContet--new {
-  max-width: 25.359125rem;
+  max-width: 25.3125rem;
   width: 100%;
 }
 
 .aboutContet--old {
-  max-width: 21.2007625rem;
+  max-width: 21.25rem;
   width: 100%;
 }
 
 .aboutContet__head {
   border-radius: 0.3806875rem;
-  padding: 1.125rem 1.175rem;
+  padding: 1.1875rem 1.175rem 1.3125rem;
   color: #fff;
   font-size: 1.625rem;
   font-weight: 600;
@@ -1116,5 +1120,4 @@ select::-ms-expand {
 .sec-title__main {
   font-family: "FP-ヒラギノ角ゴ StdN W8", sans-serif;
   font-size: 2.8125rem;
-  margin-top: 1.0625rem;
 }
