@@ -73,15 +73,15 @@
   height: rem(24);
   top: 50%;
   box-sizing: border-box;
-  background: $color-black;
+  background: $color-blue;
 }
 .fv__apeare-text--line::before {
   left: 0;
-  transform: translateY(-50%) rotate(-30);
+  transform: translateY(-50%) rotate(-30deg);
 }
 .fv__apeare-text--line::after {
   right: 0;
-  transform: translateY(-50%) rotate(30);
+  transform: translateY(-50%) rotate(30deg);
 }
 .fv__title {
   font-size: rem(47.33);
