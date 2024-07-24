@@ -41,6 +41,8 @@
   line-height: calc(33 / 20);
   font-weight: $bold;
   color: $color-white;
+  font-feature-settings: "palt";
+  text-align: justify;
 }
 .concern__image {
   border-radius: rem(16.149);

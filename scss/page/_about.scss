@@ -32,6 +32,7 @@
   font-size: rem(24);
   line-height: calc(44 / 24);
   text-align: justify;
+  font-feature-settings: "palt";
 }
 .about__contents {
   margin-top: rem(60);
@@ -72,6 +73,7 @@
   margin-top: rem(21.7);
   font-size: rem(20);
   line-height: 1.5;
+  font-feature-settings: "palt";
 }
 .aboutContent__flow {
   margin-top: rem(21.7);
