@@ -129,6 +129,9 @@
   display: flex;
   justify-content: space-between;
   position: absolute;
+  @include mq(md) {
+    right: rem(24);
+  }
 }
 .aboutContent__item-arrow {
   max-width:rem(56.9768);

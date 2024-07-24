@@ -20,6 +20,9 @@
   left: 47.4%;
   transform: translateX(-50%);
   width: calc(1475.2852 / 1367 * 100vw);
+  @include mq(md) {
+    bottom: -13%;
+  }
 }
 .fv__inner {
   width: 100%;
