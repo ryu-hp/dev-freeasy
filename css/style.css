@@ -912,7 +912,7 @@ select::-ms-expand {
 
 .concern {
   background: #41b5d0;
-  padding: 3.4375rem 0rem 3.4375rem;
+  padding: 3.4375rem 0rem 4.5rem;
 }
 
 .concern__inner {
@@ -938,10 +938,14 @@ select::-ms-expand {
 
 .concern-title__main {
   color: #fff;
+  margin-top: 0.6875rem;
+  -webkit-font-feature-settings: "palt";
+          font-feature-settings: "palt";
+  letter-spacing: 0.025em;
 }
 
 .concern__body {
-  margin-top: 2.5rem;
+  margin-top: 3.21875rem;
 }
 
 .concern__content {
@@ -951,17 +955,17 @@ select::-ms-expand {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  gap: 2.34748125rem 2.9317875rem;
+  gap: 2.03125rem 2.875rem;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
 }
 
 .concern__item {
-  width: calc((100% - 2.9317875rem) / 2);
+  width: calc((100% - 2.875rem) / 2);
 }
 
 .concern__description {
-  margin-top: 1.31213125rem;
+  margin-top: 0.8125rem;
   font-size: 1.25rem;
   line-height: 1.65;
   font-weight: 600;

@@ -2,7 +2,7 @@
 
 .concern {
   background: $color-theme;
-  padding: rem(55) rem(0) rem(55);
+  padding: rem(55) rem(0) rem(72);
 }
 .concern__inner {
   width: 100%;
@@ -22,21 +22,24 @@
 }
 .concern-title__main {
   color: $color-white;
+  margin-top: rem(11);
+  font-feature-settings: "palt";
+  letter-spacing: 0.025em;
 }
 .concern__body {
-  margin-top: rem(40);
+  margin-top: rem(51.5);
 }
 .concern__content {
   display: flex;
   justify-content: center;
-  gap:rem(37.5597) rem(46.9086);
+  gap:rem(32.5) rem(46);
   flex-wrap: wrap;
 }
 .concern__item {
-  width: calc((100% - (rem(46.9086) * 1)) / 2);
+  width: calc((100% - (rem(46) * 1)) / 2);
 }
 .concern__description {
-  margin-top: rem(20.9941);
+  margin-top: rem(13);
   font-size: rem(20);
   line-height: calc(33 / 20);
   font-weight: $bold;
