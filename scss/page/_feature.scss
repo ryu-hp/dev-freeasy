@@ -20,6 +20,12 @@
 .feature-title__en {
   color: $color-theme;
 }
+.feature-title__main {
+  max-width:rem(342);
+  width:100%;
+  margin-left: auto;
+  margin-right: auto;
+}
 .feature__body {
   margin-top: rem(57);
 }

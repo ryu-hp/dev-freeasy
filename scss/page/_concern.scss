@@ -21,10 +21,11 @@
   color: $color-white;
 }
 .concern-title__main {
-  color: $color-white;
   margin-top: rem(11);
-  font-feature-settings: "palt";
-  letter-spacing: 0.025em;
+  max-width:rem(551);
+  width:100%;
+  margin-left: auto;
+  margin-right: auto;
 }
 .concern__body {
   margin-top: rem(51.5);

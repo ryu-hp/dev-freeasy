@@ -23,7 +23,10 @@
   color: $color-white;
 }
 .about-title__main {
-  color: $color-white;
+  max-width:rem(412);
+  width:100%;
+  margin-left: auto;
+  margin-right: auto;
 }
 .about__body {
   margin-top: rem(61);
