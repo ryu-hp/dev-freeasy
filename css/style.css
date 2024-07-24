@@ -212,7 +212,7 @@ select::-ms-expand {
 
 .header {
   background: rgba(255, 255, 255, 0.8);
-  padding: 1.5rem 1.5rem;
+  padding: 1.21875rem 0rem 1.1875rem;
   position: fixed;
   z-index: 10;
   top: 0;
@@ -250,7 +250,7 @@ select::-ms-expand {
 }
 
 .header__icon {
-  max-width: 7.8686625rem;
+  max-width: 7.90625rem;
   width: 100%;
 }
 
@@ -263,7 +263,7 @@ select::-ms-expand {
   background: #64c2db;
   border-radius: 1.55025rem;
   display: inline-block;
-  padding: 0.413846875rem 0.50316875rem;
+  padding: 0.4375rem 0.50316875rem 0.375rem;
   width: 13.3612rem;
 }
 
@@ -274,7 +274,7 @@ select::-ms-expand {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  gap: 1.297825rem;
+  gap: 1.1875rem;
 }
 
 .headerBtn__icon {
@@ -287,6 +287,8 @@ select::-ms-expand {
   font-weight: 600;
   line-height: 1.7502606882;
   color: #fff;
+  -webkit-font-feature-settings: "palt";
+          font-feature-settings: "palt";
 }
 
 .fv {
