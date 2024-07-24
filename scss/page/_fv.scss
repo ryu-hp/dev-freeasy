@@ -131,6 +131,7 @@
 .fvBtn__content {
   display: flex;
   align-items: center;
+  gap: rem(22.5603);
 }
 .fvBtn__icon {
   max-width: rem(38.8173);
@@ -198,7 +199,7 @@
 .fv__achieve-slide {
   display: flex;
   gap: rem(23.7716);
-  animation: scroll-left 30s infinite linear .5s both;
+  animation: scroll-left 60s infinite linear .5s both;
 }
 .fv__achieve {
   width: rem(166.3027);

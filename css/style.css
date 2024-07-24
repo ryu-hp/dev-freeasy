@@ -263,15 +263,17 @@ select::-ms-expand {
   background: #64c2db;
   border-radius: 1.55025rem;
   display: inline-block;
+  padding: 0.413846875rem 0.50316875rem;
 }
 
 .headerBtn__content {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 4.74670625rem;
 }
 
 .headerBtn__icon {
@@ -466,6 +468,7 @@ select::-ms-expand {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  gap: 1.41001875rem;
 }
 
 .fvBtn__icon {
@@ -553,8 +556,8 @@ select::-ms-expand {
   display: -ms-flexbox;
   display: flex;
   gap: 1.485725rem;
-  -webkit-animation: scroll-left 30s infinite linear 0.5s both;
-          animation: scroll-left 30s infinite linear 0.5s both;
+  -webkit-animation: scroll-left 60s infinite linear 0.5s both;
+          animation: scroll-left 60s infinite linear 0.5s both;
 }
 
 .fv__achieve {

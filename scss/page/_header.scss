@@ -39,10 +39,12 @@
   background: $color-contact;
   border-radius: rem(24.804);
   display: inline-block;
+  padding: calc((rem(49.6088) - rem(36.3657)) / 2) calc(rem(1283.7712) - rem(1275.7205));
 }
 .headerBtn__content {
   display: flex;
-  justify-content: center;
+  align-items: center;
+  gap: calc(rem(1396.0842) - rem(1320.1369));
 }
 .headerBtn__icon {
   max-width: rem(36.3657);
