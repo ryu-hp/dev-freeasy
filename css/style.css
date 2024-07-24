@@ -641,9 +641,10 @@ select::-ms-expand {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 1.18484375rem;
 }
 
 .about__arrow {
@@ -705,7 +706,7 @@ select::-ms-expand {
 .aboutContent__item-text {
   text-align: center;
   font-size: 1.4375rem;
-  line-height: 1.9130434783;
+  line-height: 1.3043478261;
   font-weight: 600;
   color: #fff;
   width: calc(100% - 11.67309375rem);
@@ -713,11 +714,6 @@ select::-ms-expand {
 
 .aboutContent__item-image {
   max-width: 11.67309375rem;
-  width: 100%;
-}
-
-.about__content {
-  max-width: 21.2007625rem;
   width: 100%;
 }
 
@@ -756,16 +752,21 @@ select::-ms-expand {
   display: inline-block;
 }
 
+.aboutContet--old .aboutContet__head,
 .aboutContet--old .aboutContent__item {
   background: #999999;
 }
 
+.aboutContet--new .aboutContet__head,
 .aboutContet--new .aboutContent__item {
   background: #2983e2;
 }
 
 .aboutContet--new .aboutContent__item--turn {
   background: transparent;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .aboutContent__item-turn_left_text {
@@ -773,6 +774,7 @@ select::-ms-expand {
   font-size: 1.4375rem;
   line-height: 1.3043478261;
   font-weight: 600;
+  text-align: center;
 }
 
 .aboutContent__item-turn_image {
@@ -788,6 +790,7 @@ select::-ms-expand {
   font-weight: 600;
   font-size: 1.985rem;
   border-radius: 0.2095rem;
+  margin-left: 1.20700625rem;
 }
 
 .c-blue {
@@ -809,7 +812,7 @@ select::-ms-expand {
   font-weight: 600;
 }
 
-.about-title__main {
+.sec-title__main {
   font-family: "FP-ヒラギノ角ゴ StdN W8", sans-serif;
   font-size: 2.8125rem;
   margin-top: 1.0625rem;
