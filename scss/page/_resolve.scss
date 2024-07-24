@@ -25,7 +25,7 @@
   margin-top: rem(10);
 }
 .resolve__body {
-  margin-top: rem(92);
+  margin-top: rem(92.5);
 }
 .resolve__item {
   display: flex;
@@ -34,7 +34,7 @@
   gap:rem(47);
 }
 .resolve__item + .resolve__item  {
-  margin-top: rem(78.3569);
+  margin-top: rem(77.5);
 }
 .resolve__item:nth-child(even) {
   flex-direction: row-reverse;

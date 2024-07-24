@@ -1013,7 +1013,7 @@ select::-ms-expand {
 }
 
 .resolve__body {
-  margin-top: 5.75rem;
+  margin-top: 5.78125rem;
 }
 
 .resolve__item {
@@ -1030,7 +1030,7 @@ select::-ms-expand {
 }
 
 .resolve__item + .resolve__item {
-  margin-top: 4.89730625rem;
+  margin-top: 4.84375rem;
 }
 
 .resolve__item:nth-child(even) {
