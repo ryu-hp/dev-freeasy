@@ -40,11 +40,12 @@
   border-radius: rem(24.804);
   display: inline-block;
   padding: calc((rem(49.6088) - rem(36.3657)) / 2) calc(rem(1283.7712) - rem(1275.7205));
+  width: rem(213.7792);
 }
 .headerBtn__content {
   display: flex;
   align-items: center;
-  gap: calc(rem(1396.0842) - rem(1320.1369));
+  gap: rem(20.7652);
 }
 .headerBtn__icon {
   max-width: rem(36.3657);
