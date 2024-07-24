@@ -2,7 +2,7 @@
 
 .fv {
   position: relative;
-  padding-bottom: rem(42);
+  padding-bottom: rem(22);
   padding-top: rem(114);
   overflow: hidden;
   font-feature-settings: "palt";
@@ -23,7 +23,7 @@
 }
 .fv__inner {
   width: 100%;
-  max-width: calc(1148.7671px + ($padding-pc * 2));
+  max-width: calc(1123.7671px + ($padding-pc * 2));
   padding-right: $padding-pc;
   padding-left: $padding-pc;
   margin-right: auto;
@@ -53,8 +53,7 @@
 .fv__contents {
   display: flex;
   justify-content: center;
-  gap: rem(8);
-  padding-left: rem(7);
+  gap: rem(0);
 }
 .fv__apeare-text {
   color: $color-blue;
@@ -154,10 +153,14 @@
   line-height: calc(35.83 / 20.48);
   color: $color-white;
 }
+.fv__textArea {
+  width: 100%;
+}
 .fv__imageArea {
   max-width:rem(618.0706);
   width: 100%;
   padding-top: rem(6);
+  flex-shrink: 0;
 }
 .fv__operation-content {
   display: flex;
@@ -202,12 +205,12 @@
   margin-left: rem(1);
 }
 .fv__achieve-content {
-  margin-top: rem(24);
+  margin-top: rem(43.5);
   width: 100vw;
   max-width: 100vw;
   margin-left: calc(50% - 50vw);
   background: $color-white;
-  padding: rem(21) rem(0) rem(14);
+  padding: rem(20.5) rem(0) rem(15);
   overflow: hidden;
   display: flex; 
   gap: rem(22);
