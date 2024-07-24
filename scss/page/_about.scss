@@ -63,15 +63,22 @@
     clip-path: polygon(0 0, 50% 100%, 100% 0%);
     margin-top: rem(36);
     margin-bottom: rem(20);
+    max-width: rem(130);
   }
 }
 .aboutContet--new {
   max-width:rem(405);
   width:100%;
+  @include mq(md) {
+    max-width: 100%;
+  }
 }
 .aboutContet--old {
   max-width:rem(340);
   width:100%;
+  @include mq(md) {
+    max-width: 100%;
+  }
 }
 .aboutContet__head {
   border-radius: rem(6.091);
@@ -152,7 +159,6 @@
 .aboutContet--new .aboutContent__item--turn {
   background: transparent;
   justify-content: center;
-  padding: 0;
 }
 .aboutContent__item-turn_left_text {
   color: $color-blue;
@@ -190,6 +196,7 @@
   }
   .aboutContent__item--turn {
     margin-top: rem(8);
+    padding: 0;
   }
   .aboutContent__item:last-child  {
     margin-top: rem(9);

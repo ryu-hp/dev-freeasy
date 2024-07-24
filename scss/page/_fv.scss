@@ -54,6 +54,9 @@
   display: flex;
   justify-content: center;
   gap: rem(0);
+  @include mq(md) {
+    flex-wrap: wrap;
+  }
 }
 .fv__apeare-text {
   color: $color-blue;
@@ -161,6 +164,9 @@
   width: 100%;
   padding-top: rem(6);
   flex-shrink: 0;
+  @include mq(md) {
+    max-width: 100%;
+  }
 }
 .fv__operation-content {
   display: flex;
