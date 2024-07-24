@@ -120,6 +120,7 @@
   max-width: rem(228.1912);
   width: 100%;
   display: inline-block;
+  padding: rem(8.692) rem(9.7194);
 }
 .fvBtn--download {
   background: $color-download;
@@ -129,7 +130,7 @@
 }
 .fvBtn__content {
   display: flex;
-  justify-content: center;
+  align-items: center;
 }
 .fvBtn__icon {
   max-width: rem(38.8173);
