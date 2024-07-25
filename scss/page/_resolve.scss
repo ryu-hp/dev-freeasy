@@ -3,6 +3,9 @@
 .resolve {
   background: $color-white;
   padding: rem(63) rem(0) rem(120);
+  @include mq(md) {
+    padding-bottom: rem(160);
+  }
 }
 .resolve__inner {
   width: 100%;

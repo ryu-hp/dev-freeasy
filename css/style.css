@@ -1064,6 +1064,11 @@ select::-ms-expand {
   background: #fff;
   padding: 3.9375rem 0rem 7.5rem;
 }
+@media screen and (max-width: 767px) {
+  .resolve {
+    padding-bottom: 10rem;
+  }
+}
 
 .resolve__inner {
   width: 100%;
