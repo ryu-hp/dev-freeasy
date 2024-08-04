@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_レイヤー_2" data-name="レイヤー_2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 216.63 64.26">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        font-family: HiraKakuStdN-W8-83pv-RKSJ-H, 'Hiragino Kaku Gothic StdN';
+        font-size: 45px;
+      }
+
+      .cls-2 {
+        letter-spacing: -.07em;
+      }
+
+      .cls-3 {
+        letter-spacing: -.04em;
+      }
+
+      .cls-4 {
+        letter-spacing: -.04em;
+      }
+
+      .cls-5 {
+        letter-spacing: -.03em;
+      }
+    </style>
+  </defs>
+  <g id="_レイヤー_1-2" data-name="レイヤー_1">
+    <text class="cls-1" transform="translate(0 39.6)"><tspan x="0" y="0">料</tspan><tspan class="cls-3" x="45" y="0">金</tspan><tspan class="cls-4" x="88.07" y="0">プ</tspan><tspan class="cls-2" x="131.27" y="0">ラ</tspan><tspan class="cls-5" x="172.94" y="0">ン</tspan></text>
+  </g>
+</svg>

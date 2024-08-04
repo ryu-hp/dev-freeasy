@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_レイヤー_2" data-name="レイヤー_2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 476.33 64.26">
+  <defs>
+    <style>
+      .cls-1 {
+        font-family: HiraKakuStdN-W8-83pv-RKSJ-H, 'Hiragino Kaku Gothic StdN';
+        font-size: 45px;
+      }
+
+      .cls-2 {
+        fill: none;
+        letter-spacing: -.05em;
+        stroke: #fff;
+        stroke-width: 2px;
+      }
+
+      .cls-3 {
+        letter-spacing: -.08em;
+      }
+
+      .cls-3, .cls-4, .cls-5, .cls-6, .cls-7, .cls-8, .cls-9, .cls-10 {
+        fill: #fff;
+      }
+
+      .cls-4 {
+        letter-spacing: -.06em;
+      }
+
+      .cls-5 {
+        letter-spacing: -.04em;
+      }
+
+      .cls-6 {
+        letter-spacing: -.05em;
+      }
+
+      .cls-7 {
+        letter-spacing: -.03em;
+      }
+
+      .cls-8 {
+        letter-spacing: -.01em;
+      }
+
+      .cls-9 {
+        letter-spacing: 0em;
+      }
+    </style>
+  </defs>
+  <g id="_レイヤー_1-2" data-name="レイヤー_1">
+    <text class="cls-1" transform="translate(-1.12 39.6)"><tspan class="cls-6" x="0" y="0">ア</tspan><tspan class="cls-5" x="42.53" y="0">ン</tspan><tspan class="cls-7" x="85.68" y="0">ケ</tspan><tspan class="cls-3" x="129.42" y="0">ー</tspan><tspan class="cls-4" x="170.82" y="0">ト</tspan><tspan class="cls-10" x="213.21" y="0">作</tspan><tspan class="cls-9" x="258.21" y="0">成</tspan><tspan class="cls-6" x="302.9" y="0">の</tspan><tspan class="cls-2" x="345.42" y="0">フ</tspan><tspan class="cls-8" x="387.99" y="0">ロ</tspan><tspan class="cls-10" x="432.45" y="0">ー</tspan></text>
+  </g>
+</svg>
