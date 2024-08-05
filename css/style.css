@@ -1064,26 +1064,35 @@ select::-ms-expand {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  gap: 2.25rem 2.9375rem;
+  gap: 1.5rem 1.5rem;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
 }
 
 .feature__item {
-  width: calc((100% - 5.875rem) / 3);
+  width: calc((100% - 1.5rem) / 2);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 0.5rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 @media screen and (max-width: 767px) {
   .feature__item {
-    width: calc((100% - 2.9375rem) / 3);
+    width: calc((100% - 0rem) / 1);
   }
 }
 
+.feature__image {
+  max-width: 5.272rem;
+  width: 100%;
+}
+
 .feature__description {
-  margin-top: 0.59375rem;
-  font-size: 1.25rem;
-  line-height: 1.5;
+  font-size: 1.4375rem;
   font-weight: 600;
-  text-align: center;
   -webkit-font-feature-settings: "palt";
           font-feature-settings: "palt";
 }
