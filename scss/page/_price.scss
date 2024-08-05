@@ -141,3 +141,113 @@
 .price__middle-item:nth-child(2n-1) {
   margin-top: rem(70);
 }
+.price__middle-description {
+  font-size: rem(27);
+  font-weight: $bold;
+  line-height: calc(47.25 / 27);
+  text-align: center;
+  margin-top: rem(-27);
+  color: $color-white;
+}
+.price__bottom-wrapper {
+  margin-top: rem(40);
+  position: relative;
+  padding-top: rem(38);
+  position: relative;
+  max-width:rem(849.4609);
+  width:100%;
+  margin-right:auto;
+  margin-left:auto;
+}
+.price__bottom-head {
+  position: absolute;left: 50%;
+  transform: translateX(-50%);
+  top: 0;
+  border: rem(5) solid $color-white;
+  background: $color-theme;
+  color: $color-white;
+  font-weight: $bold;
+  font-size: rem(26);
+  line-height: 1;
+  padding: rem(16) rem(60);
+  display: inline-block;
+  border-radius: rem(12.526);
+}
+.price__bottom-content {
+  background: $color-white;
+  border-radius: rem(20.043);
+  padding: rem(50) rem(32) rem(40);
+}
+.price__bottom-item + .price__bottom-item {
+  padding-top: rem(50);
+  margin-top: rem(50);
+  border: rem(6) solid $color-theme;
+}
+.priceItem {
+  display: flex;
+  align-items: center;
+}
+.priceItem__images {
+  display: flex;
+  justify-content: center;
+  gap: rem(8);
+}
+.priceItem__images-person {
+  max-width:rem(73.4502);
+  width:100%;
+}
+.priceItem__images-cross {
+  max-width:rem(20.7495);
+  width:100%;
+}
+.priceItem__images-question {
+  max-width:rem(43.8893);
+  width:100%;
+}
+.priceItem__text {
+  margin-left: rem(24);
+  font-size: rem(30);
+  font-weight: $bold;
+}
+.priceItem__text--large {
+  font-size: rem(52);
+  font-family: "din-2014", sans-serif;
+}
+.priceItem__price {
+  justify-self: flex-end;
+  font-size: rem(30);
+  font-weight: $bold;
+}
+.priceItem__price--large {
+  font-size: rem(52);
+  font-family: "din-2014", sans-serif;
+}
+.price__btn-wrapper {
+  margin-top: rem(32);
+  text-align: center;
+}
+.price__btn {
+  display: inline-block;
+  text-align: center;
+  background: $color-white;
+  max-width:rem(507.2668);
+  width:100%;
+  border-radius: rem(47.435);
+  padding: rem(33) rem(16);
+  position: relative;
+  font-size: rem(28);
+  line-height: 1;
+  font-weight: $bold;
+}
+.price__btn::after {
+  position: absolute;
+  display: inline-block;
+  background: $color-theme;
+  top: 50%;
+  transform: translateY(-50%);
+  left: rem(52);
+  width: rem(11.7109);
+  height: rem(23.4217);
+  clip-path: polygon(0 0, 0% 100%, 100% 50%);
+  box-sizing: border-box;
+}

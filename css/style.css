@@ -1377,6 +1377,324 @@ select::-ms-expand {
   }
 }
 
+.price {
+  background: #41b5d0;
+  padding: 3.4375rem 0rem 4.5rem;
+}
+
+.price__inner {
+  width: 100%;
+  max-width: calc(849.4609px + 3.125rem);
+  padding-right: 1.5625rem;
+  padding-left: 1.5625rem;
+  margin-right: auto;
+  margin-left: auto;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+@media screen and (max-width: 767px) {
+  .price__inner {
+    padding-right: 0.9375rem;
+    padding-left: 0.9375rem;
+  }
+}
+
+.price-title__en {
+  color: #fff;
+}
+
+.price-title .price-title__main {
+  margin-top: 1.4375rem;
+  max-width: 13.53943125rem;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.price__body {
+  margin-top: 3.9375rem;
+}
+
+.price__top-wrapper {
+  max-width: 35.01169375rem;
+  width: 100%;
+  padding-top: 2.3125rem;
+  position: relative;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.price__top-head {
+  display: inline;
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  top: 0;
+  background: #fff;
+  line-height: 1;
+  padding: 1rem 3.75rem;
+  font-size: 1.625rem;
+  font-weight: 600;
+  border-radius: 0.5431875rem;
+  z-index: 1;
+}
+
+.price__top-box {
+  border: 0.3125rem solid #fff;
+  border-radius: 0.8135rem;
+  padding: 2.5rem 1rem 1.5rem;
+  text-align: center;
+  font-weight: 600;
+  color: #fff;
+}
+
+.price__top-text-main {
+  font-size: 2.3325rem;
+}
+
+.price__top-text-main--large {
+  font-size: 4.36125rem;
+  font-family: "din-2014", sans-serif;
+}
+
+.price__top-text-sub {
+  margin-top: 1.5rem;
+  font-size: 1.6875rem;
+}
+
+.price__middle-wrapper {
+  margin-top: 2.5rem;
+  max-width: 46.3078rem;
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.price__middle-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  gap: 3.9375rem;
+}
+
+.price__middle-item {
+  width: calc((100% - 7.875rem) / 2);
+  background: #fff;
+  border-radius: 50%;
+  position: relative;
+}
+
+.price__middle-item::before {
+  content: "";
+  display: block;
+  width: 100%;
+  padding-top: 100%;
+}
+
+.price__middle-item-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  width: 100%;
+}
+
+.price__middle-item-text {
+  font-weight: 600;
+  font-size: 2.950625rem;
+  text-align: center;
+}
+
+.price__middle-item-text--large {
+  font-size: 5.43625rem;
+  font-family: "din-2014", sans-serif;
+}
+
+.price__middle-item-icon {
+  margin-right: auto;
+  margin-left: auto;
+  width: 100%;
+}
+
+.price__middle-item:nth-child(1) .price__middle-item-icon {
+  max-width: 3.44029375rem;
+}
+
+.price__middle-item:nth-child(2) .price__middle-item-icon {
+  max-width: 2.00623125rem;
+}
+
+.price__middle-item:nth-child(3) .price__middle-item-icon {
+  max-width: 4.10130625rem;
+}
+
+.price__middle-item-cross {
+  max-width: 1.6264625rem;
+  width: 100%;
+  position: absolute;
+  top: 10%;
+}
+
+.price__middle-item:nth-child(1) .price__middle-item-cross {
+  left: calc(100% + 1.125rem);
+}
+
+.price__middle-item:nth-child(3) .price__middle-item-cross {
+  right: calc(100% + 1.125rem);
+}
+
+.price__middle-item:nth-child(2n-1) {
+  margin-top: 4.375rem;
+}
+
+.price__middle-description {
+  font-size: 1.6875rem;
+  font-weight: 600;
+  line-height: 1.75;
+  text-align: center;
+  margin-top: -1.6875rem;
+  color: #fff;
+}
+
+.price__bottom-wrapper {
+  margin-top: 2.5rem;
+  position: relative;
+  padding-top: 2.375rem;
+  position: relative;
+  max-width: 53.09130625rem;
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.price__bottom-head {
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  top: 0;
+  border: 0.3125rem solid #fff;
+  background: #41b5d0;
+  color: #fff;
+  font-weight: 600;
+  font-size: 1.625rem;
+  line-height: 1;
+  padding: 1rem 3.75rem;
+  display: inline-block;
+  border-radius: 0.782875rem;
+}
+
+.price__bottom-content {
+  background: #fff;
+  border-radius: 1.2526875rem;
+  padding: 3.125rem 2rem 2.5rem;
+}
+
+.price__bottom-item + .price__bottom-item {
+  padding-top: 3.125rem;
+  margin-top: 3.125rem;
+  border: 0.375rem solid #41b5d0;
+}
+
+.priceItem {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.priceItem__images {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 0.5rem;
+}
+
+.priceItem__images-person {
+  max-width: 4.5906375rem;
+  width: 100%;
+}
+
+.priceItem__images-cross {
+  max-width: 1.29684375rem;
+  width: 100%;
+}
+
+.priceItem__images-question {
+  max-width: 2.74308125rem;
+  width: 100%;
+}
+
+.priceItem__text {
+  margin-left: 1.5rem;
+  font-size: 1.875rem;
+  font-weight: 600;
+}
+
+.priceItem__text--large {
+  font-size: 3.25rem;
+  font-family: "din-2014", sans-serif;
+}
+
+.priceItem__price {
+  justify-self: flex-end;
+  font-size: 1.875rem;
+  font-weight: 600;
+}
+
+.priceItem__price--large {
+  font-size: 3.25rem;
+  font-family: "din-2014", sans-serif;
+}
+
+.price__btn-wrapper {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.price__btn {
+  display: inline-block;
+  text-align: center;
+  background: #fff;
+  max-width: 31.704175rem;
+  width: 100%;
+  border-radius: 2.9646875rem;
+  padding: 2.0625rem 1rem;
+  position: relative;
+  font-size: 1.75rem;
+  line-height: 1;
+  font-weight: 600;
+}
+
+.price__btn::after {
+  position: absolute;
+  display: inline-block;
+  background: #41b5d0;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  left: 3.25rem;
+  width: 0.73193125rem;
+  height: 1.46385625rem;
+  -webkit-clip-path: polygon(0 0, 0% 100%, 100% 50%);
+          clip-path: polygon(0 0, 0% 100%, 100% 50%);
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
 .c-blue {
   color: #41b5d0;
 }
