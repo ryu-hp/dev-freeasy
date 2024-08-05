@@ -1438,6 +1438,7 @@ select::-ms-expand {
   font-weight: 600;
   border-radius: 0.5431875rem;
   z-index: 1;
+  white-space: nowrap;
 }
 
 .price__top-box {
@@ -1459,7 +1460,6 @@ select::-ms-expand {
 }
 
 .price__top-text-sub {
-  margin-top: 1.5rem;
   font-size: 1.6875rem;
 }
 
@@ -1511,6 +1511,7 @@ select::-ms-expand {
   font-weight: 600;
   font-size: 2.950625rem;
   text-align: center;
+  line-height: 1;
 }
 
 .price__middle-item-text--large {
@@ -1540,15 +1541,15 @@ select::-ms-expand {
   max-width: 1.6264625rem;
   width: 100%;
   position: absolute;
-  top: 10%;
+  top: 27%;
 }
 
 .price__middle-item:nth-child(1) .price__middle-item-cross {
-  left: calc(100% + 1.125rem);
+  left: calc(100% + 1.25rem);
 }
 
 .price__middle-item:nth-child(3) .price__middle-item-cross {
-  right: calc(100% + 1.125rem);
+  right: calc(200% + 0.625rem);
 }
 
 .price__middle-item:nth-child(2n-1) {
@@ -1599,9 +1600,9 @@ select::-ms-expand {
 }
 
 .price__bottom-item + .price__bottom-item {
-  padding-top: 3.125rem;
-  margin-top: 3.125rem;
-  border: 0.375rem solid #41b5d0;
+  padding-top: 1.25rem;
+  margin-top: 1.25rem;
+  border-top: 0.1875rem solid #41b5d0;
 }
 
 .priceItem {
@@ -1617,9 +1618,9 @@ select::-ms-expand {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   gap: 0.5rem;
 }
 
@@ -1650,7 +1651,7 @@ select::-ms-expand {
 }
 
 .priceItem__price {
-  justify-self: flex-end;
+  margin-left: auto;
   font-size: 1.875rem;
   font-weight: 600;
 }
@@ -1680,6 +1681,7 @@ select::-ms-expand {
 }
 
 .price__btn::after {
+  content: "";
   position: absolute;
   display: inline-block;
   background: #41b5d0;
