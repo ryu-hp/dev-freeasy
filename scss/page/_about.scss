@@ -56,7 +56,7 @@
   position: relative;
 }
 .about__content {
-  max-width:rem(316.112);
+  max-width:rem(318);
   width:100%;
   box-shadow: 0 0 rem(4) rgba($color: $color-black, $alpha: 0.3);
   border-radius: rem(10.813);
@@ -85,6 +85,9 @@
   padding: rem(28.4723) rem(21.3975);
   gap: rem(18.8097);
 }
+.about__item + .about__item {
+  margin-top: rem(8);
+}
 .aboutItem {
   background: #f2f2f2;
   border-radius: rem(6.179);
@@ -92,6 +95,9 @@
   align-items: center;
   width: 100%;
   padding: rem(25.5661) rem(21) rem(24.0585) 0;
+  @include mq(lg) {
+    justify-content: center;
+  }
 }
 .aboutItem__image {
   flex-basis: calc(121.9864 / 273.3171 * 100%);
@@ -124,7 +130,7 @@
   top: 50%;
   transform: translateY(-50%);
   @include mq(lg) {
-    top: calc(100% + rem(12));
+    transform: rotate(90deg);
   }
 }
 .about__arrows--cliant {
@@ -132,6 +138,7 @@
   @include mq(lg) {
     left: 50%;
     transform: translateX(-50%);
+    top: calc(100% + rem(12));
   }
 }
 .about__arrows--moniter {
@@ -140,6 +147,8 @@
     right: auto;
     left: 50%;
     transform: translateX(-50%);
+    top: auto;
+    bottom: calc(100% + rem(12));
   }
 }
 .about__arrow {
@@ -155,6 +164,10 @@
   transform: translateX(-50%);
   font-size: rem(21);
   line-height: 1;
+  @include mq(lg) {
+    transform: rotate(90deg);
+    writing-mode: vertical-rl;
+  }
 }
 .about__arrow-text--top {
   bottom: calc(100% + rem(14.2154));
@@ -202,6 +215,7 @@
   display: flex;
   gap: rem(12);
   align-items: center;
+  margin-top: rem(4);
 }
 .moniterTop__icon {
   max-width:rem(35.0695);
@@ -211,6 +225,7 @@
   font-weight: $bold;
   font-size: rem(35.99);
   line-height: 1;
+  color: $color-theme;
 }
 .moniterTop__text--large {
   font-size: rem(51.98);
@@ -234,18 +249,31 @@
   display: flex;
   gap: rem(12);
   flex-wrap: wrap;
+  margin-top: rem(16);
 }
 .aboutBottom__item {
   width: calc((100% - (rem(12) * 2)) / 3);
   background: #f2f2f2;
   border-radius: rem(5.51);
-  display: flex;
-  align-items: center;
-  justify-content: center;
   padding: rem(12) rem(4);
+  position: relative;
+}
+.aboutBottom__item::before {
+  display: block;
+  width: 100%;
+  padding-top: calc(63.5991 / 85.6709 * 100%);
 }
 .aboutBottom__item-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
   font-size: rem(18);
   font-weight: $bold;
   line-height: calc(22 / 18);
+}
+.aboutBottom__bottom-text {
+  text-align: right;
+  margin-top: rem(8);
+  font-size: rem(15);
 }
