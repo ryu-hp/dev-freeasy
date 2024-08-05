@@ -44,7 +44,7 @@
   border-radius: rem(22.616);
   background: $color-white;
   box-shadow: rem(2) rem(2) rem(5) rgba($color: $color-black, $alpha: 0.3);
-  padding: rem(32) rem(29.658) rem(33);
+  padding: rem(32) rem(28) rem(33);
   display: flex;
   justify-content: center;
   gap: rem(88.1989);
@@ -61,8 +61,10 @@
   box-shadow: 0 0 rem(4) rgba($color: $color-black, $alpha: 0.3);
   border-radius: rem(10.813);
   overflow: hidden;
+  height: 100%;
   @include mq(lg) {
     max-width: 100%;
+    height: auto;
   }
 }
 .about__content--company {
@@ -213,7 +215,7 @@
 }
 .moniterTop__flex {
   display: flex;
-  gap: rem(12);
+  gap: rem(0);
   align-items: center;
   margin-top: rem(4);
 }
@@ -259,6 +261,7 @@
   position: relative;
 }
 .aboutBottom__item::before {
+  content: "";
   display: block;
   width: 100%;
   padding-top: calc(63.5991 / 85.6709 * 100%);
@@ -271,6 +274,7 @@
   font-size: rem(18);
   font-weight: $bold;
   line-height: calc(22 / 18);
+  width: 100%;
 }
 .aboutBottom__bottom-text {
   text-align: right;
