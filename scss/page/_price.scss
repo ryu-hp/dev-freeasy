@@ -137,7 +137,7 @@
   left: calc(100% + rem(20));
 }
 .price__middle-item:nth-child(3) .price__middle-item-cross {
-  right: calc(200% + rem(10));
+  right: calc(100% + rem(20));
 }
 .price__middle-item:nth-child(2n-1) {
   margin-top: rem(70);
@@ -247,7 +247,7 @@
   background: $color-theme;
   top: 50%;
   transform: translateY(-50%);
-  left: rem(52);
+  right: rem(52);
   width: rem(11.7109);
   height: rem(23.4217);
   clip-path: polygon(0 0, 0% 100%, 100% 50%);
