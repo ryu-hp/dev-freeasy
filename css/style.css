@@ -1095,6 +1095,8 @@ select::-ms-expand {
 .feature__image {
   max-width: 5.272rem;
   width: 100%;
+  -webkit-box-shadow: 0.125rem 0.125rem 0.1875rem rgba(0, 0, 0, 0.3);
+          box-shadow: 0.125rem 0.125rem 0.1875rem rgba(0, 0, 0, 0.3);
 }
 
 .feature__description {
@@ -1861,4 +1863,9 @@ select::-ms-expand {
 
 .t-align-c {
   text-align: center;
+}
+
+.drop-shadow-1 {
+  -webkit-box-shadow: 0.1875rem 0.1875rem 0.3125rem rgba(0, 0, 0, 0.3);
+          box-shadow: 0.1875rem 0.1875rem 0.3125rem rgba(0, 0, 0, 0.3);
 }

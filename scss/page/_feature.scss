@@ -48,6 +48,7 @@
 .feature__image {
   max-width:rem(84.352);
   width:100%;
+  box-shadow: rem(2) rem(2) rem(3) $color-shadow;
 }
 .feature__description {
   font-size: rem(23);

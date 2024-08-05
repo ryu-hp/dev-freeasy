@@ -43,7 +43,7 @@
   margin-top: rem(63);
   border-radius: rem(22.616);
   background: $color-white;
-  box-shadow: rem(2) rem(2) rem(5) rgba($color: $color-black, $alpha: 0.3);
+  box-shadow: rem(2) rem(2) rem(5) $color-shadow;
   padding: rem(32) rem(28) rem(33);
   display: flex;
   justify-content: center;
@@ -58,7 +58,7 @@
 .about__content {
   max-width:rem(318);
   width:100%;
-  box-shadow: 0 0 rem(4) rgba($color: $color-black, $alpha: 0.3);
+  box-shadow: 0 0 rem(4) $color-shadow;
   border-radius: rem(10.813);
   overflow: hidden;
   height: 100%;

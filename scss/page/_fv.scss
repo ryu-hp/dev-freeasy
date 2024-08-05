@@ -176,7 +176,7 @@
   gap: 1px;
   padding: rem(6) rem(8);
   background: $color-white;
-  box-shadow: rem(1.9028) rem(1.9028) rem(3.8056) rgba($color: $color-black, $alpha: 0.3);
+  box-shadow: rem(1.9028) rem(1.9028) rem(3.8056) $color-shadow;
   position: relative;
   max-width:rem(504.919);
   width:100%;
@@ -192,7 +192,7 @@
   content: "";
   width: rem(26);
   height: rem(16);
-  box-shadow: rem(1.9028) rem(1.9028) rem(3.8056) rgba($color: $color-black, $alpha: 0.3);
+  box-shadow: rem(1.9028) rem(1.9028) rem(3.8056) $color-shadow;
   clip-path: polygon(15% 0%, 0% 100%, 100% 0%);
   box-sizing: border-box;
   top: calc(100% - 1px);
