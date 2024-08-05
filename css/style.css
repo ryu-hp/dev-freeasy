@@ -729,6 +729,9 @@ select::-ms-expand {
   border-radius: 50%;
   -webkit-box-shadow: none;
           box-shadow: none;
+  -ms-flex-item-align: center;
+      align-self: center;
+  background: #84cdde;
 }
 
 .about__head {
@@ -800,7 +803,7 @@ select::-ms-expand {
   left: calc(100% - 0.723575rem);
 }
 
-.about__content--moniter {
+.about__arrows--moniter {
   right: calc(100% - 0.723575rem);
 }
 

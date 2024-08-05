@@ -64,6 +64,8 @@
   max-width:rem(200.545);
   border-radius: 50%;
   box-shadow:none;
+  align-self: center;
+  background: #84cdde;
 }
 .about__head {
   background: #364061;
@@ -117,7 +119,7 @@
 .about__arrows--cliant {
   left: calc(100% - rem(11.5772));
 }
-.about__content--moniter {
+.about__arrows--moniter {
   right: calc(100% - rem(11.5772));
 }
 .about__arrow {
