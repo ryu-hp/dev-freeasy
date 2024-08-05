@@ -3,10 +3,11 @@
 .feature {
   background: $color-white;
   padding: rem(80) rem(0) rem(67.5);
+  background: #e3f4f7;
 }
 .feature__inner {
   width: 100%;
-  max-width: calc(713.8821px + ($padding-pc * 2));
+  max-width: calc(823.6201px + ($padding-pc * 2));
   padding-right: $padding-pc;
   padding-left: $padding-pc;
   margin-right: auto;
@@ -38,7 +39,7 @@
 .feature__item {
   width: calc((100% - (rem(24) * 1)) / 2);
   display: flex;
-  gap: rem(8);
+  gap: rem(16);
   align-items: center;
   @include mq(md) {
     width: calc((100% - (rem(24) * 0)) / 1);

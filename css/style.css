@@ -1027,11 +1027,12 @@ select::-ms-expand {
 .feature {
   background: #fff;
   padding: 5rem 0rem 4.21875rem;
+  background: #e3f4f7;
 }
 
 .feature__inner {
   width: 100%;
-  max-width: calc(713.8821px + 3.125rem);
+  max-width: calc(823.6201px + 3.125rem);
   padding-right: 1.5625rem;
   padding-left: 1.5625rem;
   margin-right: auto;
@@ -1078,7 +1079,7 @@ select::-ms-expand {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  gap: 0.5rem;
+  gap: 1rem;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
