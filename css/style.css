@@ -1790,12 +1790,16 @@ select::-ms-expand {
   background: #fff;
   text-align: center;
   line-height: 1;
-  padding: 0.5rem 1.5rem;
+  padding: 0.75rem 0.25rem;
   font-size: 1.499375rem;
   font-weight: 600;
   -webkit-font-feature-settings: "palt";
           font-feature-settings: "palt";
   white-space: nowrap;
+  max-width: 6.25rem;
+  width: 100%;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
 }
 
 .works-slide__description {
@@ -1821,8 +1825,8 @@ select::-ms-expand {
 }
 
 .swiper-button-prev {
-  -webkit-clip-path: polygon(0% 50%, 0% 100%, 100% 100%);
-          clip-path: polygon(0% 50%, 0% 100%, 100% 100%);
+  -webkit-clip-path: polygon(0% 50%, 100% 0%, 100% 100%);
+          clip-path: polygon(0% 50%, 100% 0%, 100% 100%);
 }
 
 .c-blue {

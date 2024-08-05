@@ -71,11 +71,14 @@
   background: $color-white;
   text-align: center;
   line-height: 1;
-  padding: rem(8) rem(24);
+  padding: rem(12) rem(4);
   font-size: rem(23.99);
   font-weight: $bold;
   font-feature-settings: "palt";
   white-space: nowrap;
+  max-width:rem(100);
+  width:100%;
+  flex-shrink: 0;
 }
 .works-slide__description {
   font-size: rem(23);
@@ -94,5 +97,5 @@
   clip-path: polygon(0 0, 0% 100%, 100% 50%);
 }
 .swiper-button-prev {
-  clip-path: polygon(0% 50%, 0% 100%, 100% 100%);
+  clip-path: polygon(0% 50%, 100% 0%, 100% 100%);
 }
