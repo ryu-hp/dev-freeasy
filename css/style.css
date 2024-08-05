@@ -726,6 +726,11 @@ select::-ms-expand {
   border-radius: 0.6758125rem;
   overflow: hidden;
 }
+@media screen and (max-width: 767px) {
+  .about__content {
+    max-width: 100%;
+  }
+}
 
 .about__content--company {
   max-width: 12.5340625rem;
@@ -805,13 +810,33 @@ select::-ms-expand {
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
 }
+@media screen and (max-width: 767px) {
+  .about__arrows {
+    top: calc(100% + 0.75rem);
+  }
+}
 
 .about__arrows--cliant {
   left: calc(100% - 0.723575rem);
 }
+@media screen and (max-width: 767px) {
+  .about__arrows--cliant {
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+  }
+}
 
 .about__arrows--moniter {
   right: calc(100% - 0.723575rem);
+}
+@media screen and (max-width: 767px) {
+  .about__arrows--moniter {
+    right: auto;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+  }
 }
 
 .about__arrow {
