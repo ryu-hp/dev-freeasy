@@ -71,14 +71,28 @@
   background: $color-white;
   text-align: center;
   line-height: 1;
-  padding: rem(4) rem(16);
+  padding: rem(8) rem(24);
   font-size: rem(23.99);
   font-weight: $bold;
   font-feature-settings: "palt";
+  white-space: nowrap;
 }
 .works-slide__description {
   font-size: rem(23);
   line-height: calc(32 / 23);
   font-feature-settings: "palt";
   text-align: justify;
+}
+.swiper-button-next, 
+.swiper-button-prev {
+  background: #0f9cbf;
+  box-sizing: border-box;
+  height: rem(71.2586);
+  width: rem(35.6293);
+}
+.swiper-button-next {
+  clip-path: polygon(0 0, 0% 100%, 100% 50%);
+}
+.swiper-button-prev {
+  clip-path: polygon(0% 50%, 0% 100%, 100% 100%);
 }
