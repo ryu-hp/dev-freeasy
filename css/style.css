@@ -760,7 +760,7 @@ select::-ms-expand {
 }
 
 .about__item + .about__item {
-  margin-top: 0.5rem;
+  margin-top: 1.25rem;
 }
 
 .aboutItem {
@@ -823,12 +823,6 @@ select::-ms-expand {
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
 }
-@media screen and (max-width: 959px) {
-  .about__arrows {
-    -webkit-transform: rotate(90deg);
-            transform: rotate(90deg);
-  }
-}
 
 .about__arrows--cliant {
   left: calc(100% - 0.723575rem);
@@ -836,9 +830,9 @@ select::-ms-expand {
 @media screen and (max-width: 959px) {
   .about__arrows--cliant {
     left: 50%;
-    -webkit-transform: translateX(-50%);
-            transform: translateX(-50%);
-    top: calc(100% + 0.75rem);
+    -webkit-transform: translateX(-50%) rotate(90deg);
+            transform: translateX(-50%) rotate(90deg);
+    top: calc(100% - 2.125rem);
   }
 }
 
@@ -849,10 +843,10 @@ select::-ms-expand {
   .about__arrows--moniter {
     right: auto;
     left: 50%;
-    -webkit-transform: translateX(-50%);
-            transform: translateX(-50%);
+    -webkit-transform: translateX(-50%) rotate(90deg);
+            transform: translateX(-50%) rotate(90deg);
     top: auto;
-    bottom: calc(100% + 0.75rem);
+    bottom: calc(100% - 2.125rem);
   }
 }
 
@@ -880,6 +874,7 @@ select::-ms-expand {
     -webkit-writing-mode: vertical-rl;
         -ms-writing-mode: tb-rl;
             writing-mode: vertical-rl;
+    white-space: nowrap;
   }
 }
 
@@ -946,6 +941,13 @@ select::-ms-expand {
           align-items: center;
   margin-top: 0.25rem;
 }
+@media screen and (max-width: 959px) {
+  .moniterTop__flex {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
 
 .moniterTop__icon {
   max-width: 2.19184375rem;
@@ -985,14 +987,14 @@ select::-ms-expand {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  gap: 0.75rem;
+  gap: 0.5rem;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   margin-top: 1rem;
 }
 
 .aboutBottom__item {
-  width: calc((100% - 1.5rem) / 3);
+  width: calc((100% - 1rem) / 3);
   background: #f2f2f2;
   border-radius: 0.344375rem;
   padding: 0.75rem 0.25rem;
