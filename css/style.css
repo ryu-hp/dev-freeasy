@@ -720,6 +720,7 @@ select::-ms-expand {
   -webkit-box-shadow: 0 0 0.25rem rgba(0, 0, 0, 0.3);
           box-shadow: 0 0 0.25rem rgba(0, 0, 0, 0.3);
   border-radius: 0.6758125rem;
+  overflow: hidden;
 }
 
 .about__content--company {
@@ -737,6 +738,54 @@ select::-ms-expand {
   font-size: 1.8125rem;
   line-height: 1;
   padding: 1.5rem 0.25rem;
+}
+
+.about__content-body {
+  padding: 1.77951875rem 1.33734375rem;
+  gap: 1.17560625rem;
+}
+
+.aboutItem {
+  background: #f2f2f2;
+  border-radius: 0.3861875rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  padding: 1.59788125rem 1.3125rem 1.50365625rem 0;
+}
+
+.aboutItem__image {
+  -ms-flex-preferred-size: 44.6318214265%;
+      flex-basis: 44.6318214265%;
+  text-align: center;
+}
+
+.aboutItem__image--first img {
+  max-width: 50.8643586498%;
+}
+
+.aboutItem__image--second img {
+  max-width: 47.8937816019%;
+}
+
+.aboutItem__image--tird img {
+  max-width: 54.9072355607%;
+}
+
+.aboutItem__head {
+  font-weight: 600;
+  font-size: 1.625rem;
+  line-height: 1;
+}
+
+.aboutItem__description {
+  font-size: 1.125rem;
+  line-height: 1.3888888889;
+  margin-top: 0.8245125rem;
 }
 
 .feature {
@@ -1101,4 +1150,11 @@ select::-ms-expand {
 
 .sec-title__main {
   margin-top: 0.8125rem;
+}
+
+.flex-direc-column {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }

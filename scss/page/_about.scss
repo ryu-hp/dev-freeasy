@@ -57,6 +57,7 @@
   width:100%;
   box-shadow: 0 0 rem(4) rgba($color: $color-black, $alpha: 0.3);
   border-radius: rem(10.813);
+  overflow: hidden;
 }
 .about__content--company {
   max-width:rem(200.545);
@@ -71,4 +72,39 @@
   font-size: rem(29);
   line-height: 1;
   padding: rem(24) rem(4);
+}
+.about__content-body {
+  padding: rem(28.4723) rem(21.3975);
+  gap: rem(18.8097);
+}
+.aboutItem {
+  background: #f2f2f2;
+  border-radius: rem(6.179);
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: rem(25.5661) rem(21) rem(24.0585) 0;
+}
+.aboutItem__image {
+  flex-basis: calc(121.9864 / 273.3171 * 100%);
+  text-align: center;
+}
+.aboutItem__image--first img{
+  max-width: calc(62.0476 / 121.9864 * 100%);
+}
+.aboutItem__image--second img {
+  max-width: calc(58.4239 / 121.9864 * 100%);
+}
+.aboutItem__image--tird img {
+  max-width: calc(66.97936 / 121.9864 * 100%); 
+}
+.aboutItem__head {
+  font-weight: $bold;
+  font-size: rem(26);
+  line-height: 1;
+}
+.aboutItem__description {
+  font-size: rem(18);
+  line-height: calc(25 /18);
+  margin-top: rem(13.1922);
 }
