@@ -927,6 +927,21 @@ select::-ms-expand {
   width: calc((100% - 1.5rem) / 3);
   background: #f2f2f2;
   border-radius: 0.344375rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.aboutBottom__item-text {
+  font-size: 1.125rem;
+  font-weight: 600;
+  line-height: 1.2222222222;
 }
 
 .feature {
