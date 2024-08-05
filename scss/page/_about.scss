@@ -58,6 +58,7 @@
   box-shadow: 0 0 rem(4) rgba($color: $color-black, $alpha: 0.3);
   border-radius: rem(10.813);
   overflow: hidden;
+  position: relative;
 }
 .about__content--company {
   max-width:rem(200.545);
@@ -107,4 +108,111 @@
   font-size: rem(18);
   line-height: calc(25 /18);
   margin-top: rem(13.1922);
+}
+.about__arrows {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.about__arrows--cliant {
+  left: calc(100% - rem(11.5772));
+}
+.about__content--moniter {
+  right: calc(100% - rem(11.5772));
+}
+.about__arrow {
+  max-width:rem(99.1059);
+  width:100%;
+  position: relative;
+}
+.about__arrow + .about__arrow {
+  margin-top: rem(42.2712);
+}
+.about__arrow-text {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: rem(21);
+  line-height: 1;
+}
+.about__arrow-text--top {
+  bottom: calc(100% + rem(14.2154));
+}
+.about__arrow-text--bottom {
+  top: calc(100% + rem(14.2154));
+}
+.about__content--company {
+  position: relative;
+}
+.about__content--company::before {
+  content: "";
+  display: block;
+  width: 100%;
+  padding-top: 100%;
+}
+.about__content-logo {
+  width: calc(107.9968 / 200.545 * 100%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.moniterTop {
+  background: #f2f2f2;
+  border-radius: rem(6.179);
+  width: 100%;
+  padding: rem(27) rem(8) rem(36) rem(12);
+}
+.moniterTop__head {
+  text-align: center;
+}
+.moniterTop__head-text {
+  display: inline-block;
+  border: 1px solid $color-black;
+  padding: rem(3) rem(6);
+  font-size: rem(22.61);
+  line-height: 1;
+  font-weight: $bold;
+}
+.moniterTop__flex {
+  display: flex;
+  gap: rem(12);
+  align-items: center;
+}
+.moniterTop__icon {
+  max-width:rem(35.0695);
+  width:100%;
+}
+.moniterTop__text {
+  font-weight: $bold;
+  font-size: rem(35.99);
+  line-height: 1;
+}
+.moniterTop__text--large {
+  font-size: rem(51.98);
+}
+.about__moniter-arrow {
+  max-width:rem(83.0312);
+  width:100%;
+  margin-right:auto;
+  margin-left:auto;
+  margin-top: rem(24);
+}
+.about__moniter-bottom {
+  margin-top: rem(24);
+}
+.aboutBottom__head {
+  font-size: rem(26);
+  line-height: 1;
+  font-weight: $bold;
+}
+.aboutBottom__content {
+  display: flex;
+  gap: rem(12);
+  flex-wrap: wrap;
+}
+.aboutBottom__item {
+  width: calc((100% - (rem(12) * 2)) / 3);
+  background: #f2f2f2;
+  border-radius: rem(5.51);
 }
