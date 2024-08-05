@@ -92,7 +92,10 @@
 }
 .aboutItem__image {
   flex-basis: calc(121.9864 / 273.3171 * 100%);
-  text-align: center;
+}
+.aboutItem__image img {
+  margin-right:auto;
+  margin-left:auto;
 }
 .aboutItem__image--first img{
   max-width: calc(62.0476 / 121.9864 * 100%);
@@ -125,8 +128,7 @@
   right: calc(100% - rem(11.5772));
 }
 .about__arrow {
-  max-width:rem(99.1059);
-  width:100%;
+  width:rem(99.1059);
   position: relative;
 }
 .about__arrow + .about__arrow {

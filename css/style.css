@@ -768,7 +768,11 @@ select::-ms-expand {
 .aboutItem__image {
   -ms-flex-preferred-size: 44.6318214265%;
       flex-basis: 44.6318214265%;
-  text-align: center;
+}
+
+.aboutItem__image img {
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .aboutItem__image--first img {
@@ -811,8 +815,7 @@ select::-ms-expand {
 }
 
 .about__arrow {
-  max-width: 6.19411875rem;
-  width: 100%;
+  width: 6.19411875rem;
   position: relative;
 }
 
