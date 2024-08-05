@@ -47,7 +47,28 @@
   padding: rem(32) rem(29.658) rem(33);
   display: flex;
   justify-content: center;
+  gap: rem(88.1989);
   @include mq(lg) {
     flex-direction: column;
   }
+}
+.about__content {
+  max-width:rem(316.112);
+  width:100%;
+  box-shadow: 0 0 rem(4) rgba($color: $color-black, $alpha: 0.3);
+  border-radius: rem(10.813);
+}
+.about__content--company {
+  max-width:rem(200.545);
+  border-radius: 50%;
+  box-shadow:none;
+}
+.about__head {
+  background: #364061;
+  color: $color-white;
+  text-align: center;
+  font-weight: $bold;
+  font-size: rem(29);
+  line-height: 1;
+  padding: rem(24) rem(4);
 }
