@@ -52,13 +52,15 @@
     flex-direction: column;
   }
 }
+.about__content-wrapper {
+  position: relative;
+}
 .about__content {
   max-width:rem(316.112);
   width:100%;
   box-shadow: 0 0 rem(4) rgba($color: $color-black, $alpha: 0.3);
   border-radius: rem(10.813);
   overflow: hidden;
-  position: relative;
 }
 .about__content--company {
   max-width:rem(200.545);
