@@ -14,7 +14,7 @@
   margin-right: auto;
   margin-left: auto;
   box-sizing: border-box;
-  @include mq(md) {
+  @include mq(lg) {
     padding-right: $padding-sp;
     padding-left: $padding-sp;
   }
@@ -61,7 +61,7 @@
   box-shadow: 0 0 rem(4) rgba($color: $color-black, $alpha: 0.3);
   border-radius: rem(10.813);
   overflow: hidden;
-  @include mq(md) {
+  @include mq(lg) {
     max-width: 100%;
   }
 }
@@ -123,20 +123,20 @@
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  @include mq(md) {
+  @include mq(lg) {
     top: calc(100% + rem(12));
   }
 }
 .about__arrows--cliant {
   left: calc(100% - rem(11.5772));
-  @include mq(md) {
+  @include mq(lg) {
     left: 50%;
     transform: translateX(-50%);
   }
 }
 .about__arrows--moniter {
   right: calc(100% - rem(11.5772));
-  @include mq(md) {
+  @include mq(lg) {
     right: auto;
     left: 50%;
     transform: translateX(-50%);
