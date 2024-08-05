@@ -868,6 +868,11 @@ select::-ms-expand {
 .about__content--company {
   position: relative;
 }
+@media screen and (max-width: 959px) {
+  .about__content--company {
+    max-width: 50%;
+  }
+}
 
 .about__content--company::before {
   content: "";

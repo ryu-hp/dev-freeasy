@@ -164,6 +164,9 @@
 }
 .about__content--company {
   position: relative;
+  @include mq(lg) {
+    max-width: 50%;
+  }
 }
 .about__content--company::before {
   content: "";
