@@ -1034,7 +1034,7 @@ select::-ms-expand {
 
 .feature__inner {
   width: 100%;
-  max-width: calc(823.6201px + 3.125rem);
+  max-width: calc(848px + 3.125rem);
   padding-right: 1.5625rem;
   padding-left: 1.5625rem;
   margin-right: auto;
@@ -1071,7 +1071,7 @@ select::-ms-expand {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  gap: 1.5rem 1.5rem;
+  gap: 1.5rem 1rem;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
 }

@@ -7,7 +7,7 @@
 }
 .feature__inner {
   width: 100%;
-  max-width: calc(823.6201px + ($padding-pc * 2));
+  max-width: calc(848px + ($padding-pc * 2));
   padding-right: $padding-pc;
   padding-left: $padding-pc;
   margin-right: auto;
@@ -33,7 +33,7 @@
 .feature__content {
   display: flex;
   justify-content: center;
-  gap:rem(24) rem(24);
+  gap:rem(24) rem(16);
   flex-wrap: wrap;
 }
 .feature__item {
