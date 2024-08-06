@@ -1,0 +1,115 @@
+@use "../global" as *;
+
+.faq {
+  background: $color-white;
+  padding: rem(63) rem(0) rem(120);
+  @include mq(md) {
+    padding-bottom: rem(160);
+  }
+}
+.faq__inner {
+  width: 100%;
+  max-width: calc(894.4923px + ($padding-pc * 2));
+  padding-right: $padding-pc;
+  padding-left: $padding-pc;
+  margin-right: auto;
+  margin-left: auto;
+  box-sizing: border-box;
+  @include mq(md) {
+    padding-right: $padding-sp;
+    padding-left: $padding-sp;
+  }
+}
+
+.faq-title .faq-title__main {
+  margin-top: rem(22) ;
+  max-width:rem(296.3271);
+  width:100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.accordion-item__head {
+  position: relative;
+  display: block;
+}
+.accordion-item__head:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+.accordion-btn {
+  position: relative;
+  margin-left: auto;
+  width: rem(42.3529);
+  height: rem(42.3529);
+  border-radius: 50%;
+  background: $color-theme;
+  transform-origin: center center;
+  transition-duration: 0.2s;
+}
+.accordion-btn::before,
+.accordion-btn::after {
+  content: "";
+  background-color: #fff;
+  border-radius: rem(2);
+  width: rem(24.9234);
+  height: rem(3);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  transform-origin: center center;
+}
+.accordion-btn::before {
+  transform:translate(-50%,-50%) rotate(-90deg);
+}
+.is-active .accordion-btn {
+  transform:translate(-50%,-50%) rotate(90deg);
+}
+.is-active .accordion-btn::before {
+  content: none;
+}
+.accordion-item::-webkit-details-marker {
+  display: none;
+}
+
+// .accordion-item__content p {
+//   margin: 0 0 rem(20);
+// }
+// .accordion-item__content p:last-of-type {
+//   margin: 0;
+// }
+
+.faq__item + .faq__item {
+  margin-top: rem(32);
+}
+.faqItem {
+  background: #f2f2f2;
+  border-radius: rem(16.854);
+  padding: 0 rem(45);
+  box-shadow: rem(4) rem(4) rem(4) $color-shadow;
+}
+.faqItem__head {
+  display: flex;
+  align-items: center;
+  font-weight: $bold;
+  border-bottom: 1px dashed #cccccc;
+  padding: rem(60) 0;
+}
+.faqItem__icon {
+  font-size: rem(40);
+  line-height: 1;
+  flex-basis: rem(100);
+}
+.faqItem__text {
+  font-size: rem(25);
+  line-height: 1;
+}
+.accordion-item__content {
+  padding: rem(40) 0 rem(60) rem(100);
+}
+.accordion-item__content p {
+  font-size: rem(25);
+  line-height: calc(45 / 25);
+  text-align: justify;
+  font-feature-settings: "palt";
+}
