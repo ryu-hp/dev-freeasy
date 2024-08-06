@@ -67,3 +67,23 @@ jQuery(function ($) {
     });
   });
 });
+
+document.addEventListener('DOMContentLoaded', function() {
+  const mv = document.getElementById('mv');
+  const fixedBottom = document.querySelector('.js-fixed-bottom');
+
+  function checkPosition() {
+      const mvBottom = mv.getBoundingClientRect().bottom;
+      if (mvBottom < 0) {
+          fixedBottom.classList.add('show');
+      } else {
+          fixedBottom.classList.remove('show');
+      }
+  }
+
+  window.addEventListener('scroll', checkPosition);
+  window.addEventListener('resize', checkPosition);
+
+  // 初回チェック
+  checkPosition();
+});
