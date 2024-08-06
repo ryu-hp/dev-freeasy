@@ -63,7 +63,7 @@
   transform:translate(-50%,-50%) rotate(-90deg);
 }
 .is-active .accordion-btn {
-  transform:translate(-50%,-50%) rotate(90deg);
+  transform: rotate(180deg);
 }
 .is-active .accordion-btn::before {
   content: none;

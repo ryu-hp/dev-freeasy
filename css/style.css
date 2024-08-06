@@ -1338,6 +1338,9 @@ select::-ms-expand {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .footer__copy {
@@ -2067,8 +2070,8 @@ select::-ms-expand {
 }
 
 .is-active .accordion-btn {
-  -webkit-transform: translate(-50%, -50%) rotate(90deg);
-          transform: translate(-50%, -50%) rotate(90deg);
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
 }
 
 .is-active .accordion-btn::before {
