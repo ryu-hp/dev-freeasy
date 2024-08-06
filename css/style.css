@@ -1891,7 +1891,7 @@ select::-ms-expand {
 .flowItem {
   position: relative;
   background: #fff;
-  padding: 2.5rem 0.5625rem 2rem 0.0625rem;
+  padding: 2.5rem 0.0625rem 2rem 0.5625rem;
   width: calc((100% - 3rem) / 4);
 }
 @media screen and (max-width: 767px) {
@@ -1911,6 +1911,8 @@ select::-ms-expand {
           clip-path: polygon(0 0, 0% 100%, 100% 50%);
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  width: 1rem;
+  height: 100%;
 }
 @media screen and (max-width: 767px) {
   .flowItem::before,
@@ -1924,12 +1926,11 @@ select::-ms-expand {
 
 .flowItem:nth-child(n+1):before {
   background: #41b5d0;
-  right: calc(100% + 1px);
+  left: 0;
   z-index: 1;
 }
 @media screen and (max-width: 767px) {
   .flowItem:nth-child(n+1):before {
-    right: 0;
     top: auto;
     bottom: calc(100% + 1px);
   }
