@@ -6,7 +6,7 @@
 }
 .flow__inner {
   width: 100%;
-  max-width: calc(849.4609px + ($padding-pc * 2));
+  max-width: calc(1080.8449px + ($padding-pc * 2));
   padding-right: $padding-pc;
   padding-left: $padding-pc;
   margin-right: auto;
@@ -42,12 +42,18 @@
 .flowItem {
   position: relative;
   background: $color-white;
-  padding: rem(40) rem(1) rem(32) rem(9);
+  padding: rem(60) rem(2) rem(32) rem(38);
   width: calc((100% - rem(16) * 3) / 4);
   @include mq(md) {
     width: 100%;
     padding: rem(32) rem(9) rem(0);
   }
+}
+.flowItem:first-child  {
+  border-radius: rem(16) 0 0 rem(16) ;
+}
+.flowItem:last-child  {
+  border-radius:0 rem(16) rem(16) 0;
 }
 .flowItem::before,
 .flowItem::after {
@@ -57,15 +63,15 @@
   top: 0;
   clip-path: polygon(0 0, 0% 100%, 100% 50%);
   box-sizing: border-box;
-  width: rem(16);
+  width: rem(30);
   height: 100%;
   @include mq(md) {
     clip-path: polygon(0 0, 100% 0%, 50% 100%);
     width: 100%;
-    height: rem(16);
+    height: rem(30);
   }
 }
-.flowItem:nth-child(n+1):before {
+.flowItem:not(:first-child):before {
   background: $color-theme;
   left: 0;
   z-index: 1;
@@ -74,7 +80,7 @@
     bottom: calc(100% + 1px);
   }
 }
-.flowItem:nth-child(n-1)::after {
+.flowItem:not(:last-child)::after {
   background: $color-white;
   left: calc(100% - 1px);
   z-index: 2;
