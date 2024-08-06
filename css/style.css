@@ -4,7 +4,7 @@ html {
 }
 @media screen and (max-width: 767px) {
   html {
-    font-size: 2.3468057366vw;
+    font-size: 2.6075619296vw;
   }
 }
 
@@ -869,8 +869,8 @@ select::-ms-expand {
 }
 @media screen and (max-width: 959px) {
   .about__arrow-text {
-    -webkit-transform: rotate(90deg);
-            transform: rotate(90deg);
+    -webkit-transform: rotate(-90deg);
+            transform: rotate(-90deg);
     -webkit-writing-mode: vertical-rl;
         -ms-writing-mode: tb-rl;
             writing-mode: vertical-rl;
@@ -1018,6 +1018,7 @@ select::-ms-expand {
   font-weight: 600;
   line-height: 1.2222222222;
   width: 100%;
+  text-align: center;
 }
 
 .aboutBottom__bottom-text {

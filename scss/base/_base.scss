@@ -4,7 +4,7 @@
 html {
     font-size: 16px;
     @include mq(md) {
-        font-size: vw(767px, 18px);
+        font-size: vw(767px, 20px);
     }
 }
 img {

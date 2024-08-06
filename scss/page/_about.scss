@@ -164,7 +164,7 @@
   font-size: rem(21);
   line-height: 1;
   @include mq(lg) {
-    transform: rotate(90deg);
+    transform: rotate(-90deg);
     writing-mode: vertical-rl;
     white-space: nowrap;
   }
@@ -276,6 +276,7 @@
   font-weight: $bold;
   line-height: calc(22 / 18);
   width: 100%;
+  text-align: center;
 }
 .aboutBottom__bottom-text {
   text-align: right;
