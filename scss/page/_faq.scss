@@ -45,6 +45,7 @@
   background: $color-theme;
   transform-origin: center center;
   transition-duration: 0.2s;
+  flex-shrink: 0;
 }
 .accordion-btn::before,
 .accordion-btn::after {

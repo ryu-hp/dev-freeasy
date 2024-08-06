@@ -44,6 +44,9 @@
   display: flex;
   align-items: center;
   gap: rem(16);
+  @include mq(md) {
+    flex-direction: column;
+  }
 }
 .slide__image {
   max-width:rem(400.314);
