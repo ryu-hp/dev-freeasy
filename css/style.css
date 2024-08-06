@@ -1768,9 +1768,11 @@ select::-ms-expand {
   }
 }
 
-.slide__image {
+.works-slide__image {
   max-width: 25.019625rem;
   width: 100%;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
 }
 
 .works-slide__head {

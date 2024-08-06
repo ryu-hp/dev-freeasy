@@ -48,9 +48,10 @@
     flex-direction: column;
   }
 }
-.slide__image {
+.works-slide__image {
   max-width:rem(400.314);
   width:100%;
+  flex-shrink: 0;
 }
 .works-slide__head {
   font-size: rem(30);
