@@ -1,17 +1,13 @@
 @use "../global" as *;
 
 .footer {
-  background: $color-white;
-  padding: rem(16) rem(0);
-  position: fixed;
-  bottom: 0;
-  left: 0;
+  background: $color-theme;
+  padding: rem(48) rem(0) rem(135);
   width: 100%;
-  z-index: 10;
 }
 .footer__inner {
   width: 100%;
-  max-width: calc(892.3998px + ($padding-pc * 2));
+  max-width: calc(724.493px + ($padding-pc * 2));
   padding-right: $padding-pc;
   padding-left: $padding-pc;
   margin-right: auto;
@@ -24,25 +20,33 @@
 }
 .footer__contents {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: rem(32);
-  @include mq(md) {
-    flex-wrap: wrap;
-  }
+  justify-content: space-between;
 }
-.footer__description {
-  font-size: rem(28);
+.footer__copy {
+  font-size: rem(18);
   line-height: 1;
-  font-weight: $bold;
-  white-space: nowrap;
+  color: $color-white;
 }
-.footer__btns {
+.footerBtn {
+  background: $color-white;
+  border-radius: rem(24.804);
+  display: inline-block;
+  padding: rem(7) calc(rem(1283.7712) - rem(1275.7205)) rem(6);
+  width: rem(213.7792);
+}
+.footerBtn__content {
   display: flex;
-  gap: rem(10);
   align-items: center;
+  gap: rem(19);
+}
+.footerBtn__icon {
+  max-width: rem(36.3657);
   width: 100%;
-  @include mq(md) {
-    justify-content: center;
-  }
+}
+.footerBtn__text {
+  font-size: rem(19.18);
+  font-weight: $bold;
+  line-height: calc(33.57 / 19.18);
+  color: $color-contact;
+  font-feature-settings: "palt";
 }
