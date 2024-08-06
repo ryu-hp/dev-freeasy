@@ -34,32 +34,53 @@
   display: flex;
   justify-content: center;
   gap: rem(16);
+  @include mq(md) {
+    flex-direction: column;
+    gap: rem(32);
+  }
 }
 .flowItem {
   position: relative;
   background: $color-white;
   padding: rem(40) rem(9) rem(32) rem(1);
+  width: calc((100% - rem(16) * 3) / 4);
+  @include mq(md) {
+    width: 100%;
+    padding: rem(32) rem(9) rem(0);
+  }
 }
 .flowItem::before,
 .flowItem::after {
   content: "";
   display: inline-block;
   position: absolute;
-  height: 100%;
   top: 0;
-  width: rem(9);
   clip-path: polygon(0 0, 0% 100%, 100% 50%);
   box-sizing: border-box;
+  @include mq(md) {
+    clip-path: polygon(0 0, 100% 0%, 50% 100%);
+    width: 100%;
+    height: rem(16);
+  }
 }
 .flowItem:nth-child(n+1):before {
   background: $color-theme;
   right: calc(100% + 1px);
   z-index: 1;
+  @include mq(md) {
+    right: 0;
+    top: auto;
+    bottom: calc(100% + 1px);
+  }
 }
 .flowItem:nth-child(n-1)::after {
   background: $color-white;
   left: calc(100% - 1px);
   z-index: 2;
+  @include mq(md) {
+    left: 0;
+    top: calc(100% - 1px);
+  }
 }
 .flowItem__step {
   max-width:rem(106.416);
