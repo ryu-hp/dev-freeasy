@@ -51,12 +51,14 @@
 }
 .flowItem:first-child  {
   border-radius: rem(16) 0 0 rem(16) ;
+  padding-left: rem(24);
   @include mq(md) {
     border-radius: rem(16) rem(16) 0 0 ;
   }
 }
 .flowItem:last-child  {
-  border-radius:0 0 rem(16) rem(16);
+  border-radius:0 rem(16) rem(16) 0;
+  padding-right: rem(24);
 }
 .flowItem::before,
 .flowItem::after {
@@ -117,4 +119,6 @@
   margin-right:auto;
   margin-left:auto;
   margin-top: rem(32);
+  border: rem(6) solid #cccccc;
+  box-sizing: border-box;
 }

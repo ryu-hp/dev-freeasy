@@ -509,8 +509,8 @@
                 アンケート配信後、リアルタイムに集計結果を確認。ダウンロードやカスタムグラフも可能です。
               </p>
             </li>
-            <li class="flow__item flowItem flowItem--step-4">
-              <div class="flowItem__step"><img src="./image/flow-step-04.svg" alt="step4"></div>
+            <li class="flow__item flowItem flowItem--step-3">
+              <div class="flowItem__step"><img src="./image/flow-step-03.svg" alt="step3"></div>
               <h3 class="flowItem__head">
                 アンケートを<br>
                 集計する
@@ -519,8 +519,8 @@
                 フォーマット入力で簡単に本格的なアンケート画面を作成できます。
               </p>
             </li>
-            <li class="flow__item flowItem flowItem--step-3">
-              <div class="flowItem__step"><img src="./image/flow-step-03.svg" alt="step3"></div>
+            <li class="flow__item flowItem flowItem--step-4">
+              <div class="flowItem__step"><img src="./image/flow-step-04.svg" alt="step4"></div>
               <h3 class="flowItem__head">
                 テキストテキス<br>
                 トテキスト
@@ -531,7 +531,28 @@
             </li>
           </ul>
           <div class="flow__image">
-            <img src="./image/flow-01.webp" alt="アンケート作成画面">
+            <!-- Swiper -->
+            <div id="flow-swiper" class="swiper flow-swiper">
+              <!-- 必要に応じたwrapper -->
+              <div class="swiper-wrapper">
+                <!-- スライド -->
+                <div class="swiper-slide flowSlide">
+                  <img src="./image/flow-01.webp" alt="アンケートを作成する">
+                </div>
+                <div class="swiper-slide flowSlide">
+                  <img src="./image/flow-02.webp" alt="アンケートを配信する">
+                </div>
+                <div class="swiper-slide flowSlide">
+                  <img src="./image/flow-03.webp" alt="アンケートを集計する">
+                </div>
+                <div class="swiper-slide flowSlide">
+                  <img src="./image/flow-04.webp" alt="アンケート作成画面">
+                </div>
+              </div>
+              <!-- 必要に応じてページネーション -->
+              <div id="flow-swiper_pagination" class="swiper-pagination"></div>
+            </div>
+            <!-- /Swiper -->
           </div>
         </div>
       </div>
