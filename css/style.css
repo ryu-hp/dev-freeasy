@@ -2007,6 +2007,16 @@ select::-ms-expand {
           box-sizing: border-box;
 }
 
+#flow-swiper_pagination > .swiper-pagination-bullet {
+  width: 1.05881875rem;
+  height: 1.05881875rem;
+  background: #cccccc;
+}
+
+#flow-swiper_pagination > .swiper-pagination-bullet.swiper-pagination-bullet-active {
+  background: #666666;
+}
+
 .faq {
   background: #fff;
   padding: 3.9375rem 0rem 7.5rem;

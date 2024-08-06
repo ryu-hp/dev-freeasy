@@ -122,3 +122,12 @@
   border: rem(6) solid #cccccc;
   box-sizing: border-box;
 }
+
+#flow-swiper_pagination > .swiper-pagination-bullet {
+  width: rem(16.9411);
+  height: rem(16.9411);
+  background: #cccccc;
+}
+#flow-swiper_pagination > .swiper-pagination-bullet.swiper-pagination-bullet-active {
+  background: #666666;
+}

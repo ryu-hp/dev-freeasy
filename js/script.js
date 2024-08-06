@@ -13,7 +13,7 @@ jQuery(function ($) {
     centeredSlides: true, // アクティブなスライドを中央に配置
     //オートプレイ
     autoplay: {
-      delay: 2500,
+      delay: 3000,
       disableOnInteraction: false,
     }, 
     navigation: {
@@ -28,7 +28,7 @@ jQuery(function ($) {
     centeredSlides: true, // アクティブなスライドを中央に配置
     //オートプレイ
     autoplay: {
-      delay: 2000,
+      delay: 3000,
       disableOnInteraction: false,
     },  
     //ページネーション表示設定
