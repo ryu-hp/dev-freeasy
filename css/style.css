@@ -288,7 +288,6 @@ select::-ms-expand {
 
 .fv {
   position: relative;
-  padding-bottom: 1.375rem;
   padding-top: 7.125rem;
   overflow: hidden;
   -webkit-font-feature-settings: "palt";
@@ -305,7 +304,7 @@ select::-ms-expand {
 
 .fv__bg-bottom {
   position: absolute;
-  bottom: -8.5rem;
+  bottom: -9.875rem;
   left: 47.4%;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);

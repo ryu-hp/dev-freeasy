@@ -2,7 +2,6 @@
 
 .fv {
   position: relative;
-  padding-bottom: rem(22);
   padding-top: rem(114);
   overflow: hidden;
   font-feature-settings: "palt";
@@ -16,7 +15,7 @@
 }
 .fv__bg-bottom {
   position: absolute;
-  bottom: rem(-136);
+  bottom: rem(-158);
   left: 47.4%;
   transform: translateX(-50%);
   width: calc(1475.2852 / 1367 * 100vw);
