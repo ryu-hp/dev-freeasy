@@ -1968,6 +1968,7 @@ select::-ms-expand {
   font-weight: 600;
   line-height: 1.2851724138;
   margin-top: 1.5rem;
+  text-align: center;
 }
 
 .flowItem__description {
