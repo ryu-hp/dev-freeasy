@@ -2,7 +2,7 @@
 
 .flow {
   background: $color-theme;
-  padding: rem(55) rem(0) rem(72);
+  padding: rem(59) rem(0) rem(76);
   @include mq(md) {
     padding-top: rem(28);
     padding-bottom: rem(60);
@@ -36,7 +36,7 @@
   }
 }
 .flow__body {
-  margin-top: rem(63);
+  margin-top: rem(44);
   @include mq(md) {
     margin-top: rem(33.5);
   }
@@ -60,13 +60,15 @@
 }
 .flowItem__wrapper {
   background: $color-white;
-  padding: rem(60) rem(2) rem(32) rem(38);
+  padding: rem(52.2) rem(2) rem(32) rem(38);
+  height: 100%;
   @include mq(md) {
     padding: rem(50.5) rem(18) rem(22);
+    height: auto;
   }
 }
 .flowItem:first-child .flowItem__wrapper {
-  border-radius: rem(16) 0 0 rem(16) ;
+  border-radius: rem(10) 0 0 rem(10) ;
   padding-left: rem(24);
   @include mq(md) {
     border-radius: rem(9) rem(9) 0 0 ;
@@ -75,7 +77,7 @@
 }
 
 .flowItem:last-child .flowItem__wrapper {
-  border-radius:0 rem(16) rem(16) 0;
+  border-radius:0 rem(10) rem(10) 0;
   padding-right: rem(24);
   @include mq(md) {
     border-radius:0 0 rem(16) rem(16);
@@ -90,7 +92,7 @@
   top: 0;
   clip-path: polygon(0 0, 0% 100%, 100% 50%);
   box-sizing: border-box;
-  width: rem(30);
+  width: rem(31);
   height: 100%;
   @include mq(md) {
     clip-path: polygon(0 0, 100% 0%, 50% 100%);
@@ -138,7 +140,7 @@
   font-size: rem(29);
   font-weight: $bold;
   line-height: calc(37.27 / 29);
-  margin-top: rem(24);
+  margin-top: rem(29);
   text-align: center;
   @include mq(md) {
     font-size: rem(23);
@@ -150,7 +152,7 @@
   line-height: calc(30 / 21);
   text-align: justify;
   font-feature-settings: "palt";
-  margin-top: rem(30);
+  margin-top: rem(33);
   @include mq(md) {
     font-size: rem(16);
     margin-top: rem(35);
@@ -161,7 +163,7 @@
   width:100%;
   margin-right:auto;
   margin-left:auto;
-  margin-top: rem(32);
+  margin-top: rem(58);
   border: rem(6) solid #cccccc;
   box-sizing: border-box;
   @include mq(md) {
@@ -187,6 +189,7 @@
 }
 
 #flow-swiper_pagination {
+  bottom: rem(22);
   @include mq(md) {
     bottom: rem(-33);
   }
