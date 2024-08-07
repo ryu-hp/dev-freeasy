@@ -2,7 +2,7 @@
 
 .feature {
   background: $color-white;
-  padding: rem(80) rem(0) rem(67.5);
+  padding: rem(38) rem(0) rem(78);
   background: #e3f4f7;
   @include mq(md) {
     padding-top: rem(34);
@@ -25,26 +25,27 @@
 .feature-title__en {
   color: $color-theme;
 }
-.feature-title__main {
-  max-width:rem(342);
+.feature-title .feature-title__main {
+  max-width:rem(344);
+  margin-top: rem(11);
   width:100%;
   margin-left: auto;
   margin-right: auto;
   @include mq(md) {
     max-width: rem(299);
-    margin-top: rem(7) !important;
+    margin-top: rem(7) ;
   }
 }
 .feature__body {
-  margin-top: rem(62);
+  margin-top: rem(55);
   @include mq(md) {
     margin-top: rem(42);
   }
 }
 .feature__content {
   display: flex;
-  justify-content: center;
-  gap:rem(24) rem(16);
+  justify-content: flex-start;
+  gap:rem(22) rem(5);
   flex-wrap: wrap;
   @include mq(md) {
     gap:rem(10.5) rem(16);
@@ -61,10 +62,14 @@
     gap: rem(13);
   }
 }
+.feature__item:nth-child(2n) {
+  flex-grow: 1;
+}
 .feature__image {
   max-width:rem(84.352);
   width:100%;
   box-shadow: rem(2) rem(2) rem(3) $color-shadow;
+  border-radius: rem(18);
   @include mq(md) {
     max-width: rem(56);
     border-radius: rem(12);
