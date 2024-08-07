@@ -4,6 +4,9 @@
   background: $color-theme;
   padding: rem(48) rem(0) rem(135);
   width: 100%;
+  @include mq(md) {
+    padding: rem(21) rem(0) rem(90);
+  }
 }
 .footer__inner {
   width: 100%;
