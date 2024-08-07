@@ -34,11 +34,11 @@
 }
 
 .js-fixed-bottom {
-  display: none;
   opacity: 0;
   transition: opacity 0.5s ease-in-out;
+  visibility: hidden;
 }
 .js-fixed-bottom.show {
-  display: block;
+  visibility: visible;
   opacity: 1;
 }
