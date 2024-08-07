@@ -2299,7 +2299,7 @@ select::-ms-expand {
 }
 @media screen and (max-width: 767px) {
   .works {
-    padding-bottom: 5rem;
+    padding-bottom: 1.6875rem;
     padding-top: 1.8125rem;
   }
 }
@@ -2547,6 +2547,13 @@ select::-ms-expand {
   background: #41b5d0;
   padding: 3.4375rem 0rem 4.5rem;
 }
+@media screen and (max-width: 767px) {
+  .flow {
+    padding-top: 1.75rem;
+    padding-bottom: 1.75rem;
+  }
+}
+
 .flow__inner {
   width: 100%;
   max-width: calc(1080.8449px + 3.125rem);

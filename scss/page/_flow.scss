@@ -4,7 +4,8 @@
   background: $color-theme;
   padding: rem(55) rem(0) rem(72);
   @include mq(md) {
-    
+    padding-top: rem(28);
+    padding-bottom: rem(28);
   }
 }
 .flow__inner {
