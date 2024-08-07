@@ -17,8 +17,8 @@ jQuery(function ($) {
     //   disableOnInteraction: false,
     // }, 
     navigation: {
-      nextEl: '.swiper-button-next', // 「次へ」ボタン要素のクラス
-      prevEl: '.swiper-button-prev', // 「前へ」ボタン要素のクラス
+      nextEl: '#works-swiper-button-next', // 「次へ」ボタン要素のクラス
+      prevEl: '#works-swiper-button-prev', // 「前へ」ボタン要素のクラス
     },
     //ページネーション表示設定
     pagination: {
