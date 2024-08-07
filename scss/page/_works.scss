@@ -47,6 +47,7 @@
   padding: rem(24) rem(24);
   @include mq(md) {
     padding: rem(0) rem(0) rem(16);
+    overflow: hidden;
   }
 }
 .works-slide__wrappper {
@@ -86,6 +87,7 @@
   font-weight: $bold;
   @include mq(md) {
     font-size: rem(22);
+    padding: rem(0) rem(16);
   }
 }
 .works-slide__body {

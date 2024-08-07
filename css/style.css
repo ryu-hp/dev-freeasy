@@ -1869,6 +1869,12 @@ select::-ms-expand {
   display: inline-block;
   border-radius: 0.782875rem;
 }
+@media screen and (max-width: 767px) {
+  .price__bottom-head {
+    font-size: 1.125rem;
+    padding: 0.5rem 1.5rem;
+  }
+}
 
 .price__bottom-content {
   background: #fff;
@@ -2085,6 +2091,7 @@ select::-ms-expand {
 @media screen and (max-width: 767px) {
   .works-slide {
     padding: 0rem 0rem 1rem;
+    overflow: hidden;
   }
 }
 
@@ -2145,6 +2152,7 @@ select::-ms-expand {
 @media screen and (max-width: 767px) {
   .works-slide__head {
     font-size: 1.375rem;
+    padding: 0rem 1rem;
   }
 }
 

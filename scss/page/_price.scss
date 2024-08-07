@@ -223,6 +223,11 @@
   padding: rem(16) rem(60);
   display: inline-block;
   border-radius: rem(12.526);
+  @include mq(md) {
+    font-size: rem(18);
+    padding: rem(8) rem(24);
+
+  }
 }
 .price__bottom-content {
   background: $color-white;
