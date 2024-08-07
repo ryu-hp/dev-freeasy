@@ -58,6 +58,7 @@
   gap: rem(0);
   @include mq(lg) {
     flex-wrap: wrap;
+    flex-direction: column;
   }
 }
 .fv__apeare-text {

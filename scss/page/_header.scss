@@ -26,14 +26,23 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  @include mq(md) {
+    justify-content: center;
+  }
 }
 .header__icon {
   max-width:rem(126.5);
   width: 100%;
+  @include mq(md) {
+    max-width:rem(123.9743);
+  }
 }
 .header__btnArea {
   max-width:rem(213.7792);
   width: 100%;
+  @include mq(md) {
+    display: none;
+  }
 }
 .headerBtn {
   background: $color-contact;
