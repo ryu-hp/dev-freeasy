@@ -33,6 +33,7 @@
   box-sizing: border-box;
   position: relative;
   padding-top: rem(29);
+  z-index: 1;
   @include mq(md) {
     padding-right: $padding-sp;
     padding-left: $padding-sp;
@@ -44,6 +45,7 @@
   top: 0;
   max-width:rem(44.5);
   width: 100%;
+  z-index: -1;
 }
 .fv__bg-right {
   position: absolute;
@@ -51,6 +53,7 @@
   bottom: rem(144.0525);
   max-width:rem(54.1303);
   width: 100%;
+  z-index: -1;
   @include mq(md) {
     max-width: rem(33.1574);
   }

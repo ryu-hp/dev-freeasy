@@ -344,6 +344,7 @@ select::-ms-expand {
           box-sizing: border-box;
   position: relative;
   padding-top: 1.8125rem;
+  z-index: 1;
 }
 @media screen and (max-width: 767px) {
   .fv__inner {
@@ -358,6 +359,7 @@ select::-ms-expand {
   top: 0;
   max-width: 2.78125rem;
   width: 100%;
+  z-index: -1;
 }
 
 .fv__bg-right {
@@ -366,6 +368,7 @@ select::-ms-expand {
   bottom: 9.00328125rem;
   max-width: 3.38314375rem;
   width: 100%;
+  z-index: -1;
 }
 @media screen and (max-width: 767px) {
   .fv__bg-right {
