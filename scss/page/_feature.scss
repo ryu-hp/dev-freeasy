@@ -14,8 +14,8 @@
   margin-left: auto;
   box-sizing: border-box;
   @include mq(md) {
-    padding-right: $padding-sp;
-    padding-left: $padding-sp;
+    padding-right: rem(20);
+    padding-left: rem(20);
   }
 }
 .feature-title__en {

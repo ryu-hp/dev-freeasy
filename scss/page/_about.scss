@@ -112,7 +112,7 @@
 .aboutItem__image {
   flex-basis: calc(121.9864 / 273.3171 * 100%);
   @include mq(lg) {
-    flex-basis: rem(331.7912);
+    flex-basis: rem(106.762);
   }
 }
 .aboutItem__image img {
@@ -154,7 +154,7 @@
   @include mq(lg) {
     left: 50%;
     transform: translateX(-50%) rotate(90deg);
-    top: calc(100% - rem(34));
+    top: calc(100% - rem(30));
   }
 }
 .about__arrows--moniter {
@@ -164,7 +164,7 @@
     left: 50%;
     transform: translateX(-50%) rotate(90deg);
     top: auto;
-    bottom: calc(100% - rem(34));
+    bottom: calc(100% - rem(30));
   }
 }
 .about__arrow {

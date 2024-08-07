@@ -4,7 +4,7 @@
   background: $color-white;
   padding: rem(63) rem(0) rem(120);
   @include mq(md) {
-    padding-bottom: rem(160);
+    padding-bottom: rem(48);
   }
 }
 .resolve__inner {
@@ -31,7 +31,7 @@
   margin-right: auto;
 }
 .resolve__body {
-  margin-top: rem(97);
+  margin-top: rem(48);
 }
 .resolve__item {
   display: flex;
@@ -75,6 +75,10 @@
   @media screen and (max-width:1020px) {
     white-space: wrap;
   }
+  @include mq(md) {
+    text-align: center;
+    font-size: rem(23);  
+  }
 }
 .resolve__description {
   margin-top: rem(21);
@@ -82,4 +86,7 @@
   line-height: calc(40 / 22);
   font-feature-settings: "palt";
   text-align: justify;
+  @include mq(md) {
+    font-size: rem(16);
+  }
 }

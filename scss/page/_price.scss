@@ -29,6 +29,9 @@
 }
 .price__body {
   margin-top: rem(63);
+  @include mq(md) {
+    margin-top: rem(43);
+  }
 }
 .price__top-wrapper {
   max-width:rem(560.1871);
@@ -37,9 +40,10 @@
   position: relative;
   margin-right:auto;
   margin-left:auto;
+
 }
 .price__top-head {
-  display: inline;
+  display: inline-block;
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
@@ -52,6 +56,10 @@
   border-radius: rem(8.691);
   z-index: 1;
   white-space: nowrap;
+  @include mq(md) {
+    padding: rem(16) rem(24);
+    font-size: rem(18);
+  }
 }
 .price__top-box {
   border: rem(5) solid $color-white;
@@ -63,13 +71,22 @@
 }
 .price__top-text-main {
   font-size: rem(37.32);
+  @include mq(md) {
+    font-size: rem(22.15);
+  }
 }
 .price__top-text-main--large {
   font-size: rem(69.78);
   font-family: "din-2014", sans-serif;
+  @include mq(md) {
+    font-size: rem(41.41);
+  }
 }
 .price__top-text-sub {
   font-size: rem(27);
+  @include mq(md) {
+    font-size: rem(18);
+  }
 }
 .price__middle-wrapper {
   margin-top: rem(40);
@@ -77,18 +94,27 @@
   width:100%;
   margin-right:auto;
   margin-left:auto;
+  @include mq(md) {
+    font-size: rem(24);
+  }
 }
 .price__middle-content {
   display: flex;
   justify-content: center;
   align-items: flex-start; 
   gap: rem(63);
+  @include mq(md) {
+    gap: rem(22.6427);
+  }
 }
 .price__middle-item {
-  width: calc((100% - rem(63) * 2) / 2);
+  width: calc((100% - rem(63) * 2) / 3);
   background: $color-white;
   border-radius: 50%;
   position: relative;
+  @include mq(md) {
+    width: calc((100% - rem(22.6427) * 2) / 3);
+  }
 }
 .price__middle-item::before {
   content: "";
@@ -108,10 +134,16 @@
   font-size: rem(47.21);
   text-align: center;
   line-height: 1;
+  @include mq(md) {
+    font-size: rem(22.15);
+  }
 }
 .price__middle-item-text--large {
   font-size: rem(86.98);
   font-family: "din-2014", sans-serif;
+  @include mq(md) {
+    font-size: rem(40.8);
+  }
 }
 .price__middle-item-icon {
   margin-right:auto;
@@ -120,18 +152,30 @@
 }
 .price__middle-item:nth-child(1) .price__middle-item-icon {
   max-width: rem(55.0447);
+  @include mq(md) {
+    max-width: rem(25.822);
+  }
 }
 .price__middle-item:nth-child(2) .price__middle-item-icon {
   max-width: rem(32.0997);
+  @include mq(md) {
+    max-width: rem(15.0583);
+  }
 }
 .price__middle-item:nth-child(3) .price__middle-item-icon {
   max-width: rem(65.6209);
+  @include mq(md) {
+    max-width: rem(30.7834);
+  }
 }
 .price__middle-item-cross {
   max-width:rem(26.0234);
   width:100%;
   position: absolute;
   top: 27%;
+  @include mq(md) {
+    max-width: rem(11.6894);
+  }
 }
 .price__middle-item:nth-child(1) .price__middle-item-cross {
   left: calc(100% + rem(20));
@@ -141,6 +185,9 @@
 }
 .price__middle-item:nth-child(2n-1) {
   margin-top: rem(70);
+  @include mq(md) {
+    margin-top: rem(32.8377);
+  }
 }
 .price__middle-description {
   font-size: rem(27);
@@ -149,10 +196,13 @@
   text-align: center;
   margin-top: rem(-27);
   color: $color-white;
+  @include mq(md) {
+    font-size: rem(16);
+    margin-top: rem(-4);
+  }
 }
 .price__bottom-wrapper {
   margin-top: rem(40);
-  position: relative;
   padding-top: rem(38);
   position: relative;
   max-width:rem(849.4609);
@@ -187,6 +237,9 @@
 .priceItem {
   display: flex;
   align-items: center;
+  @include mq(md) {
+    flex-direction: column;
+  }
 }
 .priceItem__images {
   display: flex;
@@ -196,32 +249,54 @@
 .priceItem__images-person {
   max-width:rem(73.4502);
   width:100%;
+  @include mq(md) {
+    max-width:rem(73.4502);
+  }
 }
 .priceItem__images-cross {
   max-width:rem(20.7495);
   width:100%;
+  @include mq(md) {
+    max-width: rem(20.7495);
+  }
 }
 .priceItem__images-question {
   max-width:rem(43.8893);
   width:100%;
+  @include mq(md) {
+    max-width: rem(43.8893);
+  }
 }
 .priceItem__text {
   margin-left: rem(24);
   font-size: rem(30);
   font-weight: $bold;
+  @include mq(md) {
+    margin-left: 0;
+    font-size: rem(26);
+  }
 }
 .priceItem__text--large {
   font-size: rem(52);
   font-family: "din-2014", sans-serif;
+  @include mq(md) {
+    font-size: rem(44);
+  }
 }
 .priceItem__price {
   margin-left: auto;
   font-size: rem(30);
   font-weight: $bold;
+  @include mq(md) {
+    font-size: rem(26);
+  }
 }
 .priceItem__price--large {
   font-size: rem(52);
   font-family: "din-2014", sans-serif;
+  @include mq(md) {
+    font-size: rem(44);
+  }
 }
 .price__btn-wrapper {
   margin-top: rem(32);
@@ -240,6 +315,9 @@
   font-size: rem(28);
   line-height: 1;
   font-weight: $bold;
+  @include mq(md) {
+    font-size: rem(18.43);
+  }
 }
 .price__btn::after {
   content: "";
