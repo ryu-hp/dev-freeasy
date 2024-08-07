@@ -3,6 +3,9 @@
 .concern {
   background: $color-theme;
   padding: rem(55) rem(0) rem(72);
+  @include mq(md) {
+    padding-top: rem(27);
+  }
 }
 .concern__inner {
   width: 100%;
@@ -13,8 +16,8 @@
   margin-left: auto;
   box-sizing: border-box;
   @include mq(md) {
-    padding-right: rem(38);
-    padding-left: rem(38);
+    padding-right: rem(30);
+    padding-left: rem(39);
   }
 }
 .concern-title__en {
@@ -26,9 +29,17 @@
   width:100%;
   margin-left: auto;
   margin-right: auto;
+  @include mq(md) {
+    max-width:rem(247);
+    transform: translateX(rem(3));
+    margin-top: rem(10);
+  }
 }
 .concern__body {
   margin-top: rem(30);
+  @include mq(md) {
+    margin-top: rem(20);
+  }
 }
 .concern__content {
   display: flex;
@@ -52,6 +63,9 @@
   text-align: justify;
   @include mq(md) {
     font-size: rem(16);
+    line-height: 1.35;
+    padding: rem(0) rem(5);
+    margin-top: rem(15);
   }
 }
 .concern__image {
