@@ -294,6 +294,7 @@
   font-weight: $bold;
   @include mq(md) {
     font-size: rem(26);
+    margin-right: auto;
   }
 }
 .priceItem__price--large {
