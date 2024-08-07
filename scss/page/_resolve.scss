@@ -4,7 +4,8 @@
   background: $color-white;
   padding: rem(63) rem(0) rem(120);
   @include mq(md) {
-    padding-bottom: rem(48);
+    padding-bottom: rem(79);
+    padding-top: rem(27);
   }
 }
 .resolve__inner {
@@ -29,9 +30,16 @@
   width:100%;
   margin-left: auto;
   margin-right: auto;
+  @include mq(md) {
+    margin-top: rem(11);
+    max-width: rem(252);
+  }
 }
 .resolve__body {
   margin-top: rem(48);
+  @include mq(md) {
+    margin-top: rem(42);
+  }
 }
 .resolve__item {
   display: flex;
@@ -40,11 +48,14 @@
   gap:rem(47);
   @include mq(md) {
     flex-wrap: wrap;
-    gap: rem(24);
+    gap: rem(13);
   }
 }
 .resolve__item + .resolve__item  {
   margin-top: rem(77.5);
+  @include mq(md) {
+    margin-top: rem(33);
+  }
 }
 .resolve__item:nth-child(even) {
   flex-direction: row-reverse;
@@ -74,6 +85,7 @@
   white-space: nowrap;
   @media screen and (max-width:1020px) {
     white-space: wrap;
+    line-height: 1.4;
   }
   @include mq(md) {
     text-align: center;
@@ -88,5 +100,7 @@
   text-align: justify;
   @include mq(md) {
     font-size: rem(16);
+    line-height: 1.6;
+    margin-top: rem(9);
   }
 }

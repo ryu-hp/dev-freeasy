@@ -4,7 +4,8 @@
   background: $color-white;
   padding: rem(63) rem(0) rem(120);
   @include mq(md) {
-    padding-bottom: rem(160);
+    padding-bottom: rem(80);
+    padding-top: rem(29);
   }
 }
 .works__inner {
@@ -29,6 +30,7 @@
   margin-right: auto;
   @include mq(md) {
     max-width:rem(152);
+    margin-top: rem(-11);
   }
 }
 .works__body {
@@ -37,6 +39,7 @@
   position: relative;
   @include mq(md) {
     padding: rem(0) rem(0);
+    margin-top: rem(34);
   }
 }
 .works-slide {

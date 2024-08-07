@@ -3,6 +3,10 @@
 .price {
   background: $color-theme;
   padding: rem(55) rem(0) rem(72);
+  @include mq(md) {
+    padding-top: rem(19);
+    padding-bottom: rem(20);
+  }
 }
 .price__inner {
   width: 100%;
@@ -26,11 +30,15 @@
   width:100%;
   margin-left: auto;
   margin-right: auto;
+  @include mq(md) {
+    margin-top: rem(7);
+    max-width:rem(181);
+  }
 }
 .price__body {
   margin-top: rem(63);
   @include mq(md) {
-    margin-top: rem(43);
+    margin-top: rem(13);
   }
 }
 .price__top-wrapper {
@@ -40,6 +48,9 @@
   position: relative;
   margin-right:auto;
   margin-left:auto;
+  @include mq(md) {
+    padding-top: rem(22);
+  }
 
 }
 .price__top-head {
@@ -57,7 +68,7 @@
   z-index: 1;
   white-space: nowrap;
   @include mq(md) {
-    padding: rem(16) rem(24);
+    padding: rem(11) rem(31) rem(11.5);
     font-size: rem(18);
   }
 }
@@ -68,24 +79,30 @@
   text-align: center;
   font-weight: $bold;
   color: $color-white;
+  @include mq(md) {
+    padding-top: rem(15);
+    padding-bottom: rem(18);
+    border-width: rem(4);
+  }
 }
 .price__top-text-main {
   font-size: rem(37.32);
   @include mq(md) {
-    font-size: rem(22.15);
+    font-size: rem(21);
   }
 }
 .price__top-text-main--large {
   font-size: rem(69.78);
   font-family: "din-2014", sans-serif;
   @include mq(md) {
-    font-size: rem(41.41);
+    font-size: rem(40);
   }
 }
 .price__top-text-sub {
   font-size: rem(27);
   @include mq(md) {
     font-size: rem(18);
+    line-height: 1;
   }
 }
 .price__middle-wrapper {
@@ -96,6 +113,7 @@
   margin-left:auto;
   @include mq(md) {
     font-size: rem(24);
+    margin-top: rem(15);
   }
 }
 .price__middle-content {
@@ -179,9 +197,17 @@
 }
 .price__middle-item:nth-child(1) .price__middle-item-cross {
   left: calc(100% + rem(20));
+  @include mq(md) {
+    left: calc(100% + rem(5));
+    
+  }
 }
 .price__middle-item:nth-child(3) .price__middle-item-cross {
   right: calc(100% + rem(20));
+  @include mq(md) {
+    right: calc(100% + rem(5));
+    
+  }
 }
 .price__middle-item:nth-child(2n-1) {
   margin-top: rem(70);
@@ -198,7 +224,9 @@
   color: $color-white;
   @include mq(md) {
     font-size: rem(16);
-    margin-top: rem(-4);
+    margin-top: rem(-1);
+    line-height: 1.6;
+    letter-spacing: -0.05em;
   }
 }
 .price__bottom-wrapper {
@@ -209,6 +237,10 @@
   width:100%;
   margin-right:auto;
   margin-left:auto;
+  @include mq(md) {
+    margin-top: rem(32);
+    padding-top: rem(22);
+  }
 }
 .price__bottom-head {
   position: absolute;left: 50%;
@@ -223,21 +255,32 @@
   padding: rem(16) rem(60);
   display: inline-block;
   border-radius: rem(12.526);
+  white-space: nowrap;
   @include mq(md) {
     font-size: rem(18);
-    padding: rem(8) rem(24);
-
+    padding: rem(8) rem(38);
+    border-width: rem(3);
+    border-radius: rem(9);
   }
 }
 .price__bottom-content {
   background: $color-white;
   border-radius: rem(20.043);
   padding: rem(50) rem(32) rem(40);
+  @include mq(md) {
+    border-radius: rem(13);
+    padding: rem(33) rem(9) rem(18) rem(8);
+    
+  }
 }
 .price__bottom-item + .price__bottom-item {
   padding-top: rem(20);
   margin-top: rem(20);
   border-top: rem(3) solid $color-theme;
+  @include mq(md) {
+    margin-top: rem(10);
+    padding-top: rem(17);
+  }
 }
 .priceItem {
   display: flex;
@@ -250,19 +293,24 @@
   display: flex;
   align-items: center;
   gap: rem(8);
+  @include mq(md) {
+    gap: rem(12);
+    margin-left: rem(-12);
+  }
 }
 .priceItem__images-person {
   max-width:rem(73.4502);
   width:100%;
   @include mq(md) {
-    max-width:rem(73.4502);
+    max-width:rem(75);
   }
 }
 .priceItem__images-cross {
   max-width:rem(20.7495);
   width:100%;
   @include mq(md) {
-    max-width: rem(20.7495);
+    max-width: rem(25);
+    margin-bottom: rem(12);
   }
 }
 .priceItem__images-question {
@@ -279,13 +327,16 @@
   @include mq(md) {
     margin-left: 0;
     font-size: rem(26);
+    letter-spacing: -0.04em;
   }
 }
 .priceItem__text--large {
   font-size: rem(52);
   font-family: "din-2014", sans-serif;
   @include mq(md) {
-    font-size: rem(44);
+    font-size: rem(42);
+    letter-spacing: -0.04em;
+    margin-right: rem(2);
   }
 }
 .priceItem__price {
@@ -295,6 +346,8 @@
   @include mq(md) {
     font-size: rem(26);
     margin-right: auto;
+    margin-top: rem(-9);
+    letter-spacing: -0.13em;
   }
 }
 .priceItem__price--large {
@@ -302,6 +355,7 @@
   font-family: "din-2014", sans-serif;
   @include mq(md) {
     font-size: rem(44);
+    margin-right: rem(8);
   }
 }
 .price__btn-wrapper {

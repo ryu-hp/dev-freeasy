@@ -5,6 +5,7 @@
   padding: rem(55) rem(0) rem(72);
   @include mq(md) {
     padding-top: rem(27);
+    padding-bottom: rem(38);
   }
 }
 .concern__inner {
@@ -16,7 +17,7 @@
   margin-left: auto;
   box-sizing: border-box;
   @include mq(md) {
-    padding-right: rem(30);
+    padding-right: rem(39);
     padding-left: rem(39);
   }
 }
@@ -31,7 +32,6 @@
   margin-right: auto;
   @include mq(md) {
     max-width:rem(247);
-    transform: translateX(rem(3));
     margin-top: rem(10);
   }
 }
@@ -44,7 +44,7 @@
 .concern__content {
   display: flex;
   justify-content: center;
-  gap:rem(32.5) rem(46);
+  gap:rem(25) rem(46);
   flex-wrap: wrap;
 }
 .concern__item {
