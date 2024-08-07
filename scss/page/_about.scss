@@ -68,7 +68,7 @@
     flex-direction: column;
     padding: rem(24.2891) rem(19.4779);
     padding-right: rem(20);
-    gap: rem(85);
+    gap: rem(83);
     margin-top: rem(22);
     padding-bottom: rem(26);
     border-radius: rem(12);
@@ -79,7 +79,7 @@
 }
 .about__content-wrapper--last {
   @include mq(md) {
-    margin-top: rem(4);
+    margin-top: rem(9);
   }
 }
 .about__content {
@@ -210,7 +210,7 @@
     left: 50%;
     transform: translateX(-50%) rotate(90deg);
     top: auto;
-    bottom: calc(100% - rem(30));
+    bottom: calc(100% - rem(20));
   }
 }
 .about__arrow {
@@ -233,14 +233,22 @@
     transform: rotate(-90deg);
     white-space: nowrap;
     font-size: rem(19.52);
-    left: calc(50% - rem(25) );
+    left: calc(50% - rem(21) );
   }
 }
 .about__arrow-text--top {
   bottom: calc(100% + rem(16));
+  @include mq(md) {
+    bottom: calc(100% + rem(15));
+    
+  }
 }
 .about__arrow-text--bottom {
   top: calc(100% + rem(16));
+  @include mq(md) {
+    top: calc(100% + rem(15));
+    
+  }
 }
 .about__content--company {
   position: relative;
@@ -265,7 +273,7 @@
   background: #f2f2f2;
   border-radius: rem(6.179);
   width: 100%;
-  padding: rem(27) rem(8) rem(36) rem(12);
+  padding: rem(27) rem(8) rem(28) rem(12);
 }
 .moniterTop__head {
   text-align: center;
@@ -279,6 +287,7 @@
   font-weight: $bold;
   @include mq(lg) {
     font-size: rem(21.02);
+    padding: rem(3.5) rem(10);
   }
 }
 .moniterTop__flex {
@@ -308,6 +317,7 @@
   color: $color-theme;
   @include mq(lg) {
     font-size: rem(33.45);
+    letter-spacing: -0.1em;
   }
 }
 .moniterTop__text--large {
@@ -324,7 +334,7 @@
   margin-top: rem(24);
   @include mq(lg) {
     max-width: rem(77.1757);
-    margin-top: rem(7);
+    margin-top: rem(9);
   }
 }
 .about__moniter-bottom {

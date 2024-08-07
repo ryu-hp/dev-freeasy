@@ -32,6 +32,7 @@
   margin-right: auto;
   @include mq(md) {
     max-width: rem(298);
+    margin-top: rem(8) !important;
   }
 }
 .feature__body {

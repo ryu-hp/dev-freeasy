@@ -847,7 +847,7 @@ select::-ms-expand {
             flex-direction: column;
     padding: 1.51806875rem 1.21736875rem;
     padding-right: 1.25rem;
-    gap: 5.3125rem;
+    gap: 5.1875rem;
     margin-top: 1.375rem;
     padding-bottom: 1.625rem;
     border-radius: 0.75rem;
@@ -860,7 +860,7 @@ select::-ms-expand {
 
 @media screen and (max-width: 767px) {
   .about__content-wrapper--last {
-    margin-top: 0.25rem;
+    margin-top: 0.5625rem;
   }
 }
 
@@ -1047,7 +1047,7 @@ select::-ms-expand {
     -webkit-transform: translateX(-50%) rotate(90deg);
             transform: translateX(-50%) rotate(90deg);
     top: auto;
-    bottom: calc(100% - 1.875rem);
+    bottom: calc(100% - 1.25rem);
   }
 }
 
@@ -1079,16 +1079,26 @@ select::-ms-expand {
             transform: rotate(-90deg);
     white-space: nowrap;
     font-size: 1.22rem;
-    left: calc(50% - 1.5625rem);
+    left: calc(50% - 1.3125rem);
   }
 }
 
 .about__arrow-text--top {
   bottom: calc(100% + 1rem);
 }
+@media screen and (max-width: 767px) {
+  .about__arrow-text--top {
+    bottom: calc(100% + 0.9375rem);
+  }
+}
 
 .about__arrow-text--bottom {
   top: calc(100% + 1rem);
+}
+@media screen and (max-width: 767px) {
+  .about__arrow-text--bottom {
+    top: calc(100% + 0.9375rem);
+  }
 }
 
 .about__content--company {
@@ -1120,7 +1130,7 @@ select::-ms-expand {
   background: #f2f2f2;
   border-radius: 0.3861875rem;
   width: 100%;
-  padding: 1.6875rem 0.5rem 2.25rem 0.75rem;
+  padding: 1.6875rem 0.5rem 1.75rem 0.75rem;
 }
 
 .moniterTop__head {
@@ -1138,6 +1148,7 @@ select::-ms-expand {
 @media screen and (max-width: 959px) {
   .moniterTop__head-text {
     font-size: 1.31375rem;
+    padding: 0.21875rem 0.625rem;
   }
 }
 
@@ -1184,6 +1195,7 @@ select::-ms-expand {
 @media screen and (max-width: 959px) {
   .moniterTop__text {
     font-size: 2.090625rem;
+    letter-spacing: -0.1em;
   }
 }
 
@@ -1206,7 +1218,7 @@ select::-ms-expand {
 @media screen and (max-width: 959px) {
   .about__moniter-arrow {
     max-width: 4.82348125rem;
-    margin-top: 0.4375rem;
+    margin-top: 0.5625rem;
   }
 }
 
@@ -1333,6 +1345,7 @@ select::-ms-expand {
 @media screen and (max-width: 767px) {
   .feature-title__main {
     max-width: 18.625rem;
+    margin-top: 0.5rem !important;
   }
 }
 
