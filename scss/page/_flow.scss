@@ -66,6 +66,7 @@
   padding-right: rem(24);
   @include mq(md) {
     padding: rem(48) rem(16) rem(32);   
+    border-radius:0 0 rem(16) rem(16);
   }
 }
 .flowItem::before,

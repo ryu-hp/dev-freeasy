@@ -390,9 +390,9 @@ select::-ms-expand {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
     -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
   }
 }
 
@@ -2357,6 +2357,7 @@ select::-ms-expand {
 @media screen and (max-width: 767px) {
   .flowItem:last-child {
     padding: 3rem 1rem 2rem;
+    border-radius: 0 0 1rem 1rem;
   }
 }
 
