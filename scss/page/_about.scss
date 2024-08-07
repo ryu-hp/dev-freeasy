@@ -64,10 +64,11 @@
   @include mq(lg) {
     flex-direction: column;
     padding: rem(24.2891) rem(19.4779);
-    padding-right: rem(12);
+    padding-right: rem(20);
     margin-top: rem(17);
     border-radius: rem(19);
     gap: rem(85);
+    margin-top: rem(19);
   }
 }
 .about__content-wrapper {
@@ -75,7 +76,7 @@
 }
 .about__content-wrapper--last {
   @include mq(md) {
-    margin-top: rem(10);
+    margin-top: rem(4);
   }
 }
 .about__content {
@@ -96,6 +97,9 @@
   box-shadow:none;
   align-self: center;
   background: #84cdde;
+  @include mq(lg) {
+    max-width:rem(187);
+  }
 }
 .about__head {
   background: #364061;
@@ -228,9 +232,6 @@
 }
 .about__content--company {
   position: relative;
-  @include mq(lg) {
-    max-width:rem(187);
-  }
 }
 .about__content--company::before {
   content: "";
