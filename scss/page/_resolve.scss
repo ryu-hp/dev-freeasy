@@ -2,7 +2,7 @@
 
 .resolve {
   background: $color-white;
-  padding: rem(63) rem(0) rem(120);
+  padding: rem(66) rem(0) rem(93);
   @include mq(md) {
     padding-bottom: rem(79);
     padding-top: rem(27);
@@ -36,7 +36,7 @@
   }
 }
 .resolve__body {
-  margin-top: rem(48);
+  margin-top: rem(89);
   @include mq(md) {
     margin-top: rem(42);
   }
@@ -65,7 +65,7 @@
 }
 .resolve__image {
   border-radius: rem(21.447);
-  width: calc(449.9992 / 1002 * 100% );
+  width: 45%;
   flex-shrink: 0;
   @include mq(md) {
     width: 100%; 

@@ -1647,7 +1647,7 @@ select::-ms-expand {
 
 .resolve {
   background: #fff;
-  padding: 3.9375rem 0rem 7.5rem;
+  padding: 4.125rem 0rem 5.8125rem;
 }
 @media screen and (max-width: 767px) {
   .resolve {
@@ -1692,7 +1692,7 @@ select::-ms-expand {
 }
 
 .resolve__body {
-  margin-top: 3rem;
+  margin-top: 5.5625rem;
 }
 @media screen and (max-width: 767px) {
   .resolve__body {
@@ -1746,7 +1746,7 @@ select::-ms-expand {
 
 .resolve__image {
   border-radius: 1.3404375rem;
-  width: 44.9100998004%;
+  width: 45%;
   -ms-flex-negative: 0;
       flex-shrink: 0;
 }
