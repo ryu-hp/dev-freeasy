@@ -2809,7 +2809,12 @@ select::-ms-expand {
           box-shadow: 0.1875rem 0.1875rem 0.3125rem rgba(0, 0, 0, 0.3);
 }
 
-.js-fadeInUp {
+.js-fadeInUp,
+.js-fadeInUp-2,
+.js-fadeInUp-3,
+.js-fadeInUp-4,
+.js-fadeInUp-5,
+.js-fadeInUp-6 {
   opacity: 0;
   visibility: hidden;
   -webkit-transform: translateY(1.5rem);
@@ -2820,7 +2825,12 @@ select::-ms-expand {
   transition: opacity 1.5s, visibility 1.5s, transform 1.5s, -webkit-transform 1.5s;
 }
 
-.js-fadeInUp.visible {
+.js-fadeInUp.visible,
+.js-fadeInUp-2.visible,
+.js-fadeInUp-3.visible,
+.js-fadeInUp-4.visible,
+.js-fadeInUp-5.visible,
+.js-fadeInUp-6.visible {
   opacity: 1;
   visibility: visible;
   -webkit-transform: translateY(0);
