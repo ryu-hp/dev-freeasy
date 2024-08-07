@@ -28,7 +28,7 @@ jQuery(function ($) {
     centeredSlides: true, // アクティブなスライドを中央に配置
     //オートプレイ
     autoplay: {
-      delay: 3000,
+      delay: 2000,
       disableOnInteraction: false,
     },  
     //ページネーション表示設定
