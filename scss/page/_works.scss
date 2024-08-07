@@ -3,6 +3,7 @@
 .works {
   background: $color-white;
   padding: rem(53) rem(0) rem(106);
+  font-feature-settings: "palt";
   @include mq(md) {
     padding-bottom: rem(27);
     padding-top: rem(29);

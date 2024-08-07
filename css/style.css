@@ -2452,6 +2452,8 @@ select::-ms-expand {
 .works {
   background: #fff;
   padding: 3.3125rem 0rem 6.625rem;
+  -webkit-font-feature-settings: "palt";
+          font-feature-settings: "palt";
 }
 @media screen and (max-width: 767px) {
   .works {
@@ -3385,4 +3387,9 @@ select::-ms-expand {
   visibility: visible;
   -webkit-transform: translateY(0);
           transform: translateY(0);
+}
+
+section {
+  -webkit-font-feature-settings: "palt";
+          font-feature-settings: "palt";
 }
