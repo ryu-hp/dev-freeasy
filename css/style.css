@@ -2084,7 +2084,7 @@ select::-ms-expand {
 }
 @media screen and (max-width: 767px) {
   .works-slide {
-    padding: 0;
+    padding: 1rem 1rem;
   }
 }
 
@@ -2111,6 +2111,26 @@ select::-ms-expand {
   width: 100%;
   -ms-flex-negative: 0;
       flex-shrink: 0;
+  position: relative;
+}
+
+.works-slide__image::before {
+  content: "";
+  width: 100%;
+  padding-top: 0.9799187638;
+  display: block;
+}
+
+.works-slide__image img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
 }
 
 .works-slide__head {
