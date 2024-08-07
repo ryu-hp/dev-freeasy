@@ -3105,6 +3105,7 @@ select::-ms-expand {
         -ms-flex-pack: center;
             justify-content: center;
     gap: 0.25rem;
+    position: relative;
   }
 }
 
@@ -3121,12 +3122,18 @@ select::-ms-expand {
 }
 
 .fix-contents__upBtn {
+  display: none;
   position: absolute;
   right: 0;
   bottom: calc(100% + 10px);
   max-width: 1.4251875rem;
   width: 100%;
   cursor: pointer;
+}
+@media screen and (max-width: 767px) {
+  .fix-contents__upBtn {
+    display: block;
+  }
 }
 
 .c-blue {

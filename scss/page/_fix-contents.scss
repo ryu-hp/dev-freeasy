@@ -34,6 +34,7 @@
   @include mq(md) {
     justify-content: center;
     gap: rem(4);
+    position: relative;
   }
 }
 
@@ -47,10 +48,14 @@
   opacity: 1;
 }
 .fix-contents__upBtn {
+  display: none;
   position: absolute;
   right: 0;
   bottom: calc(100% + 10px);
   max-width:rem(22.803);
   width:100%;
   cursor: pointer;
+  @include mq(md) {
+    display: block;
+  }
 }
