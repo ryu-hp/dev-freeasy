@@ -3,6 +3,9 @@
 .flow {
   background: $color-theme;
   padding: rem(55) rem(0) rem(72);
+  @include mq(md) {
+    
+  }
 }
 .flow__inner {
   width: 100%;
@@ -13,8 +16,8 @@
   margin-left: auto;
   box-sizing: border-box;
   @include mq(md) {
-    padding-right: $padding-sp;
-    padding-left: $padding-sp;
+    padding-right: rem(20.3475);
+    padding-left: rem(20.3475);
   }
 }
 .flow-title__en {
@@ -36,7 +39,7 @@
   gap: rem(16);
   @include mq(md) {
     flex-direction: column;
-    gap: rem(32);
+    gap: rem(16);
   }
 }
 .flowItem {
@@ -46,7 +49,8 @@
   width: calc((100% - rem(16) * 3) / 4);
   @include mq(md) {
     width: 100%;
-    padding: rem(32) rem(9) rem(0);
+    padding: rem(48) rem(9) rem(0);
+    
   }
 }
 .flowItem:first-child  {
@@ -54,11 +58,15 @@
   padding-left: rem(24);
   @include mq(md) {
     border-radius: rem(16) rem(16) 0 0 ;
+    padding: rem(32) rem(16) rem(0);
   }
 }
 .flowItem:last-child  {
   border-radius:0 rem(16) rem(16) 0;
   padding-right: rem(24);
+  @include mq(md) {
+    padding: rem(48) rem(16) rem(32);   
+  }
 }
 .flowItem::before,
 .flowItem::after {
@@ -81,7 +89,7 @@
   left: 0;
   z-index: 1;
   @include mq(md) {
-    top: -1px;
+    top: 0;
   }
 }
 .flowItem:not(:last-child)::after {
@@ -90,7 +98,7 @@
   z-index: 2;
   @include mq(md) {
     left: 0;
-    top: calc(100% - 1px);
+    top: calc(100%);
   }
 }
 .flowItem__step {
@@ -98,6 +106,9 @@
   width:100%;
   margin-right:auto;
   margin-left:auto;
+  @include mq(md) {
+    max-width:rem(114.2168);
+  }
 }
 .flowItem__head {
   font-size: rem(29);
@@ -105,6 +116,9 @@
   line-height: calc(37.27 / 29);
   margin-top: rem(24);
   text-align: center;
+  @include mq(md) {
+    font-size: rem(23);
+  }
 }
 .flowItem__description {
   font-size: rem(21);
@@ -112,6 +126,9 @@
   text-align: justify;
   font-feature-settings: "palt";
   margin-top: rem(30);
+  @include mq(md) {
+    font-size: rem(16);
+  }
 }
 .flow__image {
   max-width:rem(906.3511);
@@ -139,12 +156,20 @@
   object-fit: cover;
 }
 
-
+#flow-swiper_pagination {
+  @include mq(md) {
+    bottom: rem(-32);
+  }
+}
 #flow-swiper_pagination > .swiper-pagination-bullet {
   width: rem(16.9411);
   height: rem(16.9411);
   background: #cccccc;
   margin: rem(0) rem(8);
+  @include mq(md) {
+    width: rem(12.0589);
+    height: rem(12.0589);
+  }
 }
 #flow-swiper_pagination > .swiper-pagination-bullet.swiper-pagination-bullet-active {
   background: #666666;

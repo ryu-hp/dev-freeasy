@@ -22,11 +22,17 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  @include mq(md) {
+    justify-content: center;
+  }
 }
 .footer__copy {
   font-size: rem(18);
   line-height: 1;
   color: $color-white;
+  @include mq(md) {
+    font-size: rem(15.25);
+  }
 }
 .footerBtn {
   background: $color-white;

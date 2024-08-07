@@ -19,7 +19,13 @@ jQuery(function ($) {
     navigation: {
       nextEl: '.swiper-button-next', // 「次へ」ボタン要素のクラス
       prevEl: '.swiper-button-prev', // 「前へ」ボタン要素のクラス
-    },  
+    },
+    //ページネーション表示設定
+    pagination: {
+      el: '#works-swiper_pagination', //ページネーション要素
+      type: 'bullets', //ページネーションの種類
+      clickable: true, //クリックに反応させる
+    },
   });
   let flowSwiper = new Swiper ('#flow-swiper', {
     // オプション設定
