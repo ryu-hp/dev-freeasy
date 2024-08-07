@@ -19,6 +19,9 @@
 }
 .sec-title__main {
     margin-top: rem(13);
+    @include mq(md) {
+        margin-top: rem(10);
+    }
 }
 .flex-direc-column {
     flex-direction: column;
