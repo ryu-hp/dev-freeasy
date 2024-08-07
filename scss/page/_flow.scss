@@ -17,8 +17,8 @@
   margin-left: auto;
   box-sizing: border-box;
   @include mq(md) {
-    padding-right: rem(20.3475);
-    padding-left: rem(20.3475);
+    padding-right: rem(21);
+    padding-left: rem(21);
   }
 }
 .flow-title__en {
@@ -30,9 +30,16 @@
   width:100%;
   margin-left: auto;
   margin-right: auto;
+  @include mq(md) {
+    margin-top: rem(10);
+    max-width: rem(290);
+  }
 }
 .flow__body {
   margin-top: rem(63);
+  @include mq(md) {
+    margin-top: rem(33);
+  }
 }
 .flow__contents {
   display: flex;
@@ -58,8 +65,8 @@
   border-radius: rem(16) 0 0 rem(16) ;
   padding-left: rem(24);
   @include mq(md) {
-    border-radius: rem(16) rem(16) 0 0 ;
-    padding: rem(32) rem(16) rem(0);
+    border-radius: rem(9) rem(9) 0 0 ;
+    padding: rem(43) rem(16) rem(0);
   }
 }
 .flowItem:last-child  {
@@ -120,6 +127,7 @@
   text-align: center;
   @include mq(md) {
     font-size: rem(23);
+    margin-top: rem(17);
   }
 }
 .flowItem__description {
