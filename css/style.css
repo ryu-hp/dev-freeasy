@@ -2009,11 +2009,8 @@ select::-ms-expand {
           box-sizing: border-box;
 }
 
-.flow__image img {
-  width: 100%;
-  height: 100px;
-  -o-object-fit: cover;
-     object-fit: cover;
+.flowSlide {
+  height: 100%;
 }
 
 #flow-swiper_pagination > .swiper-pagination-bullet {
