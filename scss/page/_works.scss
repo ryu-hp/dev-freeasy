@@ -32,6 +32,9 @@
   margin-top: rem(97);
   padding: rem(0) rem(67);
   position: relative;
+  @include mq(md) {
+    padding: rem(0) rem(30);
+  }
 }
 .works-slide {
   border-radius: rem(21.447);

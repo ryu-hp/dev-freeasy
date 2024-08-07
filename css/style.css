@@ -1741,6 +1741,11 @@ select::-ms-expand {
   padding: 0rem 4.1875rem;
   position: relative;
 }
+@media screen and (max-width: 767px) {
+  .works__body {
+    padding: 0rem 1.875rem;
+  }
+}
 
 .works-slide {
   border-radius: 1.3404375rem;
@@ -2052,6 +2057,10 @@ select::-ms-expand {
     padding-right: 0.9375rem;
     padding-left: 0.9375rem;
   }
+}
+
+.faq__body {
+  margin-top: 6.0625rem;
 }
 
 .faq-title .faq-title__main {
