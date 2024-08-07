@@ -2457,7 +2457,7 @@ select::-ms-expand {
 }
 @media screen and (max-width: 767px) {
   .works {
-    padding-bottom: 1.6875rem;
+    padding-bottom: 3.625rem;
     padding-top: 1.8125rem;
   }
 }
