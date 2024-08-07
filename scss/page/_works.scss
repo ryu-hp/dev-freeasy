@@ -66,7 +66,7 @@
 .works-slide__image::before {
   content: "";
   width:100%;
-  padding-top: calc(392.2752 / 400.314);
+  padding-top: calc(392.2752 / 400.314 * 100%);
   display: block;
 }
 .works-slide__image img {
