@@ -2699,8 +2699,8 @@ select::-ms-expand {
 #works-swiper-button-prev.swiper-button-prev {
   -webkit-clip-path: polygon(0% 50%, 100% 0%, 100% 100%);
           clip-path: polygon(0% 50%, 100% 0%, 100% 100%);
-  left: auto;
-  right: 0;
+  right: auto;
+  left: 0;
 }
 
 @media screen and (max-width: 767px) {
