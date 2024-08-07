@@ -2084,7 +2084,7 @@ select::-ms-expand {
 }
 @media screen and (max-width: 767px) {
   .works-slide {
-    padding: 1rem 1rem;
+    padding: 0rem 0rem 1rem;
   }
 }
 
@@ -2150,6 +2150,7 @@ select::-ms-expand {
 
 .works-slide__body {
   margin-top: 1rem;
+  padding: 0rem 1rem;
 }
 
 .works-slide__item {
@@ -2185,6 +2186,7 @@ select::-ms-expand {
 }
 @media screen and (max-width: 767px) {
   .works-slide__label {
+    padding: 0.5rem 0.25rem;
     font-size: 1.0625rem;
     max-width: 4.47691875rem;
   }
