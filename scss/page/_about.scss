@@ -7,6 +7,7 @@
   font-feature-settings: "palt";
   @include mq(md) {
     padding-top: rem(29);
+    padding-bottom: rem(30);
   }
 }
 .about__inner {
@@ -69,6 +70,7 @@
     border-radius: rem(19);
     gap: rem(85);
     margin-top: rem(19);
+    padding-bottom: rem();
   }
 }
 .about__content-wrapper {
@@ -276,6 +278,10 @@
   margin-top: rem(4);
   @include mq(lg) {
     justify-content: center;
+    margin-top: rem(10);
+    gap: rem(4);
+    justify-content: flex-start;
+    letter-spacing: -0.05em;
   }
 }
 .moniterTop__icon {
@@ -308,10 +314,14 @@
   margin-top: rem(24);
   @include mq(lg) {
     max-width: rem(77.1757);
+    margin-top: rem(7);
   }
 }
 .about__moniter-bottom {
   margin-top: rem(24);
+  @include mq(md) {
+    margin-top: rem(7);
+  }
 }
 .aboutBottom__head {
   font-size: rem(26);
@@ -340,7 +350,7 @@
   width: 100%;
   padding-top: calc(63.5991 / 85.6709 * 100%);
   @include mq(lg) {
-    padding-top: calc(59.114 / 79.6293 * 100%);
+    padding-top: 53.236493%;
   }
 }
 .aboutBottom__item-text {
@@ -363,5 +373,7 @@
   font-size: rem(15);
   @include mq(lg) {
     font-size: rem(16.6);
+    line-height: 1;
+    margin-top: rem(2);
   }
 }
