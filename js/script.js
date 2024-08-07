@@ -6,27 +6,27 @@ jQuery(function ($) {
     $(this).toggleClass('active');
   });
 
-  // let mySwiper = new Swiper ('#works-swiper', {
-  //   // オプション設定
-  //   slidesPerView: 'auto',
-  //   loop: true,
-  //   centeredSlides: true, // アクティブなスライドを中央に配置
-  //   //オートプレイ
-  //   autoplay: {
-  //     delay: 3000,
-  //     disableOnInteraction: false,
-  //   }, 
-  //   navigation: {
-  //     nextEl: '.swiper-button-next', // 「次へ」ボタン要素のクラス
-  //     prevEl: '.swiper-button-prev', // 「前へ」ボタン要素のクラス
-  //   },
-  //   //ページネーション表示設定
-  //   pagination: {
-  //     el: '#works-swiper_pagination', //ページネーション要素
-  //     type: 'bullets', //ページネーションの種類
-  //     clickable: true, //クリックに反応させる
-  //   },
-  // });
+  let mySwiper = new Swiper ('#works-swiper', {
+    // オプション設定
+    slidesPerView: 'auto',
+    loop: true,
+    centeredSlides: true, // アクティブなスライドを中央に配置
+    //オートプレイ
+    autoplay: {
+      delay: 3000,
+      disableOnInteraction: false,
+    }, 
+    navigation: {
+      nextEl: '.swiper-button-next', // 「次へ」ボタン要素のクラス
+      prevEl: '.swiper-button-prev', // 「前へ」ボタン要素のクラス
+    },
+    //ページネーション表示設定
+    pagination: {
+      el: '#works-swiper_pagination', //ページネーション要素
+      type: 'bullets', //ページネーションの種類
+      clickable: true, //クリックに反応させる
+    },
+  });
   let flowSwiper = new Swiper ('#flow-swiper', {
     // オプション設定
     slidesPerView: 'auto',
