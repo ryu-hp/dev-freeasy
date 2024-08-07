@@ -68,7 +68,7 @@ jQuery(function ($) {
   });
 
   // #js-fixed-bottomのフェードイン処理
-  const mv = document.getElementById('mv');
+  const mv = document.getElementById('fv');
   const fixedBottom = document.querySelector('.js-fixed-bottom');
 
   function checkPosition() {
