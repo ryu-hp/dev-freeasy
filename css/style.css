@@ -214,6 +214,11 @@ select::-ms-expand {
   left: 0;
   width: 100%;
 }
+@media screen and (max-width: 767px) {
+  .header {
+    padding: 0rem 0.625rem;
+  }
+}
 
 .header__inner {
   width: 100%;
@@ -329,7 +334,7 @@ select::-ms-expand {
 }
 @media screen and (max-width: 959px) {
   .fv__bg-bottom {
-    bottom: -13%;
+    bottom: 6%;
   }
 }
 
@@ -471,7 +476,7 @@ select::-ms-expand {
   margin-top: 0.6875rem;
   text-align: center;
   position: absolute;
-  bottom: calc(100% + 0.5rem);
+  bottom: 100%;
 }
 @media screen and (max-width: 767px) {
   .fv__cost {
@@ -515,6 +520,11 @@ select::-ms-expand {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+@media screen and (max-width: 767px) {
+  .fv__btnArea {
+    margin-top: 2.5rem;
+  }
 }
 
 .fvBtn {

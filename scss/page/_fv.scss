@@ -20,7 +20,7 @@
   transform: translateX(-50%);
   width: calc(1475.2852 / 1367 * 100vw);
   @include mq(lg) {
-    bottom: -13%;
+    bottom: 6%;
   }
 }
 .fv__inner {
@@ -124,7 +124,7 @@
   margin-top: rem(11);
   text-align: center;
   position: absolute;
-  bottom:calc( 100% + rem(8));
+  bottom:100%;
   @include mq(md) {
     font-size: rem(18.18);
   }
@@ -149,6 +149,9 @@
   justify-content: center;
   gap: rem(8);
   align-items: center;
+  @include mq(md) {
+    margin-top: rem(40);
+  }
 }
 .fvBtn {
   border-radius: rem(26.477);

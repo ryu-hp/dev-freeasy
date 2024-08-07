@@ -8,6 +8,9 @@
   top: 0;
   left: 0;
   width: 100%;
+  @include mq(md) {
+    padding: rem(0) rem(10);
+  }
 }
 .header__inner {
   width: 100%;
