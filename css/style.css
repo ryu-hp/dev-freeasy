@@ -605,6 +605,8 @@ select::-ms-expand {
   font-weight: 600;
   line-height: 1.7495117187;
   color: #fff;
+  -webkit-font-feature-settings: "palt";
+          font-feature-settings: "palt";
 }
 @media screen and (max-width: 767px) {
   .fvBtn__text {
@@ -3125,7 +3127,7 @@ select::-ms-expand {
   display: none;
   position: absolute;
   right: 0;
-  bottom: calc(100% + 10px);
+  bottom: calc(100% + 0.5625rem);
   max-width: 1.4251875rem;
   width: 100%;
   cursor: pointer;

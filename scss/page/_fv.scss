@@ -207,6 +207,7 @@
   font-weight: $bold;
   line-height: calc(35.83 / 20.48);
   color: $color-white;
+  font-feature-settings: "palt";
   @include mq(md) {
     font-size: rem(14.71);
   }
