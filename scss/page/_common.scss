@@ -13,6 +13,9 @@
 .sec-title__en {
     font-size: rem(21);
     font-weight: $bold;
+    @include mq(md) {
+        font-size: rem(18);
+    }
 }
 .sec-title__main {
     margin-top: rem(13);
