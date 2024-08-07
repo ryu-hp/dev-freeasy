@@ -10,8 +10,7 @@ jQuery(function ($) {
     // オプション設定
     slidesPerView: 'auto',
     loop: true,
-    centeredSlides: true, // アクティブなスライドを中央に配置
-    オートプレイ
+    centeredSlides: true,
     autoplay: {
       delay: 3000,
       disableOnInteraction: false,
@@ -32,7 +31,7 @@ jQuery(function ($) {
     slidesPerView: 'auto',
     loop: true,
     centeredSlides: true, // アクティブなスライドを中央に配置
-    オートプレイ
+    // オートプレイ
     autoplay: {
       delay: 2000,
       disableOnInteraction: false,
