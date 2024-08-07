@@ -2714,7 +2714,7 @@ select::-ms-expand {
 }
 @media screen and (max-width: 767px) {
   .flowItem:not(:first-child):before {
-    top: 0;
+    top: -1px;
   }
 }
 
@@ -2726,7 +2726,7 @@ select::-ms-expand {
 @media screen and (max-width: 767px) {
   .flowItem:not(:last-child)::after {
     left: 0;
-    top: 100%;
+    top: calc(100% - 1px);
   }
 }
 
