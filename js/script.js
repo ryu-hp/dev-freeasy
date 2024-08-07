@@ -91,6 +91,20 @@ jQuery(function ($) {
 
   // 初回チェック
   checkPosition();
+
+  // ページ上部に戻る処理
+  function toTop() {
+    const toTopButton = document.querySelector('.js-toTop');
+  
+    toTopButton.addEventListener('click', function() {
+      window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+      });
+    });
+  }
+
+  toTop();
 });
 
 $(document).ready(function() {
