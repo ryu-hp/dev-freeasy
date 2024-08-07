@@ -54,7 +54,7 @@
 }
 .fv__bg-left {
   position: absolute;
-  left: 0;
+  left: rem(-14);
   top: 0;
   max-width:rem(44.5);
   width: 100%;
@@ -66,8 +66,8 @@
 }
 .fv__bg-right {
   position: absolute;
-  right: 0;
-  bottom: rem(144.0525);
+  right: rem(20);
+  bottom: rem(122);
   max-width:rem(54.1303);
   width: 100%;
   z-index: -1;

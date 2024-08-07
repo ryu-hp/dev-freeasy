@@ -1,11 +1,11 @@
 @use "../global" as *;
 
 .about {
-  padding-top: rem(70);
-  padding-bottom: rem(97);
+  padding-top: rem(63);
+  padding-bottom: rem(95);
   background: $color-theme;
   font-feature-settings: "palt";
-  @include mq(md) {
+  @include mq(lg) {
     padding-top: rem(29);
     padding-bottom: rem(30);
   }
@@ -37,7 +37,7 @@
 }
 .about__body {
   margin-top: rem(68);
-  @include mq(md) {
+  @include mq(lg) {
     margin-top: rem(33);
   }
 }
@@ -47,7 +47,8 @@
   line-height: calc(44 / 24);
   text-align: justify;
   font-feature-settings: "palt";
-  padding: rem(0) rem(7.5);
+  padding-left: rem(4);
+  padding-right: rem(0);
   @include mq(lg) {
     font-size: rem(18);
     padding: 0;
@@ -56,11 +57,11 @@
   }
 }
 .about__contents {
-  margin-top: rem(63);
+  margin-top: rem(54);
   border-radius: rem(22.616);
   background: $color-white;
   box-shadow: rem(2) rem(2) rem(5) $color-shadow;
-  padding: rem(32) rem(28) rem(33);
+  padding: rem(32.5) rem(29) rem(34);
   display: flex;
   justify-content: center;
   gap: rem(88.1989);
@@ -78,7 +79,7 @@
   position: relative;
 }
 .about__content-wrapper--last {
-  @include mq(md) {
+  @include mq(lg) {
     margin-top: rem(9);
   }
 }
@@ -111,23 +112,22 @@
   font-weight: $bold;
   font-size: rem(29);
   line-height: 1;
-  padding: rem(24) rem(4);
+  padding: rem(28) rem(4) rem(25);
   @include mq(lg) {
     font-size: rem(23.87);
     padding: rem(18) rem(4);
   }
 }
 .about__content-body {
-  padding: rem(28.4723) rem(21.3975);
-  gap: rem(18.8097);
-  @include mq(md) {
+  padding: rem(26) rem(22) rem(17);
+  @include mq(lg) {
     padding-top: rem(17);
     padding-bottom: rem(17);
   }
 }
 .about__item + .about__item {
-  margin-top: rem(20);
-  @include mq(md) {
+  margin-top: rem(18);
+  @include mq(lg) {
     margin-top: rem(6);
   }
 }
@@ -137,38 +137,58 @@
   display: flex;
   align-items: center;
   width: 100%;
-  padding: rem(25.5661) rem(21) rem(24.0585) 0;
-  @include mq(md) {
+  padding: rem(25.5661) rem(16) rem(21) 0;
+  @include mq(lg) {
     padding-top: rem(11);
     padding-left: rem(4);
     padding-bottom: rem(10);
   }
 }
 .aboutItem__image {
-  flex-basis: calc(121.9864 / 273.3171 * 100%);
+  flex-basis: calc(122 / 253.061 * 100%);
+  padding-bottom: rem(3);
   @include mq(lg) {
     flex-basis: rem(101);
+    padding-bottom: rem(0);
   }
 }
 .aboutItem__image img {
   margin-right:auto;
   margin-left:auto;
 }
+.aboutItem__image--first {
+  padding-bottom: rem(3);
+  @include mq(lg) {
+    padding-bottom: rem(0);
+  }
+}
 .aboutItem__image--first img{
   max-width: calc(62.0476 / 121.9864 * 100%);
-  @include mq(md) {
+  @include mq(lg) {
     max-width:57.864359%;
   }
 }
-.aboutItem__image--second img {
-  max-width: calc(58.4239 / 121.9864 * 100%);
+.aboutItem__image--second {
+  padding-top: rem(6);
   @include mq(md) {
+    padding-bottom: rem(0);
+  }
+}
+.aboutItem__image--second img {
+  max-width: calc(60 / 122 * 100%);
+  @include mq(lg) {
     max-width:61.907236%;
+  }
+}
+.aboutItem__image--tird {
+  padding-bottom: rem(7);
+  @include mq(md) {
+    padding-bottom: 0;
   }
 }
 .aboutItem__image--tird img {
   max-width: calc(66.97936 / 121.9864 * 100%); 
-  @include mq(md) {
+  @include mq(lg) {
     max-width:57.864359%;
   }
 }
@@ -183,7 +203,7 @@
 .aboutItem__description {
   font-size: rem(18);
   line-height: calc(25 /18);
-  margin-top: rem(13.1922);
+  margin-top: rem(9);
   @include mq(lg) {
     font-size: rem(16.6);
     margin-top: rem(4);
@@ -218,34 +238,37 @@
   position: relative;
 }
 .about__arrow + .about__arrow {
-  margin-top: rem(42.2712);
-  @include mq(md) {
+  margin-top: rem(42);
+  @include mq(lg) {
     margin-top: rem(37);
   }
 }
 .about__arrow-text {
   position: absolute;
-  left: 50%;
+  left: calc(50% - rem(10));
   transform: translateX(-50%);
   font-size: rem(21);
   line-height: 1;
+  white-space: nowrap;
   @include mq(lg) {
     transform: rotate(-90deg);
-    white-space: nowrap;
     font-size: rem(19.52);
     left: calc(50% - rem(21) );
   }
 }
+.about__arrows--cliant .about__arrow-text {
+  left: calc(50% + rem(3));
+}
 .about__arrow-text--top {
-  bottom: calc(100% + rem(16));
-  @include mq(md) {
+  bottom: calc(100% + rem(14));
+  @include mq(lg) {
     bottom: calc(100% + rem(15));
     
   }
 }
 .about__arrow-text--bottom {
-  top: calc(100% + rem(16));
-  @include mq(md) {
+  top: calc(100% + rem(12));
+  @include mq(lg) {
     top: calc(100% + rem(15));
     
   }
@@ -273,7 +296,10 @@
   background: #f2f2f2;
   border-radius: rem(6.179);
   width: 100%;
-  padding: rem(27) rem(8) rem(28) rem(12);
+  padding: rem(30) rem(12) rem(33) rem(12);
+  @include mq(md) {
+    padding: rem(27) rem(8) rem(28) rem(12);
+  }
 }
 .moniterTop__head {
   text-align: center;
@@ -281,20 +307,23 @@
 .moniterTop__head-text {
   display: inline-block;
   border: 1px solid $color-black;
-  padding: rem(3) rem(6);
+  padding: rem(5) rem(11) rem(2) ;
   font-size: rem(22.61);
   line-height: 1;
   font-weight: $bold;
+  border-bottom-width: rem(2);
+  margin-right: rem(3);
   @include mq(lg) {
     font-size: rem(21.02);
     padding: rem(3.5) rem(10);
+    margin-right: rem(0);
   }
 }
 .moniterTop__flex {
   display: flex;
   gap: rem(0);
   align-items: center;
-  margin-top: rem(4);
+  margin-top: rem(7);
   @include mq(lg) {
     justify-content: center;
     margin-top: rem(10);
@@ -315,6 +344,7 @@
   font-size: rem(35.99);
   line-height: 1;
   color: $color-theme;
+  letter-spacing: -0.03em;
   @include mq(lg) {
     font-size: rem(33.45);
     letter-spacing: -0.1em;
@@ -327,19 +357,19 @@
   }
 }
 .about__moniter-arrow {
-  max-width:rem(83.0312);
+  max-width:rem(82);
   width:100%;
   margin-right:auto;
   margin-left:auto;
-  margin-top: rem(24);
+  margin-top: rem(22);
   @include mq(lg) {
     max-width: rem(77.1757);
     margin-top: rem(9);
   }
 }
 .about__moniter-bottom {
-  margin-top: rem(24);
-  @include mq(md) {
+  margin-top: rem(14);
+  @include mq(lg) {
     margin-top: rem(7);
   }
 }
@@ -347,15 +377,20 @@
   font-size: rem(26);
   line-height: 1;
   font-weight: $bold;
+  padding-left: rem(7);
   @include mq(lg) {
     font-size: rem(22.83);
+    padding-left: rem(0);
   }
 }
 .aboutBottom__content {
   display: flex;
-  gap: rem(8);
+  gap:rem(11) rem(8);
   flex-wrap: wrap;
-  margin-top: rem(16);
+  margin-top: rem(24);
+  @include mq(md) {
+    margin-top: rem(16);
+  }
 }
 .aboutBottom__item {
   width: calc((100% - (rem(8) * 2)) / 3);
@@ -368,7 +403,7 @@
   content: "";
   display: block;
   width: 100%;
-  padding-top: calc(63.5991 / 85.6709 * 100%);
+  padding-top: 51%;
   @include mq(lg) {
     padding-top: 53.236493%;
   }
@@ -389,7 +424,7 @@
 }
 .aboutBottom__bottom-text {
   text-align: right;
-  margin-top: rem(8);
+  margin-top: rem(13);
   font-size: rem(15);
   @include mq(lg) {
     font-size: rem(16.6);
