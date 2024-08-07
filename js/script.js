@@ -66,23 +66,22 @@ jQuery(function ($) {
       }
     });
   });
-});
 
-document.addEventListener('DOMContentLoaded', function() {
+  // #js-fixed-bottomのフェードイン処理
   const mv = document.getElementById('mv');
   const fixedBottom = document.querySelector('.js-fixed-bottom');
 
   function checkPosition() {
-      const mvBottom = mv.getBoundingClientRect().bottom;
-      if (mvBottom < 0) {
-          fixedBottom.classList.add('show');
-      } else {
-          fixedBottom.classList.remove('show');
-      }
+    const mvBottom = mv.getBoundingClientRect().bottom;
+    if (mvBottom < 0) {
+      $(fixedBottom).fadeIn(500);
+    } else {
+      $(fixedBottom).fadeOut(500);
+    }
   }
 
-  window.addEventListener('scroll', checkPosition);
-  window.addEventListener('resize', checkPosition);
+  $(window).on('scroll', checkPosition);
+  $(window).on('resize', checkPosition);
 
   // 初回チェック
   checkPosition();
