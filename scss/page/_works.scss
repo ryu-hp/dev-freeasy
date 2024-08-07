@@ -36,7 +36,7 @@
   padding: rem(0) rem(67);
   position: relative;
   @include mq(md) {
-    padding: rem(0) rem(30);
+    padding: rem(0) rem(0);
   }
 }
 .works-slide {
@@ -132,7 +132,7 @@
   height: rem(71.2586);
   width: rem(35.6293);
   @include mq(md) {
-    display: none;
+    display: none !important;
   }
 }
 .swiper-button-next {

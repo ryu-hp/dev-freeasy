@@ -2071,7 +2071,7 @@ select::-ms-expand {
 }
 @media screen and (max-width: 767px) {
   .works__body {
-    padding: 0rem 1.875rem;
+    padding: 0rem 0rem;
   }
 }
 
@@ -2209,7 +2209,7 @@ select::-ms-expand {
 @media screen and (max-width: 767px) {
   .swiper-button-next,
   .swiper-button-prev {
-    display: none;
+    display: none !important;
   }
 }
 
