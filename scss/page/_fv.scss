@@ -73,6 +73,8 @@
   z-index: -1;
   @include mq(md) {
     max-width: rem(33.1574);
+    right: rem(23);
+    bottom: rem(221);
   }
 }
 .fv__contents {

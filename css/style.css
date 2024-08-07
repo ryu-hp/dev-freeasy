@@ -401,6 +401,8 @@ select::-ms-expand {
 @media screen and (max-width: 767px) {
   .fv__bg-right {
     max-width: 2.0723375rem;
+    right: 1.4375rem;
+    bottom: 13.8125rem;
   }
 }
 
