@@ -2598,6 +2598,11 @@ select::-ms-expand {
   -webkit-box-shadow: 0.25rem 0.25rem 0.25rem rgba(0, 0, 0, 0.3);
           box-shadow: 0.25rem 0.25rem 0.25rem rgba(0, 0, 0, 0.3);
 }
+@media screen and (max-width: 767px) {
+  .faqItem {
+    padding: 0 0.6639rem;
+  }
+}
 
 .faqItem__head {
   display: -webkit-box;
@@ -2609,6 +2614,11 @@ select::-ms-expand {
   font-weight: 600;
   border-bottom: 1px dashed #cccccc;
   padding: 3.75rem 0;
+}
+@media screen and (max-width: 767px) {
+  .faqItem__head {
+    padding: 1.33935rem 0;
+  }
 }
 
 .faqItem__icon {

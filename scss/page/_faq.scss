@@ -93,6 +93,9 @@
   border-radius: rem(16.854);
   padding: 0 rem(45);
   box-shadow: rem(4) rem(4) rem(4) $color-shadow;
+  @include mq(md) {
+    padding: 0 rem(10.6224);
+  }
 }
 .faqItem__head {
   display: flex;
@@ -100,6 +103,9 @@
   font-weight: $bold;
   border-bottom: 1px dashed #cccccc;
   padding: rem(60) 0;
+  @include mq(md) {
+    padding: rem(21.4296) 0;
+  }
 }
 .faqItem__icon {
   font-size: rem(40);
