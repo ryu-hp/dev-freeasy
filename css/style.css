@@ -328,6 +328,14 @@ select::-ms-expand {
   max-width: 37.994125rem;
   width: 100%;
 }
+@media screen and (max-width: 959px) {
+  .fv__bg-top {
+    top: -0.1875rem;
+    right: -9.1875rem;
+    width: 30rem;
+    max-width: initial;
+  }
+}
 
 .fv__bg-bottom {
   position: absolute;
