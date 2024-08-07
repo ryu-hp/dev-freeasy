@@ -190,13 +190,16 @@
 }
 .fvBtn--account .fvBtn__content {
   gap: rem(17);
+  @include mq(md) {
+    gap: rem(13);
+  }
 }
 .fvBtn__icon {
   max-width: rem(39.5);
   width: 100%;
   flex-shrink: 0;
   @include mq(md) {
-    max-width: rem(27.8875);
+    max-width: rem(29);
   }
 }
 .fvBtn__text {

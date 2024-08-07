@@ -8,6 +8,9 @@
   left: 0;
   width: 100%;
   z-index: 10;
+  @include mq(md) {
+    padding: rem(6.5) rem(0);
+  }
 }
 .fix-contents__inner {
   width: 100%;
@@ -30,6 +33,7 @@
   width: 100%;
   @include mq(md) {
     justify-content: center;
+    gap: rem(4);
   }
 }
 
@@ -41,4 +45,12 @@
 .js-fixed-bottom.show {
   visibility: visible;
   opacity: 1;
+}
+.fix-contents__upBtn {
+  position: absolute;
+  right: 0;
+  bottom: calc(100% + 10px);
+  max-width:rem(22.803);
+  width:100%;
+  cursor: pointer;
 }
