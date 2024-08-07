@@ -465,11 +465,13 @@ select::-ms-expand {
 }
 
 .fv__cost {
-  font-size: 1.581875rem;
+  font-size: 1.125rem;
   line-height: 1.7499012248;
   font-weight: 600;
   margin-top: 0.6875rem;
   text-align: center;
+  position: absolute;
+  bottom: calc(100% + 0.5rem);
 }
 @media screen and (max-width: 767px) {
   .fv__cost {
@@ -538,6 +540,7 @@ select::-ms-expand {
 .fvBtn--account {
   background: -webkit-gradient(linear, left top, right top, from(#2983e2), to(#3fb0ed));
   background: linear-gradient(90deg, #2983e2 0%, #3fb0ed 100%);
+  position: relative;
 }
 
 .fvBtn__content {
