@@ -27,7 +27,7 @@
   width:100%;
   margin-left: auto;
   margin-right: auto;
-  @include mq(md) {
+  @include mq(lg) {
     max-width: rem(327.2939);
   }
 }
@@ -41,7 +41,7 @@
   text-align: justify;
   font-feature-settings: "palt";
   padding: rem(0) rem(7.5);
-  @include mq(md) {
+  @include mq(lg) {
     font-size: rem(18);
     padding: 0;
   }
@@ -90,7 +90,7 @@
   font-size: rem(29);
   line-height: 1;
   padding: rem(24) rem(4);
-  @include mq(md) {
+  @include mq(lg) {
     font-size: rem(23.87);
   }
 }
@@ -111,7 +111,7 @@
 }
 .aboutItem__image {
   flex-basis: calc(121.9864 / 273.3171 * 100%);
-  @include mq(md) {
+  @include mq(lg) {
     flex-basis: rem(331.7912);
   }
 }
@@ -132,7 +132,7 @@
   font-weight: $bold;
   font-size: rem(26);
   line-height: 1;
-  @include mq(md) {
+  @include mq(lg) {
     font-size: rem(22.83);
   }
 }
@@ -140,7 +140,7 @@
   font-size: rem(18);
   line-height: calc(25 /18);
   margin-top: rem(13.1922);
-  @include mq(md) {
+  @include mq(lg) {
     font-size: rem(16.6);
   }
 }
@@ -210,7 +210,7 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%,-50%);
-  @include mq(md) {
+  @include mq(lg) {
     width: calc(100.3807 / 186.4023 * 100%);
   }
 }
@@ -230,7 +230,7 @@
   font-size: rem(22.61);
   line-height: 1;
   font-weight: $bold;
-  @include mq(md) {
+  @include mq(lg) {
     font-size: rem(21.02);
   }
 }
@@ -246,7 +246,7 @@
 .moniterTop__icon {
   max-width:rem(35.0695);
   width:100%;
-  @include mq(md) {
+  @include mq(lg) {
     max-width: rem(32.5963);
   }
 }
@@ -255,13 +255,13 @@
   font-size: rem(35.99);
   line-height: 1;
   color: $color-theme;
-  @include mq(md) {
+  @include mq(lg) {
     font-size: rem(33.45);
   }
 }
 .moniterTop__text--large {
   font-size: rem(51.98);
-  @include mq(md) {
+  @include mq(lg) {
     font-size: rem(48.32);
   }
 }
@@ -326,7 +326,7 @@
   text-align: right;
   margin-top: rem(8);
   font-size: rem(15);
-  @include mq(md) {
+  @include mq(lg) {
     font-size: rem(16.6);
   }
 }

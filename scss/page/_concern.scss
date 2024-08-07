@@ -13,8 +13,8 @@
   margin-left: auto;
   box-sizing: border-box;
   @include mq(md) {
-    padding-right: $padding-sp;
-    padding-left: $padding-sp;
+    padding-right: rem(38);
+    padding-left: rem(38);
   }
 }
 .concern-title__en {
@@ -50,6 +50,9 @@
   color: $color-white;
   font-feature-settings: "palt";
   text-align: justify;
+  @include mq(md) {
+    font-size: rem(16);
+  }
 }
 .concern__image {
   border-radius: rem(16.149);

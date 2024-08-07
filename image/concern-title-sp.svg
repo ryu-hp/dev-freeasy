@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_レイヤー_2" data-name="レイヤー_2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 250.27 102.31">
+  <defs>
+    <style>
+      .cls-1 {
+        letter-spacing: -.07em;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5, .cls-6 {
+        fill: #fff;
+      }
+
+      .cls-7 {
+        fill: none;
+        letter-spacing: 0em;
+        stroke: #fff;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 2px;
+      }
+
+      .cls-2 {
+        letter-spacing: -.01em;
+      }
+
+      .cls-3 {
+        letter-spacing: 0em;
+      }
+
+      .cls-4 {
+        letter-spacing: 0em;
+      }
+
+      .cls-5 {
+        letter-spacing: 0em;
+      }
+
+      .cls-8 {
+        font-family: HiraKakuStdN-W8-83pv-RKSJ-H, 'Hiragino Kaku Gothic StdN';
+        font-size: 38px;
+      }
+
+      .cls-9 {
+        letter-spacing: -.1em;
+      }
+
+      .cls-10 {
+        letter-spacing: -.08em;
+      }
+
+      .cls-11 {
+        letter-spacing: -.09em;
+      }
+
+      .cls-12 {
+        letter-spacing: -.07em;
+      }
+
+      .cls-13 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-14 {
+        letter-spacing: -.03em;
+      }
+
+      .cls-15 {
+        letter-spacing: -.01em;
+      }
+    </style>
+  </defs>
+  <g id="_レイヤー_1-2" data-name="レイヤー_1">
+    <text class="cls-8" transform="translate(12.1 33.49)"><tspan class="cls-1" x="0" y="0">こ</tspan><tspan class="cls-2" x="35.45" y="0">ん</tspan><tspan class="cls-4" x="72.96" y="0">な</tspan><tspan class="cls-3" x="110.58" y="0">お</tspan><tspan class="cls-7" x="148.43" y="0">悩</tspan><tspan class="cls-5" x="186.13" y="0">み</tspan><tspan class="cls-6"><tspan class="cls-12" x="-12.67" y="48">あ</tspan><tspan class="cls-10" x="22.74" y="48">り</tspan><tspan class="cls-14" x="57.7" y="48">ま</tspan><tspan class="cls-13" x="94.49" y="48">せ</tspan><tspan class="cls-15" x="131.8" y="48">ん</tspan><tspan class="cls-11" x="169.35" y="48">か</tspan><tspan class="cls-9" x="203.85" y="48">？</tspan></tspan></text>
+  </g>
+</svg>
