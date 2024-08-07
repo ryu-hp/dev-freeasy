@@ -2808,3 +2808,21 @@ select::-ms-expand {
   -webkit-box-shadow: 0.1875rem 0.1875rem 0.3125rem rgba(0, 0, 0, 0.3);
           box-shadow: 0.1875rem 0.1875rem 0.3125rem rgba(0, 0, 0, 0.3);
 }
+
+.js-fadeInUp {
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transform: translateY(1.5rem);
+          transform: translateY(1.5rem);
+  -webkit-transition: opacity 1.5s, visibility 1.5s, -webkit-transform 1.5s;
+  transition: opacity 1.5s, visibility 1.5s, -webkit-transform 1.5s;
+  transition: opacity 1.5s, visibility 1.5s, transform 1.5s;
+  transition: opacity 1.5s, visibility 1.5s, transform 1.5s, -webkit-transform 1.5s;
+}
+
+.js-fadeInUp.visible {
+  opacity: 1;
+  visibility: visible;
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
+}
