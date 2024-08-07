@@ -367,6 +367,11 @@ select::-ms-expand {
   max-width: 3.38314375rem;
   width: 100%;
 }
+@media screen and (max-width: 767px) {
+  .fv__bg-right {
+    max-width: 2.0723375rem;
+  }
+}
 
 .fv__contents {
   display: -webkit-box;
@@ -397,6 +402,11 @@ select::-ms-expand {
   -webkit-font-feature-settings: "palt";
           font-feature-settings: "palt";
 }
+@media screen and (max-width: 767px) {
+  .fv__apeare-text {
+    font-size: 1.339375rem;
+  }
+}
 
 .fv__apeare-text--line {
   display: inline-block;
@@ -415,6 +425,13 @@ select::-ms-expand {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   background: #2983e2;
+}
+@media screen and (max-width: 767px) {
+  .fv__apeare-text--line::before,
+  .fv__apeare-text--line::after {
+    height: 2.125rem;
+    width: 2px;
+  }
 }
 
 .fv__apeare-text--line::before {
@@ -438,6 +455,11 @@ select::-ms-expand {
   -webkit-transform: translateX(-1px);
           transform: translateX(-1px);
 }
+@media screen and (max-width: 767px) {
+  .fv__title {
+    max-width: 20.32849375rem;
+  }
+}
 
 .fv__cost {
   font-size: 1.581875rem;
@@ -445,6 +467,11 @@ select::-ms-expand {
   font-weight: 600;
   margin-top: 0.6875rem;
   text-align: center;
+}
+@media screen and (max-width: 767px) {
+  .fv__cost {
+    font-size: 1.13625rem;
+  }
 }
 
 .fv__batchArea {
@@ -464,6 +491,11 @@ select::-ms-expand {
 .fv__batch {
   max-width: 6.73198125rem;
   width: 100%;
+}
+@media screen and (max-width: 767px) {
+  .fv__batch {
+    max-width: 4.8364625rem;
+  }
 }
 
 .fv__btnArea {
@@ -487,6 +519,12 @@ select::-ms-expand {
   display: inline-block;
   padding: 0.46875rem 0.5625rem;
   white-space: nowrap;
+}
+@media screen and (max-width: 767px) {
+  .fvBtn {
+    border-radius: 1.006875rem;
+    padding: 0.3375rem 0.3125rem;
+  }
 }
 
 .fvBtn--download {
@@ -519,12 +557,22 @@ select::-ms-expand {
   -ms-flex-negative: 0;
       flex-shrink: 0;
 }
+@media screen and (max-width: 767px) {
+  .fvBtn__icon {
+    max-width: 1.74296875rem;
+  }
+}
 
 .fvBtn__text {
   font-size: 1.28rem;
   font-weight: 600;
   line-height: 1.7495117187;
   color: #fff;
+}
+@media screen and (max-width: 767px) {
+  .fvBtn__text {
+    font-size: 0.919375rem;
+  }
 }
 
 .fv__textArea {
@@ -585,12 +633,22 @@ select::-ms-expand {
   max-width: 1.875rem;
   width: 100%;
 }
+@media screen and (max-width: 767px) {
+  .fv__operation-icon {
+    max-width: 1.14219375rem;
+  }
+}
 
 .fv__operation-text {
   font-size: 0.9375rem;
   font-weight: 600;
   color: #2983e2;
   padding-top: 0.0625rem;
+}
+@media screen and (max-width: 767px) {
+  .fv__operation-text {
+    font-size: 0.576875rem;
+  }
 }
 
 .fv__mainImage {
