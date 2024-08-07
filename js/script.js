@@ -92,3 +92,117 @@ jQuery(function ($) {
   // 初回チェック
   checkPosition();
 });
+
+$(document).ready(function() {
+  function fadeAnimation() {
+      $('.js-fadeInUp').each(function() {
+      var elemPos = $(this).offset().top;
+      var windowHeight = $(window).height();
+      var scrollPos = $(window).scrollTop() + windowHeight - 100;
+
+      if (scrollPos > elemPos) {
+          $(this).addClass('visible');
+      }
+      })
+  }
+  function fadeAnimation2() {
+    $('.js-fadeInUp-2').each(function() {
+      var elemPos = $(this).offset().top;
+      var windowHeight = $(window).height();
+      var scrollPos = $(window).scrollTop() + windowHeight - 100;
+  
+      if (scrollPos > elemPos) {
+        var $this = $(this);
+        setTimeout(function() {
+          $this.addClass('visible');
+        }, 200); 
+      }
+    });
+  }
+  
+  $(window).on('scroll', fadeAnimation);
+  $(window).on('resize', fadeAnimation);
+  
+  // 初回チェック
+  fadeAnimation2();
+  function fadeAnimation3() {
+    $('.js-fadeInUp-3').each(function() {
+      var elemPos = $(this).offset().top;
+      var windowHeight = $(window).height();
+      var scrollPos = $(window).scrollTop() + windowHeight - 100;
+  
+      if (scrollPos > elemPos) {
+        var $this = $(this);
+        setTimeout(function() {
+          $this.addClass('visible');
+        }, 400); 
+      }
+    });
+  }
+  
+  $(window).on('scroll', fadeAnimation);
+  $(window).on('resize', fadeAnimation);
+  
+  // 初回チェック
+  fadeAnimation3();
+  function fadeAnimation4() {
+    $('.js-fadeInUp-4').each(function() {
+      var elemPos = $(this).offset().top;
+      var windowHeight = $(window).height();
+      var scrollPos = $(window).scrollTop() + windowHeight - 100;
+  
+      if (scrollPos > elemPos) {
+        var $this = $(this);
+        setTimeout(function() {
+          $this.addClass('visible');
+        }, 600); 
+      }
+    });
+  }
+  
+  $(window).on('scroll', fadeAnimation);
+  $(window).on('resize', fadeAnimation);
+  
+  // 初回チェック
+  fadeAnimation4();
+  function fadeAnimation5() {
+    $('.js-fadeInUp-4').each(function() {
+      var elemPos = $(this).offset().top;
+      var windowHeight = $(window).height();
+      var scrollPos = $(window).scrollTop() + windowHeight - 100;
+  
+      if (scrollPos > elemPos) {
+        var $this = $(this);
+        setTimeout(function() {
+          $this.addClass('visible');
+        }, 800); 
+      }
+    });
+  }
+  
+  $(window).on('scroll', fadeAnimation);
+  $(window).on('resize', fadeAnimation);
+  
+  // 初回チェック
+  fadeAnimation5();
+  function fadeAnimation6() {
+    $('.js-fadeInUp-5').each(function() {
+      var elemPos = $(this).offset().top;
+      var windowHeight = $(window).height();
+      var scrollPos = $(window).scrollTop() + windowHeight - 100;
+  
+      if (scrollPos > elemPos) {
+        var $this = $(this);
+        setTimeout(function() {
+          $this.addClass('visible');
+        }, 1000); 
+      }
+    });
+  }
+  
+  $(window).on('scroll', fadeAnimation);
+  $(window).on('resize', fadeAnimation);
+  
+  // 初回チェック
+  fadeAnimation6();
+})

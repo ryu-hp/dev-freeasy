@@ -9,7 +9,7 @@
   left: 0;
   width: 100%;
   @include mq(md) {
-    padding: rem(0) rem(10);
+    padding: rem(9) rem(0);
   }
 }
 .header__inner {

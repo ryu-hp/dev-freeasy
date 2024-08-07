@@ -216,7 +216,7 @@ select::-ms-expand {
 }
 @media screen and (max-width: 767px) {
   .header {
-    padding: 0rem 0.625rem;
+    padding: 0.5625rem 0rem;
   }
 }
 
@@ -314,6 +314,11 @@ select::-ms-expand {
   overflow: hidden;
   -webkit-font-feature-settings: "palt";
           font-feature-settings: "palt";
+}
+@media screen and (max-width: 767px) {
+  .fv {
+    padding-top: 3rem;
+  }
 }
 
 .fv__bg-top {

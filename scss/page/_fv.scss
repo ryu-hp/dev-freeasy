@@ -5,6 +5,9 @@
   padding-top: rem(114);
   overflow: hidden;
   font-feature-settings: "palt";
+  @include mq(md) {
+    padding-top: rem(48);
+  }
 }
 .fv__bg-top {
   position: absolute;
