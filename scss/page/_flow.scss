@@ -136,6 +136,7 @@
   transform: translate(-50%,-50%);
   width: 100%;
   height: 100%;
+  object-fit: cover;
 }
 
 
@@ -143,6 +144,7 @@
   width: rem(16.9411);
   height: rem(16.9411);
   background: #cccccc;
+  margin: rem(0) rem(8);
 }
 #flow-swiper_pagination > .swiper-pagination-bullet.swiper-pagination-bullet-active {
   background: #666666;
