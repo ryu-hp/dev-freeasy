@@ -2639,23 +2639,37 @@ select::-ms-expand {
 
 .flowItem:first-child {
   border-radius: 1rem 0 0 1rem;
-  padding-left: 1.5rem;
 }
 @media screen and (max-width: 767px) {
   .flowItem:first-child {
     border-radius: 0.5625rem 0.5625rem 0 0;
+  }
+}
+
+.flowItem:first-child .flowItem__wrapper {
+  padding-left: 1.5rem;
+}
+@media screen and (max-width: 767px) {
+  .flowItem:first-child .flowItem__wrapper {
     padding: 2.6875rem 1.125rem 1.375rem;
   }
 }
 
 .flowItem:last-child {
   border-radius: 0 1rem 1rem 0;
-  padding-right: 1.5rem;
 }
 @media screen and (max-width: 767px) {
   .flowItem:last-child {
-    padding: 3rem 1.125rem 2rem;
     border-radius: 0 0 1rem 1rem;
+  }
+}
+
+.flowItem:last-child .flowItem__wrapper {
+  padding-right: 1.5rem;
+}
+@media screen and (max-width: 767px) {
+  .flowItem:last-child .flowItem__wrapper {
+    padding: 3rem 1.125rem 2rem;
   }
 }
 

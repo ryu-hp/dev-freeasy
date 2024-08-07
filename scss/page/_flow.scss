@@ -66,18 +66,27 @@
 }
 .flowItem:first-child  {
   border-radius: rem(16) 0 0 rem(16) ;
-  padding-left: rem(24);
   @include mq(md) {
     border-radius: rem(9) rem(9) 0 0 ;
+  }
+}
+.flowItem:first-child .flowItem__wrapper {
+  padding-left: rem(24);
+  @include mq(md) {
     padding: rem(43) rem(18) rem(22);
   }
 }
+
 .flowItem:last-child  {
   border-radius:0 rem(16) rem(16) 0;
+  @include mq(md) {  
+    border-radius:0 0 rem(16) rem(16);
+  }
+}
+.flowItem:last-child .flowItem__wrapper {
   padding-right: rem(24);
   @include mq(md) {
-    padding: rem(48) rem(18) rem(32);   
-    border-radius:0 0 rem(16) rem(16);
+    padding: rem(48) rem(18) rem(32); 
   }
 }
 .flowItem::before,
