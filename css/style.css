@@ -2120,6 +2120,11 @@ select::-ms-expand {
   padding-top: 97.991876377%;
   display: block;
 }
+@media screen and (max-width: 767px) {
+  .works-slide__image::before {
+    padding-top: 57.4610812892%;
+  }
+}
 
 .works-slide__image img {
   position: absolute;

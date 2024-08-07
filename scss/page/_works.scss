@@ -68,6 +68,9 @@
   width:100%;
   padding-top: calc(392.2752 / 400.314 * 100%);
   display: block;
+  @include mq(md) {
+    padding-top: calc(191.7709 / 333.7405 * 100%);
+  }
 }
 .works-slide__image img {
   position: absolute;
