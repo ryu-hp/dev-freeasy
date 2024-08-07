@@ -2163,7 +2163,7 @@ select::-ms-expand {
 
 .faqItem__text {
   font-size: 1.5625rem;
-  line-height: 1;
+  line-height: 1.75;
 }
 
 .accordion-item__content {
