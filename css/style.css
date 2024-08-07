@@ -1767,7 +1767,7 @@ select::-ms-expand {
 @media screen and (max-width: 767px) {
   .price {
     padding-top: 1.1875rem;
-    padding-bottom: 1.25rem;
+    padding-bottom: 9.4375rem;
   }
 }
 
@@ -2118,7 +2118,7 @@ select::-ms-expand {
 @media screen and (max-width: 767px) {
   .price__bottom-content {
     border-radius: 0.8125rem;
-    padding: 2.0625rem 0.5625rem 1.125rem 0.5rem;
+    padding: 2.0625rem 0.5625rem 2.25rem 0.5rem;
   }
 }
 
@@ -2129,7 +2129,7 @@ select::-ms-expand {
 }
 @media screen and (max-width: 767px) {
   .price__bottom-item + .price__bottom-item {
-    margin-top: 0.625rem;
+    margin-top: 1.375rem;
     padding-top: 1.0625rem;
   }
 }
@@ -2208,6 +2208,8 @@ select::-ms-expand {
     margin-left: 0;
     font-size: 1.625rem;
     letter-spacing: -0.04em;
+    line-height: 1;
+    margin-top: -0.0625rem;
   }
 }
 
@@ -2232,8 +2234,9 @@ select::-ms-expand {
   .priceItem__price {
     font-size: 1.625rem;
     margin-right: auto;
-    margin-top: -0.5625rem;
+    margin-top: 0.75rem;
     letter-spacing: -0.13em;
+    line-height: 1;
   }
 }
 
@@ -2328,7 +2331,7 @@ select::-ms-expand {
 @media screen and (max-width: 767px) {
   .works-title .works-title__main {
     max-width: 9.5rem;
-    margin-top: -0.6875rem;
+    margin-top: 0.5625rem;
   }
 }
 

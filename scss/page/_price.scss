@@ -5,7 +5,7 @@
   padding: rem(55) rem(0) rem(72);
   @include mq(md) {
     padding-top: rem(19);
-    padding-bottom: rem(20);
+    padding-bottom: rem(151);
   }
 }
 .price__inner {
@@ -269,7 +269,7 @@
   padding: rem(50) rem(32) rem(40);
   @include mq(md) {
     border-radius: rem(13);
-    padding: rem(33) rem(9) rem(18) rem(8);
+    padding: rem(33) rem(9) rem(36) rem(8);
     
   }
 }
@@ -278,7 +278,7 @@
   margin-top: rem(20);
   border-top: rem(3) solid $color-theme;
   @include mq(md) {
-    margin-top: rem(10);
+    margin-top: rem(22);
     padding-top: rem(17);
   }
 }
@@ -328,6 +328,8 @@
     margin-left: 0;
     font-size: rem(26);
     letter-spacing: -0.04em;
+    line-height: 1;
+    margin-top: rem(-1);
   }
 }
 .priceItem__text--large {
@@ -346,8 +348,9 @@
   @include mq(md) {
     font-size: rem(26);
     margin-right: auto;
-    margin-top: rem(-9);
+    margin-top: rem(12);
     letter-spacing: -0.13em;
+    line-height: 1;
   }
 }
 .priceItem__price--large {

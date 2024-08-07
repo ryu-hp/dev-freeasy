@@ -6,27 +6,27 @@ jQuery(function ($) {
     $(this).toggleClass('active');
   });
 
-  let mySwiper = new Swiper ('#works-swiper', {
-    // オプション設定
-    slidesPerView: 'auto',
-    loop: true,
-    centeredSlides: true, // アクティブなスライドを中央に配置
-    //オートプレイ
-    autoplay: {
-      delay: 3000,
-      disableOnInteraction: false,
-    }, 
-    navigation: {
-      nextEl: '.swiper-button-next', // 「次へ」ボタン要素のクラス
-      prevEl: '.swiper-button-prev', // 「前へ」ボタン要素のクラス
-    },
-    //ページネーション表示設定
-    pagination: {
-      el: '#works-swiper_pagination', //ページネーション要素
-      type: 'bullets', //ページネーションの種類
-      clickable: true, //クリックに反応させる
-    },
-  });
+  // let mySwiper = new Swiper ('#works-swiper', {
+  //   // オプション設定
+  //   slidesPerView: 'auto',
+  //   loop: true,
+  //   centeredSlides: true, // アクティブなスライドを中央に配置
+  //   //オートプレイ
+  //   autoplay: {
+  //     delay: 3000,
+  //     disableOnInteraction: false,
+  //   }, 
+  //   navigation: {
+  //     nextEl: '.swiper-button-next', // 「次へ」ボタン要素のクラス
+  //     prevEl: '.swiper-button-prev', // 「前へ」ボタン要素のクラス
+  //   },
+  //   //ページネーション表示設定
+  //   pagination: {
+  //     el: '#works-swiper_pagination', //ページネーション要素
+  //     type: 'bullets', //ページネーションの種類
+  //     clickable: true, //クリックに反応させる
+  //   },
+  // });
   let flowSwiper = new Swiper ('#flow-swiper', {
     // オプション設定
     slidesPerView: 'auto',
@@ -92,120 +92,6 @@ jQuery(function ($) {
   // 初回チェック
   checkPosition();
 });
-
-// $(document).ready(function() {
-//   function fadeAnimation() {
-//       $('.js-fadeInUp').each(function() {
-//       var elemPos = $(this).offset().top;
-//       var windowHeight = $(window).height();
-//       var scrollPos = $(window).scrollTop() + windowHeight - 100;
-
-//       if (scrollPos > elemPos) {
-//           $(this).addClass('visible');
-//       }
-//       })
-//   }
-//   function fadeAnimation2() {
-//     $('.js-fadeInUp-2').each(function() {
-//       var elemPos = $(this).offset().top;
-//       var windowHeight = $(window).height();
-//       var scrollPos = $(window).scrollTop() + windowHeight - 100;
-  
-//       if (scrollPos > elemPos) {
-//         var $this = $(this);
-//         setTimeout(function() {
-//           $this.addClass('visible');
-//         }, 200); 
-//       }
-//     });
-//   }
-  
-//   $(window).on('scroll', fadeAnimation);
-//   $(window).on('resize', fadeAnimation);
-  
-//   // 初回チェック
-//   fadeAnimation2();
-//   function fadeAnimation3() {
-//     $('.js-fadeInUp-3').each(function() {
-//       var elemPos = $(this).offset().top;
-//       var windowHeight = $(window).height();
-//       var scrollPos = $(window).scrollTop() + windowHeight - 100;
-  
-//       if (scrollPos > elemPos) {
-//         var $this = $(this);
-//         setTimeout(function() {
-//           $this.addClass('visible');
-//         }, 400); 
-//       }
-//     });
-//   }
-  
-//   $(window).on('scroll', fadeAnimation);
-//   $(window).on('resize', fadeAnimation);
-  
-//   // 初回チェック
-//   fadeAnimation3();
-//   function fadeAnimation4() {
-//     $('.js-fadeInUp-4').each(function() {
-//       var elemPos = $(this).offset().top;
-//       var windowHeight = $(window).height();
-//       var scrollPos = $(window).scrollTop() + windowHeight - 100;
-  
-//       if (scrollPos > elemPos) {
-//         var $this = $(this);
-//         setTimeout(function() {
-//           $this.addClass('visible');
-//         }, 600); 
-//       }
-//     });
-//   }
-  
-//   $(window).on('scroll', fadeAnimation);
-//   $(window).on('resize', fadeAnimation);
-  
-//   // 初回チェック
-//   fadeAnimation4();
-//   function fadeAnimation5() {
-//     $('.js-fadeInUp-4').each(function() {
-//       var elemPos = $(this).offset().top;
-//       var windowHeight = $(window).height();
-//       var scrollPos = $(window).scrollTop() + windowHeight - 100;
-  
-//       if (scrollPos > elemPos) {
-//         var $this = $(this);
-//         setTimeout(function() {
-//           $this.addClass('visible');
-//         }, 800); 
-//       }
-//     });
-//   }
-  
-//   $(window).on('scroll', fadeAnimation);
-//   $(window).on('resize', fadeAnimation);
-  
-//   // 初回チェック
-//   fadeAnimation5();
-//   function fadeAnimation6() {
-//     $('.js-fadeInUp-5').each(function() {
-//       var elemPos = $(this).offset().top;
-//       var windowHeight = $(window).height();
-//       var scrollPos = $(window).scrollTop() + windowHeight - 100;
-  
-//       if (scrollPos > elemPos) {
-//         var $this = $(this);
-//         setTimeout(function() {
-//           $this.addClass('visible');
-//         }, 1000); 
-//       }
-//     });
-//   }
-  
-//   $(window).on('scroll', fadeAnimation);
-//   $(window).on('resize', fadeAnimation);
-  
-//   // 初回チェック
-//   fadeAnimation6();
-// })
 
 $(document).ready(function() {
   function fadeAnimation1() {
