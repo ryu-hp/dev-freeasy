@@ -1668,6 +1668,7 @@ select::-ms-expand {
 .price__btn-wrapper {
   margin-top: 2rem;
   text-align: center;
+  display: none;
 }
 
 .price__btn {
