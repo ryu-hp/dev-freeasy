@@ -846,11 +846,18 @@ select::-ms-expand {
     padding-right: 0.75rem;
     margin-top: 1.0625rem;
     border-radius: 1.1875rem;
+    gap: 5.3125rem;
   }
 }
 
 .about__content-wrapper {
   position: relative;
+}
+
+@media screen and (max-width: 767px) {
+  .about__content-wrapper--last {
+    margin-top: 0.625rem;
+  }
 }
 
 .about__content {
@@ -1001,7 +1008,8 @@ select::-ms-expand {
     left: 50%;
     -webkit-transform: translateX(-50%) rotate(90deg);
             transform: translateX(-50%) rotate(90deg);
-    top: calc(100% - 1.875rem);
+    top: calc(100% - 2rem);
+    width: 5rem;
   }
 }
 
@@ -1027,6 +1035,11 @@ select::-ms-expand {
 .about__arrow + .about__arrow {
   margin-top: 2.64195rem;
 }
+@media screen and (max-width: 767px) {
+  .about__arrow + .about__arrow {
+    margin-top: 2.3125rem;
+  }
+}
 
 .about__arrow-text {
   position: absolute;
@@ -1042,15 +1055,16 @@ select::-ms-expand {
             transform: rotate(-90deg);
     white-space: nowrap;
     font-size: 1.22rem;
+    left: calc(50% - 1.5625rem);
   }
 }
 
 .about__arrow-text--top {
-  bottom: calc(100% + 0.8884625rem);
+  bottom: calc(100% + 1rem);
 }
 
 .about__arrow-text--bottom {
-  top: calc(100% + 0.8884625rem);
+  top: calc(100% + 1rem);
 }
 
 .about__content--company {
@@ -1058,7 +1072,7 @@ select::-ms-expand {
 }
 @media screen and (max-width: 959px) {
   .about__content--company {
-    max-width: 11.65014375rem;
+    max-width: 11.6875rem;
   }
 }
 

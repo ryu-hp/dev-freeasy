@@ -67,10 +67,16 @@
     padding-right: rem(12);
     margin-top: rem(17);
     border-radius: rem(19);
+    gap: rem(85);
   }
 }
 .about__content-wrapper {
   position: relative;
+}
+.about__content-wrapper--last {
+  @include mq(md) {
+    margin-top: rem(10);
+  }
 }
 .about__content {
   max-width:rem(318);
@@ -177,7 +183,8 @@
   @include mq(lg) {
     left: 50%;
     transform: translateX(-50%) rotate(90deg);
-    top: calc(100% - rem(30));
+    top: calc(100% - rem(32));
+    width: rem(80);
   }
 }
 .about__arrows--moniter {
@@ -196,6 +203,9 @@
 }
 .about__arrow + .about__arrow {
   margin-top: rem(42.2712);
+  @include mq(md) {
+    margin-top: rem(37);
+  }
 }
 .about__arrow-text {
   position: absolute;
@@ -207,18 +217,19 @@
     transform: rotate(-90deg);
     white-space: nowrap;
     font-size: rem(19.52);
+    left: calc(50% - rem(25) );
   }
 }
 .about__arrow-text--top {
-  bottom: calc(100% + rem(14.2154));
+  bottom: calc(100% + rem(16));
 }
 .about__arrow-text--bottom {
-  top: calc(100% + rem(14.2154));
+  top: calc(100% + rem(16));
 }
 .about__content--company {
   position: relative;
   @include mq(lg) {
-    max-width:rem(186.4023);
+    max-width:rem(187);
   }
 }
 .about__content--company::before {
