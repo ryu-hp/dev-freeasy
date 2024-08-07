@@ -74,14 +74,14 @@ jQuery(function ($) {
   function checkPosition() {
     const mvBottom = mv.getBoundingClientRect().bottom;
     if (mvBottom < 0) {
-      $(fixedBottom).fadeIn(500);
+      fixedBottom.classList.add('show');
     } else {
-      $(fixedBottom).fadeOut(500);
+      fixedBottom.classList.remove('show');
     }
   }
 
-  $(window).on('scroll', checkPosition);
-  $(window).on('resize', checkPosition);
+  window.addEventListener('scroll', checkPosition);
+  window.addEventListener('resize', checkPosition);
 
   // 初回チェック
   checkPosition();
