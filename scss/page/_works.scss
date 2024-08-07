@@ -164,7 +164,7 @@
 
 #works-swiper_pagination {
   @include mq(md) {
-    bottom: rem(-24);
+    bottom: rem(-33);
   }
 }
 #works-swiper_pagination > .swiper-pagination-bullet {
@@ -173,6 +173,7 @@
   height: rem(16.9411);
   background: #cccccc;
   margin: rem(0) rem(8);
+  opacity: 1;
   @include mq(md) {
     display: inline-block; 
     width: rem(12.0589);

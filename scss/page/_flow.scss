@@ -188,7 +188,7 @@
 
 #flow-swiper_pagination {
   @include mq(md) {
-    bottom: rem(-32);
+    bottom: rem(-33);
   }
 }
 #flow-swiper_pagination > .swiper-pagination-bullet {
@@ -196,6 +196,7 @@
   height: rem(16.9411);
   background: #cccccc;
   margin: rem(0) rem(8);
+  opacity: 1;
   @include mq(md) {
     width: rem(12.0589);
     height: rem(12.0589);

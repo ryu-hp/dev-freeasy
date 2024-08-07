@@ -2520,7 +2520,7 @@ select::-ms-expand {
 
 @media screen and (max-width: 767px) {
   #works-swiper_pagination {
-    bottom: -1.5rem;
+    bottom: -2.0625rem;
   }
 }
 
@@ -2530,6 +2530,7 @@ select::-ms-expand {
   height: 1.05881875rem;
   background: #cccccc;
   margin: 0rem 0.5rem;
+  opacity: 1;
 }
 @media screen and (max-width: 767px) {
   #works-swiper_pagination > .swiper-pagination-bullet {
@@ -2798,7 +2799,7 @@ select::-ms-expand {
 
 @media screen and (max-width: 767px) {
   #flow-swiper_pagination {
-    bottom: -2rem;
+    bottom: -2.0625rem;
   }
 }
 
@@ -2807,6 +2808,7 @@ select::-ms-expand {
   height: 1.05881875rem;
   background: #cccccc;
   margin: 0rem 0.5rem;
+  opacity: 1;
 }
 @media screen and (max-width: 767px) {
   #flow-swiper_pagination > .swiper-pagination-bullet {
