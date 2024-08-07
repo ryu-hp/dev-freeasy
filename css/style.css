@@ -2619,13 +2619,20 @@ select::-ms-expand {
 
 .flowItem {
   position: relative;
-  background: #fff;
-  padding: 3.75rem 0.125rem 2rem 2.375rem;
   width: calc((100% - 3rem) / 4);
 }
 @media screen and (max-width: 767px) {
   .flowItem {
     width: 100%;
+  }
+}
+
+.flowItem__wrapper {
+  background: #fff;
+  padding: 3.75rem 0.125rem 2rem 2.375rem;
+}
+@media screen and (max-width: 767px) {
+  .flowItem__wrapper {
     padding: 3.15625rem 1.125rem 1.375rem;
   }
 }
@@ -2680,8 +2687,10 @@ select::-ms-expand {
   }
 }
 
-.flowItem::after {
-  height: 1.5625rem;
+@media screen and (max-width: 767px) {
+  .flowItem::after {
+    height: 1.5625rem;
+  }
 }
 
 .flowItem:not(:first-child):before {

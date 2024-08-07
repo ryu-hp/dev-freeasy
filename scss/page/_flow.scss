@@ -52,13 +52,16 @@
 }
 .flowItem {
   position: relative;
-  background: $color-white;
-  padding: rem(60) rem(2) rem(32) rem(38);
   width: calc((100% - rem(16) * 3) / 4);
   @include mq(md) {
     width: 100%;
+  }
+}
+.flowItem__wrapper {
+  background: $color-white;
+  padding: rem(60) rem(2) rem(32) rem(38);
+  @include mq(md) {
     padding: rem(50.5) rem(18) rem(22);
-    
   }
 }
 .flowItem:first-child  {
@@ -98,7 +101,9 @@
   }
 }
 .flowItem::after {
-  height: rem(25);
+  @include mq(md) {
+    height: rem(25);
+  }
 }
 .flowItem:not(:first-child):before {
   background: $color-theme;
