@@ -2010,6 +2010,10 @@ select::-ms-expand {
 }
 
 .flowSlide {
+  height: auto;
+}
+
+.flowSlide img {
   height: 100%;
 }
 
