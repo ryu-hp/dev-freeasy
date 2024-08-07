@@ -11,11 +11,11 @@ jQuery(function ($) {
     slidesPerView: 'auto',
     loop: true,
     centeredSlides: true, // アクティブなスライドを中央に配置
-    //オートプレイ
-    // autoplay: {
-    //   delay: 3000,
-    //   disableOnInteraction: false,
-    // }, 
+    オートプレイ
+    autoplay: {
+      delay: 3000,
+      disableOnInteraction: false,
+    }, 
     navigation: {
       nextEl: '#works-swiper-button-next', // 「次へ」ボタン要素のクラス
       prevEl: '#works-swiper-button-prev', // 「前へ」ボタン要素のクラス
@@ -32,11 +32,11 @@ jQuery(function ($) {
     slidesPerView: 'auto',
     loop: true,
     centeredSlides: true, // アクティブなスライドを中央に配置
-    //オートプレイ
-    // autoplay: {
-    //   delay: 2000,
-    //   disableOnInteraction: false,
-    // },  
+    オートプレイ
+    autoplay: {
+      delay: 2000,
+      disableOnInteraction: false,
+    },  
     //ページネーション表示設定
     pagination: {
       el: '#flow-swiper_pagination', //ページネーション要素
