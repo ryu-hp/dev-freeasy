@@ -140,6 +140,7 @@
 .faqItem__text {
   font-size: rem(25);
   line-height: calc(43.75 / 25);
+  padding-right: rem(4);
   @include mq(md) {
     font-size: rem(16);
     letter-spacing: -0.023em;

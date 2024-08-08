@@ -58,6 +58,12 @@
     width: 100%;
   }
 }
+.flowItem--step-1 {
+  width: calc(((100% - rem(16) * 3) / 4) - rem(31));
+}
+.flowItem--step-4 {
+  width: calc(((100% - rem(16) * 3) / 4) + rem(31));
+}
 .flowItem__wrapper {
   background: $color-white;
   padding: rem(52.2) rem(2) rem(32) rem(38);
@@ -185,7 +191,7 @@
   transform: translate(-50%,-50%);
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: contain;
 }
 
 #flow-swiper_pagination {
