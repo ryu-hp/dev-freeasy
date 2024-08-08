@@ -2548,11 +2548,16 @@ select::-ms-expand {
 }
 
 .works-slide__image {
-  max-width: 25.019625rem;
+  max-width: 40.6583517845%;
   width: 100%;
   -ms-flex-negative: 0;
       flex-shrink: 0;
   position: relative;
+}
+@media screen and (max-width: 767px) {
+  .works-slide__image {
+    max-width: 100%;
+  }
 }
 
 .works-slide__image::before {
@@ -3226,7 +3231,7 @@ select::-ms-expand {
 }
 
 .accordion-item__content {
-  padding: 1.625rem 0 3rem 5.1875rem;
+  padding: 1.625rem 2.875rem 3rem 5.1875rem;
 }
 @media screen and (max-width: 767px) {
   .accordion-item__content {

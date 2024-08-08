@@ -71,10 +71,13 @@
   }
 }
 .works-slide__image {
-  max-width:rem(400.314);
+  max-width:calc(400.314 / 984.58 * 100%);
   width:100%;
   flex-shrink: 0;
   position: relative;
+  @include mq(md) {
+    max-width: 100%;
+  }
 }
 .works-slide__image::before {
   content: "";

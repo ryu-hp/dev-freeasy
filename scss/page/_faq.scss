@@ -148,7 +148,7 @@
   }
 }
 .accordion-item__content {
-  padding: rem(26) 0 rem(48) rem(83);
+  padding: rem(26) rem(46) rem(48) rem(83);
   @include mq(md) {
     padding: rem(13) rem(16) rem(15) rem(39);
   }
