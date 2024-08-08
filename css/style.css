@@ -2909,11 +2909,12 @@ select::-ms-expand {
 
 .flowItem:not(:first-child):before {
   background: #41b5d0;
-  left: 0;
+  left: -1px;
   z-index: 1;
 }
 @media screen and (max-width: 767px) {
   .flowItem:not(:first-child):before {
+    left: 0;
     top: -1px;
   }
 }

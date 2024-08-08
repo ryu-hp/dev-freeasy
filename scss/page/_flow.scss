@@ -123,9 +123,10 @@
 }
 .flowItem:not(:first-child):before {
   background: $color-theme;
-  left: 0;
+  left: -1px;
   z-index: 1;
   @include mq(md) {
+    left: 0;
     top: -1px;
   }
 }
