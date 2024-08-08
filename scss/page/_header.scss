@@ -1,5 +1,8 @@
 @use "../global" as *;
 
+header {
+  transition: .6s;
+}
 .header {
   background: rgba($color: $color-white, $alpha: 0.8);
   padding: rem(19.5) rem(0) rem(19);

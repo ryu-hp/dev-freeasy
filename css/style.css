@@ -205,6 +205,11 @@ select::-ms-expand {
   display: none !important;
 }
 
+header {
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
+}
+
 .header {
   background: rgba(255, 255, 255, 0.8);
   padding: 1.21875rem 0rem 1.1875rem;
