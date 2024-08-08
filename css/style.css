@@ -2963,6 +2963,15 @@ select::-ms-expand {
   }
 }
 
+.flowItem--step-4 .flowItem__description {
+  margin-top: 4.39125rem;
+}
+@media screen and (max-width: 767px) {
+  .flowItem--step-4 .flowItem__description {
+    margin-top: 2.1875rem;
+  }
+}
+
 .flow__image {
   max-width: 56.64694375rem;
   width: 100%;

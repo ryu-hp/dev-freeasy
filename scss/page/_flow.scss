@@ -164,6 +164,12 @@
     margin-top: rem(35);
   }
 }
+.flowItem--step-4 .flowItem__description {
+  margin-top:calc(rem(33) + rem(37.26));
+  @include mq(md) {
+    margin-top: rem(35);
+  }
+}
 .flow__image {
   max-width:rem(906.3511);
   width:100%;
