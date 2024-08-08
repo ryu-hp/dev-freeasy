@@ -104,6 +104,22 @@ jQuery(function ($) {
   }
 
   toTop();
+
+
+  //ヘッダー非表示
+  $(function() {
+    var headerHeight = $('header').outerHeight(),
+      startPos = 0;
+    $(window).on('scroll', function() {
+      var scrollPos = $(this).scrollTop();
+      if ( scrollPos > startPos && scrollPos > headerHeight ) {
+        $('nav').css('top', '-' + headerHeight + 'px');
+      } else {
+        $('nav').css('top', '0');
+      }
+      startPos = scrollPos;
+    });
+  });	
 });
 
 $(document).ready(function() {
@@ -124,4 +140,5 @@ $(document).ready(function() {
 
   // 初回チェック
   fadeAnimation1();
+
 });
