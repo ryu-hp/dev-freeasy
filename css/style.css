@@ -2824,9 +2824,19 @@ select::-ms-expand {
 .flowItem--step-1 {
   width: calc((100% - 3rem) / 4 - 1.9375rem);
 }
+@media screen and (max-width: 767px) {
+  .flowItem--step-1 {
+    width: 100%;
+  }
+}
 
 .flowItem--step-4 {
   width: calc((100% - 3rem) / 4 + 1.9375rem);
+}
+@media screen and (max-width: 767px) {
+  .flowItem--step-4 {
+    width: 100%;
+  }
 }
 
 .flowItem__wrapper {
