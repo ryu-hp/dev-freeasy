@@ -107,7 +107,7 @@ jQuery(function ($) {
 
 
   //ヘッダー非表示
-  $(function() {
+  function headerHide() {
     var headerHeight = $('header').outerHeight(),
       startPos = 0;
     $(window).on('scroll', function() {
@@ -119,7 +119,9 @@ jQuery(function ($) {
       }
       startPos = scrollPos;
     });
-  });	
+  }
+  
+  headerHide()
 });
 
 $(document).ready(function() {
