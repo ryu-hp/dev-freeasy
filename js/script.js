@@ -106,22 +106,22 @@ jQuery(function ($) {
   toTop();
 
 
-  //ヘッダー非表示
+  // ヘッダー非表示
   function headerHide() {
     var headerHeight = $('header').outerHeight(),
-      startPos = 0;
+        startPos = 0;
     $(window).on('scroll', function() {
       var scrollPos = $(this).scrollTop();
-      if ( scrollPos > startPos && scrollPos > headerHeight ) {
-        $('nav').css('top', '-' + headerHeight + 'px');
+      if (scrollPos > startPos && scrollPos > headerHeight) {
+        $('header').css('top', '-' + headerHeight + 'px');
       } else {
-        $('nav').css('top', '0');
+        $('header').css('top', '0');
       }
       startPos = scrollPos;
     });
   }
-  
-  headerHide()
+
+  headerHide();
 });
 
 $(document).ready(function() {
