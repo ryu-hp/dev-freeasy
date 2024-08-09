@@ -31,9 +31,8 @@
   margin-left: auto;
   margin-right: auto;
   @include mq(md) {
-    max-width:rem(224.4668);
     margin-top: rem(10);
-    max-width: rem(290);
+    max-width:rem(224.4668);
   }
 }
 .flow__body {
