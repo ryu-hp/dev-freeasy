@@ -628,24 +628,15 @@ header {
 }
 
 .fvBtn__text {
-  font-size: 1.28rem;
   font-weight: 600;
   line-height: 1.7495117187;
   color: #fff;
+  font-size: 1rem;
   -webkit-font-feature-settings: "palt";
           font-feature-settings: "palt";
 }
 @media screen and (max-width: 767px) {
   .fvBtn__text {
-    font-size: 0.919375rem;
-  }
-}
-
-.fvBtn--account .fvBtn__text {
-  font-size: 1rem;
-}
-@media screen and (max-width: 767px) {
-  .fvBtn--account .fvBtn__text {
     font-size: 0.75rem;
   }
 }
