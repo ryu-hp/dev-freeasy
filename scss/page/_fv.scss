@@ -95,7 +95,7 @@
   text-align: center;
   font-feature-settings: "palt";
   @include mq(md) {
-    font-size: rem(21);
+    font-size: rem(18);
     line-height: 1.3;
   }
 }
@@ -115,7 +115,7 @@
   box-sizing: border-box;
   background: $color-blue;
   @include mq(md) {
-    height: rem(56);
+    height: rem(32);
     width: 2px;
   }
 }
