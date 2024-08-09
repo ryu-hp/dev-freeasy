@@ -641,6 +641,10 @@ header {
   }
 }
 
+.fvBtn--download .fvBtn__text {
+  padding-left: 0.4375rem;
+}
+
 .fv__textArea {
   width: 100%;
 }

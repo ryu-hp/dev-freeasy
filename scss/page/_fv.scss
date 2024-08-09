@@ -232,7 +232,9 @@
     font-size: rem(12);
   }
 }
-
+.fvBtn--download .fvBtn__text {
+  padding-left: rem(7);
+}
 .fv__textArea {
   width: 100%;
 }
