@@ -676,6 +676,9 @@ header {
       -ms-flex-align: center;
           align-items: center;
   gap: 0.25rem;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 @media screen and (max-width: 767px) {
   .fv__operation-content {
