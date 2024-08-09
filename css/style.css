@@ -2778,13 +2778,14 @@ header {
 
 .flow-title .flow-title__main {
   margin-top: 1.4375rem;
-  max-width: 29.77050625rem;
+  max-width: 16.377075rem;
   width: 100%;
   margin-left: auto;
   margin-right: auto;
 }
 @media screen and (max-width: 767px) {
   .flow-title .flow-title__main {
+    max-width: 14.029175rem;
     margin-top: 0.625rem;
     max-width: 18.125rem;
   }

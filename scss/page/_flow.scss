@@ -26,11 +26,12 @@
 }
 .flow-title .flow-title__main {
   margin-top: rem(23) ;
-  max-width:rem(476.3281);
+  max-width:rem(262.0332);
   width:100%;
   margin-left: auto;
   margin-right: auto;
   @include mq(md) {
+    max-width:rem(224.4668);
     margin-top: rem(10);
     max-width: rem(290);
   }
