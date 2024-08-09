@@ -240,7 +240,7 @@
   width: 100%;
 }
 .fv__imageArea {
-  max-width:rem(618.0706);
+  max-width: calc(618.0706 / 1123.7671 * 100%);
   width: 100%;
   padding-top: rem(6);
   flex-shrink: 0;
