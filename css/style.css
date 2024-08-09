@@ -434,7 +434,7 @@ header {
 
 .fv__apeare-text {
   color: #2983e2;
-  font-size: 1.864375rem;
+  font-size: 1.5rem;
   font-weight: 600;
   line-height: 1.7499161918;
   text-align: center;
@@ -443,7 +443,7 @@ header {
 }
 @media screen and (max-width: 767px) {
   .fv__apeare-text {
-    font-size: 1.339375rem;
+    font-size: 1.3125rem;
     line-height: 1.3;
   }
 }

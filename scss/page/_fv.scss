@@ -89,13 +89,13 @@
 }
 .fv__apeare-text {
   color: $color-blue;
-  font-size: rem(29.83);
+  font-size: rem(24);
   font-weight: $bold;
   line-height: calc(52.2 / 29.83);
   text-align: center;
   font-feature-settings: "palt";
   @include mq(md) {
-    font-size: rem(21.43);
+    font-size: rem(21);
     line-height: 1.3;
   }
 }
