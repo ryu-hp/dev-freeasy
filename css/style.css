@@ -3039,16 +3039,9 @@ header {
 .flowSlide {
   position: relative;
   width: 100%;
-  padding-top: 55.5125725338%;
-  overflow: hidden;
 }
 
 .flowSlide img {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
   width: 100%;
   height: 100%;
   -o-object-fit: contain;
