@@ -64,6 +64,8 @@ header {
   width: rem(213.7792);
   @include mq(md) {
     border-radius: 50%;
+    width: auto;
+    padding: rem(4) rem(4);
   }
 }
 .headerBtn__content {

@@ -298,6 +298,8 @@ header {
 @media screen and (max-width: 767px) {
   .headerBtn {
     border-radius: 50%;
+    width: auto;
+    padding: 0.25rem 0.25rem;
   }
 }
 
