@@ -239,6 +239,7 @@ header {
   .header__inner {
     padding-right: 1.3125rem;
     padding-left: 1.3125rem;
+    position: relative;
   }
 }
 
@@ -277,7 +278,13 @@ header {
 }
 @media screen and (max-width: 767px) {
   .header__btnArea {
-    display: none;
+    max-width: 100%;
+    width: auto;
+    position: absolute;
+    right: 1.3125rem;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
   }
 }
 
@@ -287,6 +294,11 @@ header {
   display: inline-block;
   padding: 0.4375rem 0.50316875rem 0.375rem;
   width: 13.3612rem;
+}
+@media screen and (max-width: 767px) {
+  .headerBtn {
+    border-radius: 50%;
+  }
 }
 
 .headerBtn__content {
@@ -303,6 +315,11 @@ header {
   max-width: 2.27285625rem;
   width: 100%;
 }
+@media screen and (max-width: 767px) {
+  .headerBtn__icon {
+    max-width: 1.8125rem;
+  }
+}
 
 .headerBtn__text {
   font-size: 1.19875rem;
@@ -311,6 +328,11 @@ header {
   color: #fff;
   -webkit-font-feature-settings: "palt";
           font-feature-settings: "palt";
+}
+@media screen and (max-width: 767px) {
+  .headerBtn__text {
+    display: none;
+  }
 }
 
 .fv {
