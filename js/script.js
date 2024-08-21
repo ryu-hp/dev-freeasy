@@ -15,6 +15,7 @@ jQuery(function ($) {
       delay: 3000,
       disableOnInteraction: false,
     }, 
+    spaceBetween: 2,
     navigation: {
       nextEl: '#works-swiper-button-next', // 「次へ」ボタン要素のクラス
       prevEl: '#works-swiper-button-prev', // 「前へ」ボタン要素のクラス
