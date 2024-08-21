@@ -26,6 +26,7 @@ header {
   @include mq(md) {
     padding-right: $padding-sp;
     padding-left: $padding-sp;
+    position: relative;
   }
 }
 .header__contents {
@@ -47,7 +48,12 @@ header {
   max-width:rem(213.7792);
   width: 100%;
   @include mq(md) {
-    display: none;
+    max-width:100%;
+    width: auto;
+    position: absolute;
+    right: $padding-sp;
+    top: 50%;
+    transform: translateY(-50%);
   }
 }
 .headerBtn {
@@ -56,6 +62,9 @@ header {
   display: inline-block;
   padding: rem(7) calc(rem(1283.7712) - rem(1275.7205)) rem(6);
   width: rem(213.7792);
+  @include mq(md) {
+    border-radius: 50%;
+  }
 }
 .headerBtn__content {
   display: flex;
@@ -65,6 +74,9 @@ header {
 .headerBtn__icon {
   max-width: rem(36.3657);
   width: 100%;
+  @include mq(md) {
+    max-width: rem(29);
+  }
 }
 .headerBtn__text {
   font-size: rem(19.18);
@@ -72,4 +84,7 @@ header {
   line-height: calc(33.57 / 19.18);
   color: $color-white;
   font-feature-settings: "palt";
+  @include mq(md) {
+    display: none;
+  }
 }
